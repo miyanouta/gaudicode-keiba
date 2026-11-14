@@ -1,0 +1,12 @@
+{
+  "name": "GAUDICODE 競馬出走表＋予想",
+  "short_name": "GAUDICODE競馬",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#070a12",
+  "theme_color": "#070a12",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

@@ -1,0 +1,39 @@
+name: 日中の結果を自動更新
+
+# JST 8:00〜23:30 の間、30分ごとに今日の結果を取り込んでコミットする
+# 加えて深夜0:30 (JST) に最終取り込みを1回行う
+# (UTC 23:00〜14:30)。結果取得はGAUDICODE本体を使わないため、
+# 表示専用の公開リポジトリ単体でも動作する。
+on:
+  schedule:
+    - cron: "*/30 23,0-14 * * *"
+    - cron: "30 15 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  results:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm install --no-audit --no-fund
+      - name: 今日の結果を取得
+        run: |
+          TODAY=$(TZ=Asia/Tokyo date +%F)
+          if [ -f "data/${TODAY}.json" ]; then
+            node scripts/fetch-results.mjs "${TODAY}"
+          else
+            echo "今日のデータがまだ無いのでスキップ"
+          fi
+      - name: データをコミット
+        run: |
+          git config user.name "gaudi-bot"
+          git config user.email "bot@example.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "data: 結果を自動更新"
+          git push

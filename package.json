@@ -1,0 +1,13 @@
+{
+  "name": "keiba-gaudi-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "競馬（JRA）出走表＋GAUDICODE競馬AI予想サイト（自動取得・開催日更新）",
+  "scripts": {
+    "build-data": "node scripts/fetch-and-build.mjs",
+    "build-data:today": "node scripts/fetch-and-build.mjs"
+  },
+  "dependencies": {
+    "jsdom": "^24.1.0"
+  }
+}

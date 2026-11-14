@@ -114,7 +114,7 @@
   .ticker-inner{display:inline-block;padding:7px 0;font-size:13.5px;font-weight:700;animation:tickmove 40s linear infinite;will-change:transform}
   @keyframes tickmove{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 </style>
-<style>#fetchBtn,#resultsBtn{display:none!important}</style></head>
+<style>#fetchBtn{display:none!important}</style></head>
 <body>
 <header>
   <h1><span class="g">GAUDICODE</span> 競馬出走表＋予想<span class="sub">HORSE RACING AI PREDICTION ENGINE</span></h1>
@@ -273,25 +273,58 @@ async function updateResults(dateStr, silent){
   if(!state.data){ if(!silent) $('metaLine').textContent = '先にその日のデータを読み込んでください。'; return; }
   resultsBusy = true;
   const btn = $('resultsBtn');
-  if(!silent){ btn.disabled = true; btn.textContent = '結果を取得中…'; }
+  if(!silent && btn){ btn.disabled = true; btn.textContent = '結果を取得中…'; }
   try{
-    const res = await fetch('/api/results', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({date: dateStr})});
-    const j = await res.json().catch(()=>({ok:false,error:'応答を読み取れませんでした'}));
-    if(j.ok){
-      const v = state.venueIdx, r = state.raceIdx;
-      await load(dateStr, true);
-      state.venueIdx = Math.min(v, state.data.venues.length-1);
-      state.raceIdx = r;
-      renderVenues(); renderRaces(); renderContent();
-      if(!silent) $('metaLine').textContent += ' ／ 結果を更新しました。';
-    }else if(!silent){
-      $('metaLine').textContent = '結果を取得できませんでした: ' + (j.error || '不明なエラー') + ' ／ サーバー版（node server.mjs）で開いたときだけ動きます。';
-    }
+    // サーバー版では /api/results で最新の公式結果を取り込む。
+    // 静的サイト(GitHub Pages)ではAPIが無いので、下の静的更新に切り替える。
+    let handled = false;
+    try{
+      const res = await fetch('/api/results', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({date: dateStr})});
+      const j = await res.json().catch(()=>({ok:false}));
+      if(j.ok){
+        handled = true;
+        const v = state.venueIdx, r = state.raceIdx;
+        await load(dateStr, true);
+        state.venueIdx = Math.min(v, state.data.venues.length-1);
+        state.raceIdx = r;
+        renderVenues(); renderRaces(); renderContent();
+        if(!silent) $('metaLine').textContent += ' ／ 結果を更新しました。';
+      }
+    }catch(_){ /* APIに届かない場合は静的更新へ */ }
+    if(!handled) await refreshResultsStatic(dateStr, silent);
   }catch(e){
-    if(!silent) $('metaLine').textContent = '結果を取得できませんでした: サーバーに接続できません（サーバー版でのみ動作します）。';
+    if(!silent) $('metaLine').textContent = '結果を取得できませんでした。通信状態を確認して、もう一度お試しください。';
   }finally{
     resultsBusy = false;
-    if(!silent){ btn.disabled = false; btn.textContent = '結果を更新'; }
+    if(!silent && btn){ btn.disabled = false; btn.textContent = '結果を更新'; }
+  }
+}
+
+// 静的サイト用: 公開済みのデータJSONをキャッシュなしで取り直し、結果データの
+// 時刻(resultsUpdatedAt)が進んでいたら表示を更新する。公式サイトから直接取得
+// するものではない(結果は30分ごとの自動更新で公開されたものを読み直すだけ)。
+async function refreshResultsStatic(dateStr, silent){
+  const before = state.data && state.data.resultsUpdatedAt ? state.data.resultsUpdatedAt : null;
+  const res = await fetch('data/'+dateStr+'.json?ts='+Date.now(), {cache:'no-store'});
+  if(!res.ok) throw new Error('not found');
+  const fresh = await res.json();
+  const after = fresh && fresh.resultsUpdatedAt ? fresh.resultsUpdatedAt : null;
+  const stamp = after ? new Date(after).toLocaleTimeString('ja-JP', {hour:'2-digit', minute:'2-digit'}) : null;
+  if(after && after !== before){
+    const v = state.venueIdx, r = state.raceIdx;
+    state.data = fresh;
+    state.venueIdx = Math.min(v, state.data.venues.length-1);
+    const vv = state.data.venues[state.venueIdx];
+    state.raceIdx = vv ? Math.min(r, vv.races.length-1) : 0;
+    const gen = state.data.generatedAt ? new Date(state.data.generatedAt).toLocaleString('ja-JP') : '-';
+    const resUpd = ' ／ 結果更新: ' + new Date(after).toLocaleTimeString('ja-JP');
+    $('metaLine').textContent = state.data.date + ' の開催 ' + state.data.venues.length + '場 ／ データ生成: ' + gen + resUpd + (state.data.note ? ' ／ ' + state.data.note : '');
+    renderVenues(); renderRaces(); renderContent();
+    buildTicker();
+    setupLiveRefresh(dateStr);
+    if(!silent) $('metaLine').textContent += ' ／ 最新の結果に更新しました（結果データ: ' + stamp + '時点）';
+  }else if(!silent){
+    $('metaLine').textContent += ' ／ 新しい結果はまだ公開されていません' + (stamp ? '（結果データ: ' + stamp + '時点）' : '');
   }
 }
 

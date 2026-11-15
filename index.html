@@ -91,6 +91,10 @@
   .race.hit{background:var(--gold-grad);color:#191102;border-color:transparent;box-shadow:0 3px 10px rgba(255,157,0,.35)}
   .race.miss{opacity:.45}
   .race.hit.active{box-shadow:0 0 0 2px var(--accent2),0 4px 14px rgba(255,157,0,.35)}
+  .race.man{background:var(--gold-grad);color:#191102;border-color:#ffe082;animation:manglow 1.2s ease-in-out infinite}
+  .race.man .rt{color:#5d4300}
+  @keyframes manglow{0%,100%{box-shadow:0 0 0 2px #ffd54f,0 0 12px 2px rgba(255,180,0,.55)}50%{box-shadow:0 0 0 2px #ffe082,0 0 24px 9px rgba(255,190,0,.95)}}
+  .result-card.man-card{border-color:#ffd54f;box-shadow:0 0 18px 3px rgba(255,180,0,.55)}
   .empty{color:var(--sub);padding:26px 8px;text-align:center;line-height:1.8}
   .warn{background:#3a2b12;border:1px solid #6b5316;color:#ffd98a;border-radius:10px;padding:10px 12px;font-size:13px;margin-bottom:14px;line-height:1.7}
   footer{flex:none;padding:14px 16px;color:var(--sub);font-size:12px;border-top:1px solid var(--line);line-height:1.7}
@@ -331,6 +335,13 @@ async function refreshResultsStatic(dateStr, silent){
 }
 
 // その日の的中率と万馬券TOPを、上部に流れるテロップで表示する
+// 万券 (払戻1万円以上) を予想で的中させたレースかどうか
+function isManHit(r){
+  if(!r || !r.result) return false;
+  const h = r.result.hits || {};
+  const pk = r.result.sanrenpuku, tn = r.result.sanrentan;
+  return !!((pk && pk.payout >= 10000 && (h.teppan || h.balance || h.shoubu)) || (tn && tn.payout >= 10000 && (h.tanTeppan || h.tanBalance || h.tanShoubu)));
+}
 function buildTicker(){
   const tk = $('ticker'), inner = $('tickerInner');
   if(!tk || !inner) return;
@@ -402,8 +413,9 @@ function renderRaces(){
     const b = document.createElement('button');
     const h = r.result && r.result.hits;
     const anyHit = !!(h && (h.teppan||h.balance||h.shoubu||h.tanTeppan||h.tanBalance||h.tanShoubu));
-    b.className = 'race' + (i===state.raceIdx?' active':'') + (r.status!=='ready'?' pending':'') + (r.result?(anyHit?' hit':' miss'):'') + (i===lv.nextIdx?' next':'');
-    b.innerHTML = r.no + 'R' + (anyHit?'🎯':'') + (r.startTime? '<span class="rt">'+r.startTime+'</span>' : '');
+    const manHit = isManHit(r);
+    b.className = 'race' + (i===state.raceIdx?' active':'') + (r.status!=='ready'?' pending':'') + (r.result?(anyHit?' hit':' miss'):'') + (manHit?' man':'') + (i===lv.nextIdx?' next':'');
+    b.innerHTML = r.no + 'R' + (manHit?'💴':(anyHit?'🎯':'')) + (r.startTime? '<span class="rt">'+r.startTime+'</span>' : '');
     b.onclick = ()=>{ state.raceIdx=i; renderRaces(); renderContent(); };
     el.appendChild(b);
   });
@@ -438,7 +450,7 @@ function renderContent(){
     const z = r.result;
     const horseOf = (n)=>{ return (r.horses||[]).find(x=>x.num===n) || {num:n, name:'', waku:null}; };
     const medals = ['1着','2着','3着'];
-    html += '<div class="card result-card"><h4>結果</h4><div class="result-top">' +
+    html += '<div class="card result-card' + (isManHit(r)?' man-card':'') + '"><h4>結果</h4><div class="result-top">' +
       z.top3.map((n,i)=>medals[i]+' '+horseChip(horseOf(n))+esc(horseOf(n).name)).join(' ／ ') + '</div>';
     html += '<div style="margin-top:6px;font-size:14.5px">';
     if(z.sanrenpuku) html += '三連複 ' + esc(z.sanrenpuku.combo) + ' ／ ' + (z.sanrenpuku.payout!=null ? z.sanrenpuku.payout.toLocaleString()+'円' : '-') + '　';

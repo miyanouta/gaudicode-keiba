@@ -88,6 +88,14 @@
   .result-top{font-size:17px;font-weight:800;line-height:1.7}
   .hit-badge{display:inline-block;border-radius:999px;padding:2px 10px;font-size:12.5px;font-weight:700;margin:2px 4px 2px 0;background:#2a2f45;color:var(--sub)}
   .hit-badge.hit{background:var(--gold-grad);color:#191102}
+  .hit-chip{display:inline-block;font-size:10.5px;font-weight:800;line-height:1;border-radius:4px;padding:2.5px 4px;margin-left:3px;vertical-align:1px}
+  .chip-tep{background:#ff8f00;color:#fff}
+  .chip-bal{background:#fdd835;color:#191102}
+  .chip-sho{background:#fff3e0;color:#e65100;border:1px solid #ff9800}
+  .chip-tan{background:#e53935;color:#fff}
+  .hit-badge.hit.hb-tep{background:linear-gradient(135deg,#ff8f00,#ffb300);color:#fff}
+  .hit-badge.hit.hb-sho{background:linear-gradient(135deg,#ffe0b2,#ffcc80);color:#7a3c00}
+  .hit-badge.hit.hb-tan{background:linear-gradient(135deg,#ef5350,#e53935);color:#fff}
   .race.hit{background:var(--gold-grad);color:#191102;border-color:transparent;box-shadow:0 3px 10px rgba(255,157,0,.35)}
   .race.miss{opacity:.45}
   .race.hit.active{box-shadow:0 0 0 2px var(--accent2),0 4px 14px rgba(255,157,0,.35)}
@@ -419,7 +427,14 @@ function renderRaces(){
     const anyHit = !!(h && (h.teppan||h.balance||h.shoubu||h.tanTeppan||h.tanBalance||h.tanShoubu));
     const manHit = isManHit(r);
     b.className = 'race' + (i===state.raceIdx?' active':'') + (r.status!=='ready'?' pending':'') + (r.result?(anyHit?' hit':' miss'):'') + (manHit?' man':'') + (i===lv.nextIdx?' next':'');
-    b.innerHTML = r.no + 'R' + (manHit?'💴':(anyHit?'🎯':'')) + (r.startTime? '<span class="rt">'+r.startTime+'</span>' : '');
+    let chips = '';
+    if(h){
+      if(h.teppan) chips += '<span class="hit-chip chip-tep">鉄</span>';
+      else if(h.balance) chips += '<span class="hit-chip chip-bal">バ</span>';
+      else if(h.shoubu) chips += '<span class="hit-chip chip-sho">勝</span>';
+      if(h.tanTeppan||h.tanBalance||h.tanShoubu) chips += '<span class="hit-chip chip-tan">単</span>';
+    }
+    b.innerHTML = r.no + 'R' + (manHit?'💴':'') + chips + (r.startTime? '<span class="rt">'+r.startTime+'</span>' : '');
     b.onclick = ()=>{ state.raceIdx=i; renderRaces(); renderContent(); };
     el.appendChild(b);
   });
@@ -461,14 +476,14 @@ function renderContent(){
     if(z.sanrentan) html += '三連単 ' + esc(z.sanrentan.combo.replace(/-/g,'→')) + ' ／ ' + (z.sanrentan.payout!=null ? z.sanrentan.payout.toLocaleString()+'円' : '-');
     html += '</div>';
     if(z.hits){
-      const hb = (label,hit)=>'<span class="hit-badge'+(hit?' hit':'')+'">'+label+(hit?' 的中':'')+'</span>';
+      const hb = (label,hit,cls)=>'<span class="hit-badge'+(hit?' hit'+(cls?' '+cls:''):'')+'">'+label+(hit?' 的中':'')+'</span>';
       html += '<div style="margin-top:8px">' +
-        (z.hits.teppan!==undefined ? hb('三連複・鉄板', z.hits.teppan) : '') +
+        (z.hits.teppan!==undefined ? hb('三連複・鉄板', z.hits.teppan, 'hb-tep') : '') +
         (z.hits.balance!==undefined ? hb('三連複・バランス', z.hits.balance) : '') +
-        (z.hits.shoubu!==undefined ? hb('三連複・勝負', z.hits.shoubu) : '') +
-        (z.hits.tanTeppan!==undefined ? hb('三連単・鉄板', z.hits.tanTeppan) : '') +
-        (z.hits.tanBalance!==undefined ? hb('三連単・バランス', z.hits.tanBalance) : '') +
-        (z.hits.tanShoubu!==undefined ? hb('三連単・勝負', z.hits.tanShoubu) : '') +
+        (z.hits.shoubu!==undefined ? hb('三連複・勝負', z.hits.shoubu, 'hb-sho') : '') +
+        (z.hits.tanTeppan!==undefined ? hb('三連単・鉄板', z.hits.tanTeppan, 'hb-tan') : '') +
+        (z.hits.tanBalance!==undefined ? hb('三連単・バランス', z.hits.tanBalance, 'hb-tan') : '') +
+        (z.hits.tanShoubu!==undefined ? hb('三連単・勝負', z.hits.tanShoubu, 'hb-tan') : '') +
         '</div>';
     }
     html += '<div style="margin-top:6px;font-size:12.5px;color:var(--sub)">予想の中で的中した買い目は<span class="combo-hit" style="margin:0 2px">金色 🎯</span>で表示しています。</div>';

@@ -128,7 +128,7 @@
     <input type="date" id="dateInput">
     <button id="todayBtn">今日</button>
     <button id="fetchBtn" style="background:var(--accent2);color:#06121f">出走表を取得</button>
-    <button id="resultsBtn">結果を更新</button>
+    <button id="resultsBtn">更新</button>
   </div>
   <div class="meta" id="metaLine">データを読み込んでいます…</div>
 </header>
@@ -276,10 +276,10 @@ function setupResultsAutoRefresh(dateStr){
 let resultsBusy = false;
 async function updateResults(dateStr, silent){
   if(resultsBusy) return;
-  if(!state.data){ if(!silent) $('metaLine').textContent = '先にその日のデータを読み込んでください。'; return; }
+  if(!state.data){ try{ await load(dateStr, true); }catch(_){ } if(!state.data){ if(!silent) $('metaLine').textContent = dateStr + ' の出走表はまだ公開されていません。'; return; } }
   resultsBusy = true;
   const btn = $('resultsBtn');
-  if(!silent && btn){ btn.disabled = true; btn.textContent = '結果を取得中…'; }
+  if(!silent && btn){ btn.disabled = true; btn.textContent = '更新中…'; }
   try{
     // サーバー版では /api/results で最新の公式結果を取り込む。
     // 静的サイト(GitHub Pages)ではAPIが無いので、下の静的更新に切り替える。
@@ -294,15 +294,15 @@ async function updateResults(dateStr, silent){
         state.venueIdx = Math.min(v, state.data.venues.length-1);
         state.raceIdx = r;
         renderVenues(); renderRaces(); renderContent();
-        if(!silent) $('metaLine').textContent += ' ／ 結果を更新しました。';
+        if(!silent) $('metaLine').textContent += ' ／ 最新のデータに更新しました。';
       }
     }catch(_){ /* APIに届かない場合は静的更新へ */ }
     if(!handled) await refreshResultsStatic(dateStr, silent);
   }catch(e){
-    if(!silent) $('metaLine').textContent = '結果を取得できませんでした。通信状態を確認して、もう一度お試しください。';
+    if(!silent) $('metaLine').textContent = '更新できませんでした。通信状態を確認して、もう一度お試しください。';
   }finally{
     resultsBusy = false;
-    if(!silent && btn){ btn.disabled = false; btn.textContent = '結果を更新'; }
+    if(!silent && btn){ btn.disabled = false; btn.textContent = '更新'; }
   }
 }
 
@@ -310,12 +310,16 @@ async function updateResults(dateStr, silent){
 // 時刻(resultsUpdatedAt)が進んでいたら表示を更新する。公式サイトから直接取得
 // するものではない(結果は30分ごとの自動更新で公開されたものを読み直すだけ)。
 async function refreshResultsStatic(dateStr, silent){
-  const before = state.data && state.data.resultsUpdatedAt ? state.data.resultsUpdatedAt : null;
+  // 出走表・結果・オッズのどれかが進んでいたら取り込む (生成時刻も見るので、
+  // 朝の出走表が新しくなっただけでも反応する)
+  const sig = (d) => d ? ((d.resultsUpdatedAt || '') + '|' + (d.generatedAt || '') + '|' + (d.oddsUpdatedAt || '')) : null;
+  const before = sig(state.data);
   const res = await fetch('data/'+dateStr+'.json?ts='+Date.now(), {cache:'no-store'});
   if(!res.ok) throw new Error('not found');
   const fresh = await res.json();
-  const after = fresh && fresh.resultsUpdatedAt ? fresh.resultsUpdatedAt : null;
-  const stamp = after ? new Date(after).toLocaleTimeString('ja-JP', {hour:'2-digit', minute:'2-digit'}) : null;
+  const after = sig(fresh);
+  const stampSrc = fresh ? (fresh.resultsUpdatedAt || fresh.generatedAt || null) : null;
+  const stamp = stampSrc ? new Date(stampSrc).toLocaleTimeString('ja-JP', {hour:'2-digit', minute:'2-digit'}) : null;
   if(after && after !== before){
     const v = state.venueIdx, r = state.raceIdx;
     state.data = fresh;
@@ -323,14 +327,14 @@ async function refreshResultsStatic(dateStr, silent){
     const vv = state.data.venues[state.venueIdx];
     state.raceIdx = vv ? Math.min(r, vv.races.length-1) : 0;
     const gen = state.data.generatedAt ? new Date(state.data.generatedAt).toLocaleString('ja-JP') : '-';
-    const resUpd = ' ／ 結果更新: ' + new Date(after).toLocaleTimeString('ja-JP');
+    const resUpd = state.data.resultsUpdatedAt ? ' ／ 結果更新: ' + new Date(state.data.resultsUpdatedAt).toLocaleTimeString('ja-JP') : '';
     $('metaLine').textContent = state.data.date + ' の開催 ' + state.data.venues.length + '場 ／ データ生成: ' + gen + resUpd + (state.data.note ? ' ／ ' + state.data.note : '');
     renderVenues(); renderRaces(); renderContent();
     buildTicker();
     setupLiveRefresh(dateStr);
-    if(!silent) $('metaLine').textContent += ' ／ 最新の結果に更新しました（結果データ: ' + stamp + '時点）';
+    if(!silent) $('metaLine').textContent += ' ／ 最新のデータに更新しました' + (stamp ? '（' + stamp + '時点）' : '');
   }else if(!silent){
-    $('metaLine').textContent += ' ／ 新しい結果はまだ公開されていません' + (stamp ? '（結果データ: ' + stamp + '時点）' : '');
+    $('metaLine').textContent += ' ／ 新しいデータはまだ公開されていません' + (stamp ? '（データ: ' + stamp + '時点）' : '');
   }
 }
 

@@ -111,9 +111,9 @@ export function rebuildWithPopularity(race, pop) {
   const purePuku = [];
   add(purePuku, combo(hon.num, tai.num, san.num)); add(purePuku, combo(hon.num, tai.num, bestD.num)); add(purePuku, combo(hon.num, san.num, bestD.num));
   const balance = [...teppan]; for (const c of purePuku) add(balance, c);
-  const core6 = [hon.num, tai.num, san.num, bestD.num, ana.num, ...(bestE ? [bestE.num] : [])];
+  const core5 = [hon.num, tai.num, san.num, bestD.num, ana.num];
   const shoubu = [...balance];
-  for (let i = 0; i < core6.length; i++) for (let j = i + 1; j < core6.length; j++) for (let k = j + 1; k < core6.length; k++) add(shoubu, combo(core6[i], core6[j], core6[k]));
+  for (let i = 0; i < core5.length; i++) for (let j = i + 1; j < core5.length; j++) for (let k = j + 1; k < core5.length; k++) add(shoubu, combo(core5[i], core5[j], core5[k]));
   const T = (...ns) => { const u = ns.filter((n) => n != null); return u.length === 3 && new Set(u).size === 3 ? u.join('→') : null; };
   const addT = (list, c) => { if (c && !list.includes(c)) list.push(c); };
   const tanTeppan = [];

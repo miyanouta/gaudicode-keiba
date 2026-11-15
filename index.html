@@ -518,7 +518,7 @@ function renderContent(){
         (p.plansTan && p.plansTan[k] ? '<div class="k" style="font-size:12px;color:var(--sub);margin:8px 0 4px">三連単</div><div class="combos" style="font-size:15px">'+p.plansTan[k].map(cc=>{ const o = r.oddsTan && r.oddsTan[cc.replace(/→/g,'-')]; return wrapHit(esc(cc) + (o ? '<span class="odds">' + o.toFixed(1) + '倍</span>' : ''), hitTan(cc)); }).join(' ／ ')+'</div>' : '') +
         (k==='shoubu' && p.ana ? '<div class="ana">穴候補: '+p.ana.num+'番 '+esc(p.ana.name)+'（'+esc(p.ana.reason)+'）</div>' : '') +
         '</div>').join('');
-      html += '<div style="font-size:12px;color:var(--sub);margin-top:6px">鉄板は穴候補を中心にした買い目（全点に穴候補入り）。バランスは鉄板にスコア純正を足したもの、勝負はバランスに中核6頭のボックスを併合したものです。三連単・勝負は本命を1着に固定したフォーメーションです。' + (r.odds ? '買い目横の数字はオッズ（取得時点）です。' : '') + '</div>';
+      html += '<div style="font-size:12px;color:var(--sub);margin-top:6px">鉄板は穴候補を中心にした買い目（全点に穴候補入り）。バランスは鉄板にスコア純正を足したもの、勝負はバランスに中核5頭のボックスを併合したものです。三連単・勝負は本命を1着に固定したフォーメーションです。' + (r.odds ? '買い目横の数字はオッズ（取得時点）です。' : '') + '</div>';
     }
 
     if(p.comment) html += '<details class="comment-fold"><summary>コメントを読む</summary><div class="comment" style="margin-top:8px">'+esc(p.comment)+'</div></details>';

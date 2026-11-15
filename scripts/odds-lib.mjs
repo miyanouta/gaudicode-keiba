@@ -54,3 +54,98 @@ export async function fetchKeibaOdds(fetchText, base, race) {
     oddsTan: extractOdds(JSON.parse(tTxt), 8, tan),
   };
 }
+
+// ============================================================
+// 人気ベース再構成 (2026-11-15 採用: 108レース測定で現行エンジン比
+// 三連複・勝負 的中 21.3%→44.4% / 回収 46.7%→76.3%、点数同じ。
+// 測定は確定人気ベースのため本番値はやや下がる見込み)
+// 方式: 印と買い目は人気順を基本に組み直し、穴候補だけは
+// 人気5〜9位の中からエンジンスコア最上位の馬を選ぶ。
+// 発走前のみ適用し、発走後は凍結する (呼び出し側で制御)。
+// ============================================================
+
+// 単勝オッズ (type=1) から人気順マップ {馬番: 人気} を作る。
+// 人気フィールドが無い馬は単勝オッズ順で補完する。
+// カバー率が低ければ null (再構成しない)。
+export async function fetchPopularity(fetchText, base, race) {
+  const txt = await fetchText(`${base}/api/api_get_jra_odds.html?race_id=${race.raceId}&type=1`);
+  const j = JSON.parse(txt);
+  const map = j && j.data && j.data.odds && j.data.odds['1'];
+  if (!map) return null;
+  const entries = Object.entries(map).map(([k, val]) => ({
+    num: parseInt(k, 10),
+    odds: parseFloat(String(val[0]).replace(/,/g, '')),
+    pop: parseInt(val[2], 10) || null,
+  })).filter((e) => Number.isFinite(e.num) && Number.isFinite(e.odds) && e.odds > 0);
+  if (!entries.length) return null;
+  entries.sort((a, b) => (a.odds - b.odds) || (a.num - b.num));
+  const pop = {};
+  entries.forEach((e, i) => { pop[e.num] = e.pop && e.pop > 0 ? e.pop : i + 1; });
+  const field = (race.horses || []).length;
+  if (field && Object.keys(pop).length < field * 0.8) return null;
+  return pop;
+}
+
+// 人気順ランキング + 穴エンジンで予想を組み直す。
+// fetch-and-build.mjs の buildPrediction のプラン部と同一構成。
+export function rebuildWithPopularity(race, pop) {
+  const horses = race.horses || [];
+  if (horses.length < 5 || !race.prediction) return false;
+  const scoreRanked = [...horses].sort((a, b) => b.score - a.score || a.num - b.num);
+  const scoreRank = new Map(scoreRanked.map((h, i) => [h.num, i + 1]));
+  const ranked = [...horses].sort((a, b) =>
+    ((pop[a.num] ?? 99) - (pop[b.num] ?? 99)) || (b.score - a.score) || (a.num - b.num));
+  const [hon, tai, san, bestD] = ranked;
+  // 穴: 人気5〜9位 (ランキング5〜9番目) の中でエンジンスコア最上位
+  const anaPool = ranked.slice(4, 9);
+  const ana = [...anaPool].sort((a, b) => (b.score - a.score) || (a.num - b.num))[0]
+    || ranked[ranked.length - 1];
+  const coreSet = new Set([hon.num, tai.num, san.num, bestD.num, ana.num]);
+  const bestE = ranked.find((h) => !coreSet.has(h.num)) || null;
+
+  const combo = (...ns) => { const u = [...new Set(ns.filter((n) => n != null))]; return u.length === 3 ? u.sort((a, b) => a - b).join('-') : null; };
+  const add = (list, c) => { if (c && !list.includes(c)) list.push(c); };
+  const teppan = [];
+  add(teppan, combo(ana.num, hon.num, tai.num)); add(teppan, combo(ana.num, hon.num, san.num));
+  add(teppan, combo(ana.num, hon.num, bestD.num)); add(teppan, combo(ana.num, tai.num, san.num));
+  const purePuku = [];
+  add(purePuku, combo(hon.num, tai.num, san.num)); add(purePuku, combo(hon.num, tai.num, bestD.num)); add(purePuku, combo(hon.num, san.num, bestD.num));
+  const balance = [...teppan]; for (const c of purePuku) add(balance, c);
+  const core6 = [hon.num, tai.num, san.num, bestD.num, ana.num, ...(bestE ? [bestE.num] : [])];
+  const shoubu = [...balance];
+  for (let i = 0; i < core6.length; i++) for (let j = i + 1; j < core6.length; j++) for (let k = j + 1; k < core6.length; k++) add(shoubu, combo(core6[i], core6[j], core6[k]));
+  const T = (...ns) => { const u = ns.filter((n) => n != null); return u.length === 3 && new Set(u).size === 3 ? u.join('→') : null; };
+  const addT = (list, c) => { if (c && !list.includes(c)) list.push(c); };
+  const tanTeppan = [];
+  addT(tanTeppan, T(hon.num, tai.num, ana.num)); addT(tanTeppan, T(hon.num, ana.num, tai.num));
+  addT(tanTeppan, T(ana.num, hon.num, tai.num)); addT(tanTeppan, T(tai.num, hon.num, ana.num));
+  const pureTan = []; addT(pureTan, T(hon.num, tai.num, san.num)); addT(pureTan, T(hon.num, san.num, tai.num));
+  const tanBalance = [...tanTeppan]; for (const c of pureTan) addT(tanBalance, c);
+  addT(tanBalance, T(ana.num, tai.num, hon.num));
+  const tanShoubu = [...tanBalance];
+  const fSeconds = [tai.num, san.num, ana.num];
+  const fThirds = [hon.num, tai.num, san.num, ana.num, bestD.num];
+  for (const b of fSeconds) for (const c of fThirds) addT(tanShoubu, T(hon.num, b, c));
+
+  const MARKS = ['◎', '○', '▲', '△', '△', '△'];
+  horses.forEach((h) => { h.mark = ''; });
+  ranked.forEach((h, i) => { if (i < MARKS.length) h.mark = MARKS[i]; });
+
+  const anaReason = `人気${pop[ana.num] ?? '-'}位ながらエンジンスコア${scoreRank.get(ana.num)}位の一発候補`;
+  race.prediction = {
+    honmei: { num: hon.num, name: hon.name },
+    sanrenpuku: purePuku,
+    sanrentan: pureTan,
+    plans: { teppan, balance, shoubu },
+    plansTan: { teppan: tanTeppan, balance: tanBalance, shoubu: tanShoubu },
+    ana: { num: ana.num, name: ana.name, reason: anaReason },
+    comment: [
+      `【人気ベース再構成】◎${hon.num}番 ${hon.name}（1番人気）。`,
+      `対抗は○${tai.num}番 ${tai.name}、▲は${san.num}番 ${san.name}。`,
+      `穴候補は${ana.num}番 ${ana.name}（${anaReason}）。`,
+    ].join('\n'),
+    basis: 'popana',
+    popAt: new Date().toISOString(),
+  };
+  return true;
+}

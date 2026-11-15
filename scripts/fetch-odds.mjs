@@ -7,6 +7,9 @@
 // 発走済み・結果確定済みのレースは通常モードでは上書きしない
 // (発走時点で凍結し、確定オッズは fetch-results が結果の初回記録時に
 // 上書きする)。
+// あわせて、発走前のレースは単勝人気を取得して予想を人気ベースに
+// 再構成する (odds-lib の rebuildWithPopularity、2026-11-15 採用)。
+// 再構成後の買い目でオッズを取り直すため、表示と買い目が一致する。
 //
 // 使い方:
 //   node scripts/fetch-odds.mjs [YYYY-MM-DD] [--venue=05] [--all] [--final]
@@ -19,7 +22,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { fetchKeibaOdds } from './odds-lib.mjs';
+import { fetchKeibaOdds, fetchPopularity, rebuildWithPopularity } from './odds-lib.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
@@ -93,12 +96,22 @@ async function main() {
     }
   }
 
-  let updated = 0, empty = 0, failed = 0;
+  let updated = 0, empty = 0, failed = 0, rebuilt = 0;
   let idx = 0;
   async function worker() {
     while (idx < tasks.length) {
       const { v, r } = tasks[idx++];
       try {
+        // 人気ベース再構成: 発走前のみ。人気を取って印と買い目を組み直し、
+        // その新しい買い目でオッズを取り直す。発走後は凍結 (対象外)。
+        if (!finalMode && dateStr === now.date && r.startTime && toMin(r.startTime) > now.minutes) {
+          try {
+            const pop = await fetchPopularity(fetchText, BASE, r);
+            if (pop && rebuildWithPopularity(r, pop)) rebuilt++;
+          } catch (e) {
+            console.log(`[odds] ${v.name} ${r.no}R 人気取得/再構成失敗 (予想は据え置き): ${e.message || e}`);
+          }
+        }
         const { odds, oddsTan } = await fetchKeibaOdds(fetchText, BASE, r);
         if (Object.keys(odds).length > 0 || Object.keys(oddsTan).length > 0) {
           r.odds = odds;
@@ -115,11 +128,11 @@ async function main() {
   }
   await Promise.all(Array.from({ length: Math.min(CONCURRENCY, tasks.length) }, () => worker()));
 
-  if (updated > 0) {
+  if (updated > 0 || rebuilt > 0) {
     data.oddsUpdatedAt = new Date().toISOString();
     fs.writeFileSync(dataPath, JSON.stringify(data, null, 2), 'utf8');
   }
-  console.log(`[done] オッズを記録: ${updated}レース / データなし: ${empty} / 失敗: ${failed} / 対象外: ${skipped}`);
+  console.log(`[done] オッズを記録: ${updated}レース / 人気ベース再構成: ${rebuilt}レース / データなし: ${empty} / 失敗: ${failed} / 対象外: ${skipped}`);
 }
 
 main().catch((e) => { console.error('[fatal]', e); process.exit(1); });

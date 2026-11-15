@@ -20,6 +20,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { JSDOM } from 'jsdom';
+import { fetchKeibaOdds } from './odds-lib.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
@@ -109,8 +110,23 @@ async function main() {
         const result = parseResult(html);
         if (!result) { pending++; }
         else {
+          const needOdds = !r.result || !r.odds;
           r.result = { ...result, hits: evaluate(r, result) };
           updated++;
+          // 結果の初回記録時 (またはオッズ未保存時) に確定オッズで埋める
+          // (競輪と同じ方式)。失敗しても結果の記録は妨げない。
+          if (needOdds) {
+            try {
+              const { odds, oddsTan } = await fetchKeibaOdds(fetchHtml, BASE, r);
+              if (Object.keys(odds).length > 0 || Object.keys(oddsTan).length > 0) {
+                r.odds = odds;
+                r.oddsTan = oddsTan;
+                r.oddsAt = new Date().toISOString();
+              }
+            } catch (e) {
+              console.log(`[results] ${v.name} ${r.no}R 確定オッズ取得失敗: ${e.message || e}`);
+            }
+          }
         }
       } catch (e) {
         failed++;

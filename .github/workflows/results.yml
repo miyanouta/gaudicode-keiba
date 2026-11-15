@@ -37,3 +37,37 @@ jobs:
           git add data/
           git diff --cached --quiet || git commit -m "data: 結果を自動更新"
           git push
+      - name: 今日のオッズを取得
+        if: always()
+        timeout-minutes: 12
+        continue-on-error: true
+        run: |
+          TODAY=$(TZ=Asia/Tokyo date +%F)
+          if [ -f "data/${TODAY}.json" ]; then
+            node scripts/fetch-odds.mjs "${TODAY}"
+          else
+            echo "今日のデータがまだ無いのでスキップ"
+          fi
+      - name: オッズをコミット
+        if: always()
+        run: |
+          TODAY=$(TZ=Asia/Tokyo date +%F)
+          git config user.name "gaudi-bot"
+          git config user.email "bot@example.com"
+          pushed=0
+          for attempt in 1 2 3; do
+            git add data/
+            if git diff --cached --quiet; then pushed=1; break; fi
+            git commit -m "data: オッズを自動更新"
+            if git push; then pushed=1; break; fi
+            echo "push が競合しました。最新を取り込んで再取得してから再試行します (attempt ${attempt})"
+            git fetch origin
+            git reset --hard origin/main
+            if [ -f "data/${TODAY}.json" ]; then
+              node scripts/fetch-odds.mjs "${TODAY}" || true
+            fi
+          done
+          if [ "${pushed}" != "1" ]; then
+            echo "オッズの push に失敗しました"
+            exit 1
+          fi

@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "generatedAt": "2026-11-14T22:58:15.358Z",
+  "generatedAt": "2026-11-15T01:32:42.502Z",
   "source": "netkeiba (JRA)",
   "venues": [
     {
@@ -27,8 +27,8 @@
               "weight": 53,
               "jockey": "▲佐藤",
               "trainer": "美浦伊藤圭",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 456,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-09-05",
@@ -53,8 +53,8 @@
               "weight": 55,
               "jockey": "松岡",
               "trainer": "美浦柄崎",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 420,
+              "bodyWeightDiff": 4,
               "pastRuns": [
                 {
                   "date": "2026-06-20",
@@ -79,8 +79,8 @@
               "weight": 56,
               "jockey": "横山武",
               "trainer": "美浦深山",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 486,
+              "bodyWeightDiff": -4,
               "pastRuns": [],
               "score": 0.408,
               "mark": ""
@@ -93,8 +93,8 @@
               "weight": 53,
               "jockey": "▲遠藤",
               "trainer": "美浦伊藤圭",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 516,
+              "bodyWeightDiff": 8,
               "pastRuns": [],
               "score": 0.432,
               "mark": "△"
@@ -107,8 +107,8 @@
               "weight": 56,
               "jockey": "原",
               "trainer": "美浦萱野",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 464,
+              "bodyWeightDiff": 6,
               "pastRuns": [],
               "score": 0.396,
               "mark": ""
@@ -121,8 +121,8 @@
               "weight": 56,
               "jockey": "戸崎圭",
               "trainer": "美浦加藤士",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 490,
+              "bodyWeightDiff": -4,
               "pastRuns": [
                 {
                   "date": "2026-08-08",
@@ -158,8 +158,8 @@
               "weight": 56,
               "jockey": "石橋脩",
               "trainer": "美浦相沢",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 466,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-10-12",
@@ -217,8 +217,8 @@
               "weight": 56,
               "jockey": "佐々木",
               "trainer": "美浦尾形",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 530,
+              "bodyWeightDiff": 10,
               "pastRuns": [
                 {
                   "date": "2026-08-16",
@@ -254,8 +254,8 @@
               "weight": 56,
               "jockey": "野中",
               "trainer": "美浦田中博",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 506,
+              "bodyWeightDiff": 2,
               "pastRuns": [],
               "score": 0.396,
               "mark": ""
@@ -268,8 +268,8 @@
               "weight": 56,
               "jockey": "岩田康",
               "trainer": "美浦斎藤誠",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 526,
+              "bodyWeightDiff": 12,
               "pastRuns": [
                 {
                   "date": "2026-08-01",
@@ -305,8 +305,8 @@
               "weight": 56,
               "jockey": "木幡巧",
               "trainer": "美浦松永康",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 438,
+              "bodyWeightDiff": -16,
               "pastRuns": [
                 {
                   "date": "2026-07-19",
@@ -331,8 +331,8 @@
               "weight": 56,
               "jockey": "横山和",
               "trainer": "美浦蛯名正",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 512,
+              "bodyWeightDiff": -6,
               "pastRuns": [],
               "score": 0.396,
               "mark": ""
@@ -345,8 +345,8 @@
               "weight": 55,
               "jockey": "内田博",
               "trainer": "美浦深山",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 460,
+              "bodyWeightDiff": -10,
               "pastRuns": [],
               "score": 0.392,
               "mark": ""
@@ -359,8 +359,8 @@
               "weight": 55,
               "jockey": "☆長浜",
               "trainer": "美浦小笠",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 460,
+              "bodyWeightDiff": -6,
               "pastRuns": [
                 {
                   "date": "2026-08-30",
@@ -385,8 +385,8 @@
               "weight": 56,
               "jockey": "吉田豊",
               "trainer": "美浦高橋文",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 466,
+              "bodyWeightDiff": -2,
               "pastRuns": [],
               "score": 0.384,
               "mark": ""
@@ -399,8 +399,8 @@
               "weight": 56,
               "jockey": "大野",
               "trainer": "美浦堀内",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 458,
+              "bodyWeightDiff": -2,
               "pastRuns": [
                 {
                   "date": "2026-09-20",
@@ -526,8 +526,8 @@
               "weight": 55,
               "jockey": "戸崎圭",
               "trainer": "美浦斎藤誠",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 438,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-08-08",
@@ -552,8 +552,8 @@
               "weight": 56,
               "jockey": "横山和",
               "trainer": "栗東安田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 490,
+              "bodyWeightDiff": -2,
               "pastRuns": [],
               "score": 0.406,
               "mark": ""
@@ -566,8 +566,8 @@
               "weight": 52,
               "jockey": "▲佐藤",
               "trainer": "美浦相沢",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 418,
+              "bodyWeightDiff": -2,
               "pastRuns": [],
               "score": 0.438,
               "mark": ""
@@ -580,8 +580,8 @@
               "weight": 54,
               "jockey": "☆長浜",
               "trainer": "美浦平岩",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 398,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.422,
               "mark": ""
@@ -594,8 +594,8 @@
               "weight": 53,
               "jockey": "▲遠藤",
               "trainer": "美浦伊藤伸",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 464,
+              "bodyWeightDiff": 2,
               "pastRuns": [],
               "score": 0.418,
               "mark": ""
@@ -608,8 +608,8 @@
               "weight": 56,
               "jockey": "原",
               "trainer": "美浦畠山",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 498,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.394,
               "mark": ""
@@ -622,8 +622,8 @@
               "weight": 56,
               "jockey": "武藤",
               "trainer": "美浦武藤",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 488,
+              "bodyWeightDiff": -2,
               "pastRuns": [
                 {
                   "date": "2026-09-22",
@@ -648,8 +648,8 @@
               "weight": 56,
               "jockey": "プーシャン",
               "trainer": "美浦田中博",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 492,
+              "bodyWeightDiff": 12,
               "pastRuns": [
                 {
                   "date": "2026-08-15",
@@ -685,8 +685,8 @@
               "weight": 55,
               "jockey": "Ｍデムーロ",
               "trainer": "美浦西田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 450,
+              "bodyWeightDiff": 4,
               "pastRuns": [],
               "score": 0.402,
               "mark": ""
@@ -699,8 +699,8 @@
               "weight": 56,
               "jockey": "石橋脩",
               "trainer": "美浦小野",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 466,
+              "bodyWeightDiff": -6,
               "pastRuns": [],
               "score": 0.394,
               "mark": ""
@@ -713,8 +713,8 @@
               "weight": 56,
               "jockey": "横山武",
               "trainer": "美浦千葉",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 492,
+              "bodyWeightDiff": 4,
               "pastRuns": [
                 {
                   "date": "2026-08-15",
@@ -750,8 +750,8 @@
               "weight": 56,
               "jockey": "野中",
               "trainer": "美浦矢嶋",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 460,
+              "bodyWeightDiff": 12,
               "pastRuns": [],
               "score": 0.394,
               "mark": ""
@@ -764,8 +764,8 @@
               "weight": 56,
               "jockey": "木幡巧",
               "trainer": "美浦牧",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 468,
+              "bodyWeightDiff": 6,
               "pastRuns": [
                 {
                   "date": "2026-08-23",
@@ -790,8 +790,8 @@
               "weight": 56,
               "jockey": "大野",
               "trainer": "美浦和田雄",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 440,
+              "bodyWeightDiff": 4,
               "pastRuns": [
                 {
                   "date": "2026-07-18",
@@ -838,8 +838,8 @@
               "weight": 56,
               "jockey": "佐々木",
               "trainer": "美浦古賀慎",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 454,
+              "bodyWeightDiff": -6,
               "pastRuns": [],
               "score": 0.382,
               "mark": ""
@@ -852,8 +852,8 @@
               "weight": 56,
               "jockey": "菅原明",
               "trainer": "栗東西園翔",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 452,
+              "bodyWeightDiff": -2,
               "pastRuns": [],
               "score": 0.382,
               "mark": ""
@@ -866,8 +866,8 @@
               "weight": 55,
               "jockey": "内田博",
               "trainer": "美浦深山",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 462,
+              "bodyWeightDiff": 12,
               "pastRuns": [
                 {
                   "date": "2026-07-11",
@@ -1004,8 +1004,8 @@
               "weight": 55,
               "jockey": "木幡巧",
               "trainer": "美浦菊川",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 462,
+              "bodyWeightDiff": 2,
               "pastRuns": [],
               "score": 0.412,
               "mark": ""
@@ -1018,8 +1018,8 @@
               "weight": 53,
               "jockey": "▲遠藤",
               "trainer": "美浦伊藤伸",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 438,
+              "bodyWeightDiff": 0,
               "pastRuns": [
                 {
                   "date": "2026-10-12",
@@ -1055,8 +1055,8 @@
               "weight": 56,
               "jockey": "松岡",
               "trainer": "美浦堀内",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 436,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-08-23",
@@ -1092,8 +1092,8 @@
               "weight": 55,
               "jockey": "横山和",
               "trainer": "美浦千葉",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 460,
+              "bodyWeightDiff": 42,
               "pastRuns": [
                 {
                   "date": "2026-07-11",
@@ -1118,8 +1118,8 @@
               "weight": 56,
               "jockey": "石橋脩",
               "trainer": "美浦勢司",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 468,
+              "bodyWeightDiff": 6,
               "pastRuns": [],
               "score": 0.392,
               "mark": ""
@@ -1132,8 +1132,8 @@
               "weight": 56,
               "jockey": "佐々木",
               "trainer": "美浦古賀大",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 458,
+              "bodyWeightDiff": 4,
               "pastRuns": [
                 {
                   "date": "2026-08-29",
@@ -1158,8 +1158,8 @@
               "weight": 55,
               "jockey": "原",
               "trainer": "美浦萱野",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 408,
+              "bodyWeightDiff": 2,
               "pastRuns": [],
               "score": 0.4,
               "mark": ""
@@ -1172,8 +1172,8 @@
               "weight": 55,
               "jockey": "戸崎圭",
               "trainer": "美浦田島",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 462,
+              "bodyWeightDiff": -4,
               "pastRuns": [],
               "score": 0.4,
               "mark": ""
@@ -1186,8 +1186,8 @@
               "weight": 56,
               "jockey": "プーシャン",
               "trainer": "美浦柄崎",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 480,
+              "bodyWeightDiff": 8,
               "pastRuns": [],
               "score": 0.392,
               "mark": ""
@@ -1200,8 +1200,8 @@
               "weight": 54,
               "jockey": "☆長浜",
               "trainer": "美浦杉浦",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 442,
+              "bodyWeightDiff": -4,
               "pastRuns": [],
               "score": 0.408,
               "mark": ""
@@ -1214,8 +1214,8 @@
               "weight": 56,
               "jockey": "横山武",
               "trainer": "美浦矢野",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 470,
+              "bodyWeightDiff": -4,
               "pastRuns": [
                 {
                   "date": "2026-08-15",
@@ -1251,8 +1251,8 @@
               "weight": 55,
               "jockey": "大野",
               "trainer": "美浦池上",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 446,
+              "bodyWeightDiff": -16,
               "pastRuns": [
                 {
                   "date": "2026-07-19",
@@ -1277,8 +1277,8 @@
               "weight": 55,
               "jockey": "木幡初",
               "trainer": "美浦武市",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 430,
+              "bodyWeightDiff": 4,
               "pastRuns": [],
               "score": 0.388,
               "mark": ""
@@ -1291,8 +1291,8 @@
               "weight": 56,
               "jockey": "菅原明",
               "trainer": "栗東清水久",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 462,
+              "bodyWeightDiff": 4,
               "pastRuns": [
                 {
                   "date": "2026-09-27",
@@ -1350,8 +1350,8 @@
               "weight": 55,
               "jockey": "Ｍデムーロ",
               "trainer": "美浦武市",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 456,
+              "bodyWeightDiff": 2,
               "pastRuns": [],
               "score": 0.388,
               "mark": ""
@@ -1364,8 +1364,8 @@
               "weight": 52,
               "jockey": "▲佐藤",
               "trainer": "美浦伊藤圭",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 432,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-07-11",
@@ -1491,8 +1491,8 @@
               "weight": 55,
               "jockey": "☆長浜",
               "trainer": "美浦浅利",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 454,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.406,
               "mark": "◎"
@@ -1505,8 +1505,8 @@
               "weight": 56,
               "jockey": "菅原明",
               "trainer": "美浦高木",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 454,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.398,
               "mark": "△"
@@ -1519,8 +1519,8 @@
               "weight": 55,
               "jockey": "佐々木",
               "trainer": "美浦伊藤大",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 472,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.406,
               "mark": "○"
@@ -1533,8 +1533,8 @@
               "weight": 55,
               "jockey": "吉田豊",
               "trainer": "美浦小野",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 466,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.406,
               "mark": "▲"
@@ -1547,8 +1547,8 @@
               "weight": 56,
               "jockey": "Ｍデムーロ",
               "trainer": "美浦小島",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 492,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.398,
               "mark": "△"
@@ -1561,8 +1561,8 @@
               "weight": 56,
               "jockey": "木幡初",
               "trainer": "美浦本間",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 476,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.398,
               "mark": "△"
@@ -1575,8 +1575,8 @@
               "weight": 56,
               "jockey": "野中",
               "trainer": "美浦松山",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 490,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.398,
               "mark": ""
@@ -1589,8 +1589,8 @@
               "weight": 56,
               "jockey": "戸崎圭",
               "trainer": "美浦田中勝",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 480,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.398,
               "mark": ""
@@ -1603,8 +1603,8 @@
               "weight": 56,
               "jockey": "プーシャン",
               "trainer": "美浦高木",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 450,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.398,
               "mark": ""
@@ -1617,8 +1617,8 @@
               "weight": 56,
               "jockey": "横山和",
               "trainer": "美浦加藤征",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 482,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.398,
               "mark": ""
@@ -1631,8 +1631,8 @@
               "weight": 56,
               "jockey": "岩田康",
               "trainer": "栗東清水久",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 488,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.398,
               "mark": ""
@@ -1645,8 +1645,8 @@
               "weight": 56,
               "jockey": "横山武",
               "trainer": "美浦稲垣",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 506,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.398,
               "mark": ""
@@ -8510,7 +8510,7 @@
       "grade": "",
       "title": "5回 4日目",
       "category": null,
-      "desc": "天気： 芝(B)：良 ダ：良",
+      "desc": "天気： 芝(B)：稍 ダ：稍",
       "races": [
         {
           "no": 1,
@@ -8528,8 +8528,8 @@
               "weight": 56,
               "jockey": "岩田望",
               "trainer": "栗東高柳大",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 480,
+              "bodyWeightDiff": 8,
               "pastRuns": [],
               "score": 0.397,
               "mark": "▲"
@@ -8542,8 +8542,8 @@
               "weight": 56,
               "jockey": "松山",
               "trainer": "栗東前川",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 510,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.397,
               "mark": "△"
@@ -8556,8 +8556,8 @@
               "weight": 54,
               "jockey": "◇今村",
               "trainer": "栗東寺島",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 456,
+              "bodyWeightDiff": -6,
               "pastRuns": [],
               "score": 0.413,
               "mark": "○"
@@ -8570,8 +8570,8 @@
               "weight": 56,
               "jockey": "古川吉",
               "trainer": "栗東中竹",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 444,
+              "bodyWeightDiff": 4,
               "pastRuns": [
                 {
                   "date": "2026-10-12",
@@ -8607,8 +8607,8 @@
               "weight": 56,
               "jockey": "国分恭",
               "trainer": "栗東小椋",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 444,
+              "bodyWeightDiff": 0,
               "pastRuns": [
                 {
                   "date": "2026-08-30",
@@ -8633,8 +8633,8 @@
               "weight": 56,
               "jockey": "田口",
               "trainer": "栗東飯田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 466,
+              "bodyWeightDiff": 4,
               "pastRuns": [
                 {
                   "date": "2026-10-04",
@@ -8670,8 +8670,8 @@
               "weight": 56,
               "jockey": "松若",
               "trainer": "栗東小椋",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 502,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.397,
               "mark": "△"
@@ -8684,8 +8684,8 @@
               "weight": 55,
               "jockey": "西村淳",
               "trainer": "栗東宮本",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 458,
+              "bodyWeightDiff": -8,
               "pastRuns": [
                 {
                   "date": "2026-10-11",
@@ -8710,8 +8710,8 @@
               "weight": 56,
               "jockey": "幸",
               "trainer": "栗東宮地",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 462,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.397,
               "mark": "△"
@@ -8825,8 +8825,8 @@
               "weight": 55,
               "jockey": "Ｃデムーロ",
               "trainer": "栗東池添",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 454,
+              "bodyWeightDiff": -4,
               "pastRuns": [
                 {
                   "date": "2026-08-02",
@@ -8851,8 +8851,8 @@
               "weight": 55,
               "jockey": "荻野極",
               "trainer": "栗東高橋忠",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 434,
+              "bodyWeightDiff": 0,
               "pastRuns": [
                 {
                   "date": "2026-10-03",
@@ -8888,8 +8888,8 @@
               "weight": 55,
               "jockey": "幸",
               "trainer": "栗東岡田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 482,
+              "bodyWeightDiff": -4,
               "pastRuns": [],
               "score": 0.398,
               "mark": "△"
@@ -8902,8 +8902,8 @@
               "weight": 55,
               "jockey": "西村淳",
               "trainer": "栗東辻野",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 448,
+              "bodyWeightDiff": -4,
               "pastRuns": [
                 {
                   "date": "2026-08-29",
@@ -8928,8 +8928,8 @@
               "weight": 53,
               "jockey": "◇今村",
               "trainer": "栗東本田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 430,
+              "bodyWeightDiff": -4,
               "pastRuns": [
                 {
                   "date": "2026-10-11",
@@ -8954,8 +8954,8 @@
               "weight": 55,
               "jockey": "高杉",
               "trainer": "栗東野中",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 450,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.398,
               "mark": ""
@@ -8968,8 +8968,8 @@
               "weight": 55,
               "jockey": "ルメール",
               "trainer": "栗東斉藤崇",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 428,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-08-15",
@@ -8994,8 +8994,8 @@
               "weight": 55,
               "jockey": "古川吉",
               "trainer": "栗東宮",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 498,
+              "bodyWeightDiff": 0,
               "pastRuns": [
                 {
                   "date": "2026-09-05",
@@ -9031,8 +9031,8 @@
               "weight": 55,
               "jockey": "菱田",
               "trainer": "栗東谷",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 394,
+              "bodyWeightDiff": -8,
               "pastRuns": [
                 {
                   "date": "2026-08-22",
@@ -9057,8 +9057,8 @@
               "weight": 55,
               "jockey": "吉村",
               "trainer": "栗東東田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 420,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.398,
               "mark": ""
@@ -9071,8 +9071,8 @@
               "weight": 55,
               "jockey": "岩田望",
               "trainer": "栗東梅田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 434,
+              "bodyWeightDiff": -6,
               "pastRuns": [],
               "score": 0.398,
               "mark": ""
@@ -9085,8 +9085,8 @@
               "weight": 54,
               "jockey": "☆田山",
               "trainer": "栗東高橋亮",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 412,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.406,
               "mark": "△"
@@ -9200,8 +9200,8 @@
               "weight": 56,
               "jockey": "岩田望",
               "trainer": "栗東藤野",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 482,
+              "bodyWeightDiff": 8,
               "pastRuns": [],
               "score": 0.398,
               "mark": "△"
@@ -9214,8 +9214,8 @@
               "weight": 55,
               "jockey": "☆田山",
               "trainer": "栗東東田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 466,
+              "bodyWeightDiff": -4,
               "pastRuns": [],
               "score": 0.406,
               "mark": "▲"
@@ -9228,8 +9228,8 @@
               "weight": 56,
               "jockey": "丹内",
               "trainer": "栗東宮地",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 488,
+              "bodyWeightDiff": -8,
               "pastRuns": [
                 {
                   "date": "2026-10-11",
@@ -9254,8 +9254,8 @@
               "weight": 56,
               "jockey": "Ｃデムーロ",
               "trainer": "栗東高野",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 490,
+              "bodyWeightDiff": -8,
               "pastRuns": [
                 {
                   "date": "2026-08-23",
@@ -9280,8 +9280,8 @@
               "weight": 56,
               "jockey": "松若",
               "trainer": "栗東橋口",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 450,
+              "bodyWeightDiff": -6,
               "pastRuns": [
                 {
                   "date": "2026-09-26",
@@ -9306,8 +9306,8 @@
               "weight": 56,
               "jockey": "田口",
               "trainer": "栗東宮本",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 442,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-10-03",
@@ -9332,8 +9332,8 @@
               "weight": 55,
               "jockey": "西塚",
               "trainer": "栗東坂口",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 436,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.406,
               "mark": "△"
@@ -9346,8 +9346,8 @@
               "weight": 56,
               "jockey": "横山典",
               "trainer": "栗東松永幹",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 538,
+              "bodyWeightDiff": 8,
               "pastRuns": [
                 {
                   "date": "2026-06-07",
@@ -9372,8 +9372,8 @@
               "weight": 56,
               "jockey": "坂井",
               "trainer": "栗東矢作",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 452,
+              "bodyWeightDiff": -4,
               "pastRuns": [
                 {
                   "date": "2026-10-12",
@@ -9398,8 +9398,8 @@
               "weight": 56,
               "jockey": "池添",
               "trainer": "栗東中竹",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 472,
+              "bodyWeightDiff": 4,
               "pastRuns": [
                 {
                   "date": "2026-10-12",
@@ -9525,8 +9525,8 @@
               "weight": 56,
               "jockey": "丹内",
               "trainer": "栗東中村",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 522,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.406,
               "mark": "△"
@@ -9539,8 +9539,8 @@
               "weight": 56,
               "jockey": "松若",
               "trainer": "栗東庄野",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 464,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.406,
               "mark": "△"
@@ -9553,8 +9553,8 @@
               "weight": 56,
               "jockey": "北村友",
               "trainer": "栗東藤原",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 496,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.406,
               "mark": "△"
@@ -9567,8 +9567,8 @@
               "weight": 55,
               "jockey": "西村淳",
               "trainer": "栗東杉山佳",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 452,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.414,
               "mark": "○"
@@ -9581,8 +9581,8 @@
               "weight": 53,
               "jockey": "◇今村",
               "trainer": "栗東飯田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 486,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.418,
               "mark": "◎"
@@ -9595,8 +9595,8 @@
               "weight": 56,
               "jockey": "武豊",
               "trainer": "栗東千田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 528,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.394,
               "mark": ""
@@ -9609,8 +9609,8 @@
               "weight": 56,
               "jockey": "坂井",
               "trainer": "栗東矢作",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 494,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.394,
               "mark": ""
@@ -9623,8 +9623,8 @@
               "weight": 55,
               "jockey": "幸",
               "trainer": "栗東緒方",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 478,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.402,
               "mark": ""
@@ -9637,8 +9637,8 @@
               "weight": 54,
               "jockey": "☆田山",
               "trainer": "栗東福永",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 432,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.41,
               "mark": "▲"
@@ -9651,8 +9651,8 @@
               "weight": 55,
               "jockey": "マーカンド",
               "trainer": "栗東吉村",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 470,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.402,
               "mark": ""
@@ -9665,8 +9665,8 @@
               "weight": 55,
               "jockey": "田口",
               "trainer": "栗東新谷",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 452,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.402,
               "mark": ""
@@ -9679,8 +9679,8 @@
               "weight": 56,
               "jockey": "川田",
               "trainer": "栗東中内田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 520,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.394,
               "mark": ""
@@ -9693,8 +9693,8 @@
               "weight": 55,
               "jockey": "古川吉",
               "trainer": "栗東昆",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 510,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.39,
               "mark": ""
@@ -9707,8 +9707,8 @@
               "weight": 55,
               "jockey": "Ｃデムーロ",
               "trainer": "栗東石坂",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 500,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.39,
               "mark": ""
@@ -9721,8 +9721,8 @@
               "weight": 55,
               "jockey": "西塚",
               "trainer": "栗東畑端",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 452,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.39,
               "mark": ""
@@ -9735,8 +9735,8 @@
               "weight": 55,
               "jockey": "太宰",
               "trainer": "栗東石橋",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 430,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.39,
               "mark": ""
@@ -13200,7 +13200,7 @@
           "raceId": "202608050410",
           "name": "花背特別",
           "status": "ready",
-          "startTime": "15:00",
+          "startTime": "15:01",
           "course": "ダ1800m",
           "horses": [
             {
@@ -15973,8 +15973,8 @@
               "weight": 55,
               "jockey": "富田",
               "trainer": "美浦牧",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 458,
+              "bodyWeightDiff": 10,
               "pastRuns": [
                 {
                   "date": "2026-09-13",
@@ -16010,8 +16010,8 @@
               "weight": 56,
               "jockey": "丸田",
               "trainer": "美浦本間",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 452,
+              "bodyWeightDiff": 14,
               "pastRuns": [
                 {
                   "date": "2026-08-16",
@@ -16047,8 +16047,8 @@
               "weight": 52,
               "jockey": "▲森田",
               "trainer": "美浦伊坂",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 400,
+              "bodyWeightDiff": 4,
               "pastRuns": [
                 {
                   "date": "2026-08-15",
@@ -16073,8 +16073,8 @@
               "weight": 54,
               "jockey": "△石神道",
               "trainer": "美浦金成",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 452,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.417,
               "mark": "△"
@@ -16087,8 +16087,8 @@
               "weight": 56,
               "jockey": "藤懸",
               "trainer": "栗東前川",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 450,
+              "bodyWeightDiff": 14,
               "pastRuns": [],
               "score": 0.389,
               "mark": ""
@@ -16101,8 +16101,8 @@
               "weight": 53,
               "jockey": "△柴田裕",
               "trainer": "栗東大根田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 414,
+              "bodyWeightDiff": -14,
               "pastRuns": [],
               "score": 0.413,
               "mark": ""
@@ -16115,8 +16115,8 @@
               "weight": 56,
               "jockey": "小崎",
               "trainer": "栗東小崎",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 460,
+              "bodyWeightDiff": 6,
               "pastRuns": [],
               "score": 0.389,
               "mark": ""
@@ -16129,8 +16129,8 @@
               "weight": 54,
               "jockey": "◇小林美",
               "trainer": "栗東牧浦",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 462,
+              "bodyWeightDiff": 0,
               "pastRuns": [
                 {
                   "date": "2026-07-25",
@@ -16166,8 +16166,8 @@
               "weight": 55,
               "jockey": "黛",
               "trainer": "美浦矢嶋",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 414,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-09-06",
@@ -16214,8 +16214,8 @@
               "weight": 56,
               "jockey": "松本",
               "trainer": "栗東森秀",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 458,
+              "bodyWeightDiff": 4,
               "pastRuns": [
                 {
                   "date": "2026-10-18",
@@ -16262,8 +16262,8 @@
               "weight": 55,
               "jockey": "斎藤",
               "trainer": "栗東藤野",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 450,
+              "bodyWeightDiff": -2,
               "pastRuns": [
                 {
                   "date": "2026-08-08",
@@ -16288,8 +16288,8 @@
               "weight": 56,
               "jockey": "嶋田",
               "trainer": "美浦武市",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 468,
+              "bodyWeightDiff": 6,
               "pastRuns": [
                 {
                   "date": "2026-10-18",
@@ -16336,8 +16336,8 @@
               "weight": 53,
               "jockey": "△石田",
               "trainer": "美浦伊藤圭",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 444,
+              "bodyWeightDiff": 8,
               "pastRuns": [
                 {
                   "date": "2026-07-18",
@@ -16373,8 +16373,8 @@
               "weight": 55,
               "jockey": "江田照",
               "trainer": "美浦田中剛",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 436,
+              "bodyWeightDiff": -2,
               "pastRuns": [],
               "score": 0.385,
               "mark": ""
@@ -16387,8 +16387,8 @@
               "weight": 55,
               "jockey": "菊沢",
               "trainer": "美浦佐藤吉",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 496,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.385,
               "mark": ""
@@ -16401,8 +16401,8 @@
               "weight": 53,
               "jockey": "◇永島",
               "trainer": "美浦栗田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 436,
+              "bodyWeightDiff": 0,
               "pastRuns": [
                 {
                   "date": "2026-08-16",
@@ -16539,8 +16539,8 @@
               "weight": 51,
               "jockey": "★河原田",
               "trainer": "美浦武藤",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 482,
+              "bodyWeightDiff": -6,
               "pastRuns": [],
               "score": 0.442,
               "mark": "△"
@@ -16553,8 +16553,8 @@
               "weight": 56,
               "jockey": "横山琉",
               "trainer": "美浦矢嶋",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 430,
+              "bodyWeightDiff": -4,
               "pastRuns": [],
               "score": 0.402,
               "mark": ""
@@ -16567,8 +16567,8 @@
               "weight": 53,
               "jockey": "△石田",
               "trainer": "美浦秋本",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 430,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-08-02",
@@ -16593,8 +16593,8 @@
               "weight": 56,
               "jockey": "杉原",
               "trainer": "美浦岩戸",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 452,
+              "bodyWeightDiff": 4,
               "pastRuns": [
                 {
                   "date": "2026-08-09",
@@ -16630,8 +16630,8 @@
               "weight": 56,
               "jockey": "鮫島駿",
               "trainer": "栗東牧浦",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 476,
+              "bodyWeightDiff": -2,
               "pastRuns": [],
               "score": 0.39,
               "mark": ""
@@ -16644,8 +16644,8 @@
               "weight": 55,
               "jockey": "酒井",
               "trainer": "栗東羽月",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 458,
+              "bodyWeightDiff": -2,
               "pastRuns": [
                 {
                   "date": "2026-08-30",
@@ -16670,8 +16670,8 @@
               "weight": 55,
               "jockey": "菊沢",
               "trainer": "美浦相沢",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 452,
+              "bodyWeightDiff": -2,
               "pastRuns": [
                 {
                   "date": "2026-09-26",
@@ -16718,8 +16718,8 @@
               "weight": 54,
               "jockey": "◇小林美",
               "trainer": "美浦石栗",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 468,
+              "bodyWeightDiff": 4,
               "pastRuns": [
                 {
                   "date": "2026-09-26",
@@ -16777,8 +16777,8 @@
               "weight": 55,
               "jockey": "国分優",
               "trainer": "栗東北出",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 482,
+              "bodyWeightDiff": 4,
               "pastRuns": [
                 {
                   "date": "2026-08-09",
@@ -16803,8 +16803,8 @@
               "weight": 56,
               "jockey": "黛",
               "trainer": "美浦高木",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 412,
+              "bodyWeightDiff": 6,
               "pastRuns": [],
               "score": 0.39,
               "mark": ""
@@ -16817,8 +16817,8 @@
               "weight": 55,
               "jockey": "小沢",
               "trainer": "栗東田中克",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 452,
+              "bodyWeightDiff": -4,
               "pastRuns": [
                 {
                   "date": "2026-07-11",
@@ -16843,8 +16843,8 @@
               "weight": 53,
               "jockey": "◇永島",
               "trainer": "美浦千葉",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 388,
+              "bodyWeightDiff": -2,
               "pastRuns": [],
               "score": 0.414,
               "mark": ""
@@ -16857,8 +16857,8 @@
               "weight": 55,
               "jockey": "柴田大",
               "trainer": "美浦粕谷",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 428,
+              "bodyWeightDiff": -6,
               "pastRuns": [
                 {
                   "date": "2026-09-05",
@@ -16894,8 +16894,8 @@
               "weight": 55,
               "jockey": "丸山",
               "trainer": "美浦手塚徳",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 426,
+              "bodyWeightDiff": -2,
               "pastRuns": [
                 {
                   "date": "2026-07-25",
@@ -16920,8 +16920,8 @@
               "weight": 55,
               "jockey": "嶋田",
               "trainer": "美浦手塚久",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 488,
+              "bodyWeightDiff": -10,
               "pastRuns": [],
               "score": 0.386,
               "mark": ""
@@ -16934,8 +16934,8 @@
               "weight": 56,
               "jockey": "斎藤",
               "trainer": "栗東茶木",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 514,
+              "bodyWeightDiff": 10,
               "pastRuns": [],
               "score": 0.378,
               "mark": ""
@@ -17049,8 +17049,8 @@
               "weight": 58,
               "jockey": "菊沢",
               "trainer": "美浦稲垣",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 482,
+              "bodyWeightDiff": 4,
               "pastRuns": [
                 {
                   "date": "2026-09-12",
@@ -17108,8 +17108,8 @@
               "weight": 56,
               "jockey": "富田",
               "trainer": "栗東加藤公",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 490,
+              "bodyWeightDiff": -4,
               "pastRuns": [
                 {
                   "date": "2026-05-02",
@@ -17167,8 +17167,8 @@
               "weight": 54,
               "jockey": "鮫島駿",
               "trainer": "栗東橋口",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 494,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-07-26",
@@ -17226,8 +17226,8 @@
               "weight": 54,
               "jockey": "◇小林美",
               "trainer": "栗東須貝",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 502,
+              "bodyWeightDiff": -2,
               "pastRuns": [
                 {
                   "date": "2025-09-21",
@@ -17274,8 +17274,8 @@
               "weight": 56,
               "jockey": "横山琉",
               "trainer": "美浦鈴木慎",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 448,
+              "bodyWeightDiff": -4,
               "pastRuns": [
                 {
                   "date": "2026-08-23",
@@ -17333,8 +17333,8 @@
               "weight": 54,
               "jockey": "△石神道",
               "trainer": "美浦和田雄",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 432,
+              "bodyWeightDiff": 0,
               "pastRuns": [
                 {
                   "date": "2026-09-19",
@@ -17392,8 +17392,8 @@
               "weight": 56,
               "jockey": "△石田",
               "trainer": "美浦天間",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 468,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-09-27",
@@ -17451,8 +17451,8 @@
               "weight": 56,
               "jockey": "角田和",
               "trainer": "栗東高野",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 486,
+              "bodyWeightDiff": -2,
               "pastRuns": [
                 {
                   "date": "2026-09-06",
@@ -17510,8 +17510,8 @@
               "weight": 56,
               "jockey": "嶋田",
               "trainer": "美浦水野",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 456,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-08-23",
@@ -17569,8 +17569,8 @@
               "weight": 56,
               "jockey": "松本",
               "trainer": "栗東田中克",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 526,
+              "bodyWeightDiff": 12,
               "pastRuns": [
                 {
                   "date": "2026-08-08",
@@ -17628,8 +17628,8 @@
               "weight": 56,
               "jockey": "小崎",
               "trainer": "栗東松永幹",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 502,
+              "bodyWeightDiff": -8,
               "pastRuns": [
                 {
                   "date": "2026-09-27",
@@ -17687,8 +17687,8 @@
               "weight": 58,
               "jockey": "江田照",
               "trainer": "美浦蛯名正",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 530,
+              "bodyWeightDiff": 4,
               "pastRuns": [
                 {
                   "date": "2026-09-22",
@@ -17746,8 +17746,8 @@
               "weight": 54,
               "jockey": "★河原田",
               "trainer": "美浦奥平",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 500,
+              "bodyWeightDiff": 6,
               "pastRuns": [
                 {
                   "date": "2026-06-20",
@@ -17805,8 +17805,8 @@
               "weight": 58,
               "jockey": "原田和",
               "trainer": "美浦小野",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 506,
+              "bodyWeightDiff": 0,
               "pastRuns": [
                 {
                   "date": "2026-03-11",
@@ -17864,8 +17864,8 @@
               "weight": 54,
               "jockey": "◇永島",
               "trainer": "栗東松下",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 430,
+              "bodyWeightDiff": 0,
               "pastRuns": [
                 {
                   "date": "2026-07-25",
@@ -18024,8 +18024,8 @@
               "weight": 57,
               "jockey": "▲水沼",
               "trainer": "美浦辻",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 490,
+              "bodyWeightDiff": 6,
               "pastRuns": [
                 {
                   "date": "2026-07-19",
@@ -18083,8 +18083,8 @@
               "weight": 60,
               "jockey": "小野寺",
               "trainer": "美浦金成",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 454,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-04-12",
@@ -18131,8 +18131,8 @@
               "weight": 58,
               "jockey": "草野",
               "trainer": "美浦戸田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 468,
+              "bodyWeightDiff": 8,
               "pastRuns": [
                 {
                   "date": "2026-07-05",
@@ -18190,8 +18190,8 @@
               "weight": 57,
               "jockey": "▲小林凌",
               "trainer": "美浦菊川",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 488,
+              "bodyWeightDiff": 0,
               "pastRuns": [
                 {
                   "date": "2026-07-12",
@@ -18249,8 +18249,8 @@
               "weight": 60,
               "jockey": "大江圭",
               "trainer": "美浦蛯名利",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 466,
+              "bodyWeightDiff": 8,
               "pastRuns": [
                 {
                   "date": "2026-08-23",
@@ -18308,8 +18308,8 @@
               "weight": 60,
               "jockey": "伴",
               "trainer": "美浦柄崎",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 484,
+              "bodyWeightDiff": 10,
               "pastRuns": [
                 {
                   "date": "2026-07-19",
@@ -18367,8 +18367,8 @@
               "weight": 58,
               "jockey": "五十嵐",
               "trainer": "美浦粕谷",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 420,
+              "bodyWeightDiff": -2,
               "pastRuns": [
                 {
                   "date": "2026-09-27",
@@ -18426,8 +18426,8 @@
               "weight": 58,
               "jockey": "黒岩",
               "trainer": "栗東飯田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 476,
+              "bodyWeightDiff": -2,
               "pastRuns": [
                 {
                   "date": "2026-08-23",
@@ -18485,8 +18485,8 @@
               "weight": 60,
               "jockey": "高田",
               "trainer": "栗東須貝",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 438,
+              "bodyWeightDiff": -2,
               "pastRuns": [
                 {
                   "date": "2026-05-23",
@@ -18533,8 +18533,8 @@
               "weight": 60,
               "jockey": "上野",
               "trainer": "美浦岩戸",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 498,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-06-28",
@@ -18592,8 +18592,8 @@
               "weight": 60,
               "jockey": "小牧加",
               "trainer": "栗東西村",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 512,
+              "bodyWeightDiff": 12,
               "pastRuns": [
                 {
                   "date": "2026-09-12",
@@ -18651,8 +18651,8 @@
               "weight": 58,
               "jockey": "△坂口",
               "trainer": "美浦浅利",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 458,
+              "bodyWeightDiff": 0,
               "pastRuns": [
                 {
                   "date": "2026-08-23",
@@ -19640,7 +19640,7 @@
           "raceId": "202603030407",
           "name": "3歳以上1勝クラス",
           "status": "ready",
-          "startTime": "13:00",
+          "startTime": "13:01",
           "course": "芝1200m",
           "horses": [
             {
@@ -23228,7 +23228,7 @@
           "raceId": "202603030411",
           "name": "福島民友C",
           "status": "ready",
-          "startTime": "15:10",
+          "startTime": "15:11",
           "course": "ダ1700m",
           "horses": [
             {
@@ -25205,6 +25205,6 @@
   "quality": {
     "errors": [],
     "warnings": 0,
-    "checkedAt": "2026-11-14T22:58:15.361Z"
+    "checkedAt": "2026-11-15T01:32:42.506Z"
   }
 }

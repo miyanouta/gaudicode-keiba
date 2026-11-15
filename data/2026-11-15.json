@@ -508,6 +508,30 @@
               "reason": "前走8着（16頭）がありながらスコア5位の一発候補"
             },
             "comment": "◎7番 オーケーエース（スコア0.699）。近走は3-4-6-4着で評価最上位。\n対抗は○14番 トーセンイルン、▲は8番 キュータンチャン。\n穴候補は16番 ルバルマン（前走8着（16頭）がありながらスコア5位の一発候補）。"
+          },
+          "result": {
+            "top3": [
+              7,
+              12,
+              9
+            ],
+            "sanrenpuku": {
+              "combo": "7-9-12",
+              "payout": 2530
+            },
+            "sanrentan": {
+              "combo": "7-12-9",
+              "payout": 5550
+            },
+            "hits": {
+              "teppan": false,
+              "balance": false,
+              "shoubu": false,
+              "tanTeppan": false,
+              "tanBalance": false,
+              "tanShoubu": false,
+              "sanrentan": false
+            }
           }
         },
         {
@@ -986,6 +1010,30 @@
               "reason": "2走前3着（8頭）がありながらスコア6位の一発候補"
             },
             "comment": "◎1番 シネファイル（スコア0.951）。近走は2着で評価最上位。\n対抗は○8番 オンザボー、▲は11番 シュートザワークス。\n穴候補は14番 ガーシュウィン（2走前3着（8頭）がありながらスコア6位の一発候補）。"
+          },
+          "result": {
+            "top3": [
+              8,
+              11,
+              1
+            ],
+            "sanrenpuku": {
+              "combo": "1-8-11",
+              "payout": 470
+            },
+            "sanrentan": {
+              "combo": "8-11-1",
+              "payout": 3070
+            },
+            "hits": {
+              "teppan": false,
+              "balance": true,
+              "shoubu": true,
+              "tanTeppan": false,
+              "tanBalance": false,
+              "tanShoubu": false,
+              "sanrentan": false
+            }
           }
         },
         {
@@ -1473,6 +1521,30 @@
               "reason": "前走5着（11頭）がありながらスコア5位の一発候補"
             },
             "comment": "◎6番 ショウナンワンパク（スコア0.792）。近走は4着で評価最上位。\n対抗は○3番 サンレガート、▲は14番 シュプレヒコール。\n穴候補は4番 ジーティーマドンナ（前走5着（11頭）がありながらスコア5位の一発候補）。"
+          },
+          "result": {
+            "top3": [
+              11,
+              9,
+              14
+            ],
+            "sanrenpuku": {
+              "combo": "9-11-14",
+              "payout": 1550
+            },
+            "sanrentan": {
+              "combo": "11-9-14",
+              "payout": 7110
+            },
+            "hits": {
+              "teppan": false,
+              "balance": false,
+              "shoubu": false,
+              "tanTeppan": false,
+              "tanBalance": false,
+              "tanShoubu": false,
+              "sanrentan": false
+            }
           }
         },
         {
@@ -8807,6 +8879,30 @@
               "reason": "前走7着（8頭）がありながらスコア8位の一発候補"
             },
             "comment": "◎4番 カフジカニステル（スコア0.451）。近走は3-15着で評価最上位。\n対抗は○3番 ハレムスビ、▲は1番 ハリケンライズ。\n穴候補は6番 ベンゲル（前走7着（8頭）がありながらスコア8位の一発候補）。"
+          },
+          "result": {
+            "top3": [
+              9,
+              3,
+              2
+            ],
+            "sanrenpuku": {
+              "combo": "2-3-9",
+              "payout": 2220
+            },
+            "sanrentan": {
+              "combo": "9-3-2",
+              "payout": 48130
+            },
+            "hits": {
+              "teppan": false,
+              "balance": false,
+              "shoubu": false,
+              "tanTeppan": false,
+              "tanBalance": false,
+              "tanShoubu": false,
+              "sanrentan": false
+            }
           }
         },
         {
@@ -9182,6 +9278,30 @@
               "reason": "スコア5位・近走実績が薄い分の一発候補"
             },
             "comment": "◎1番 アレオクール（スコア0.650）。近走は4着で評価最上位。\n対抗は○2番 リーベラーリア、▲は4番 ジーティーハルカゼ。\n穴候補は12番 ポネンテ（スコア5位・近走実績が薄い分の一発候補）。"
+          },
+          "result": {
+            "top3": [
+              4,
+              2,
+              10
+            ],
+            "sanrenpuku": {
+              "combo": "2-4-10",
+              "payout": 2990
+            },
+            "sanrentan": {
+              "combo": "4-2-10",
+              "payout": 22410
+            },
+            "hits": {
+              "teppan": false,
+              "balance": false,
+              "shoubu": false,
+              "tanTeppan": false,
+              "tanBalance": false,
+              "tanShoubu": false,
+              "sanrentan": false
+            }
           }
         },
         {
@@ -9507,6 +9627,30 @@
               "reason": "前走6着（9頭）がありながらスコア6位の一発候補"
             },
             "comment": "◎9番 ホウオウビースト（スコア0.762）。近走は3着で評価最上位。\n対抗は○5番 エールヴォル、▲は2番 ロイヤルアイビス。\n穴候補は10番 ナショナルフラッグ（前走6着（9頭）がありながらスコア6位の一発候補）。"
+          },
+          "result": {
+            "top3": [
+              6,
+              9,
+              1
+            ],
+            "sanrenpuku": {
+              "combo": "1-6-9",
+              "payout": 940
+            },
+            "sanrentan": {
+              "combo": "6-9-1",
+              "payout": 10540
+            },
+            "hits": {
+              "teppan": false,
+              "balance": false,
+              "shoubu": false,
+              "tanTeppan": false,
+              "tanBalance": false,
+              "tanShoubu": false,
+              "sanrentan": false
+            }
           }
         },
         {
@@ -16521,6 +16665,30 @@
               "reason": "3走前3着（12頭）がありながらスコア5位の一発候補"
             },
             "comment": "◎8番 エコロメジャー（スコア0.840）。近走は2-3着で評価最上位。\n対抗は○9番 スペシャルサンクス、▲は11番 ビーテリオス。\n穴候補は12番 アーバーバイティ（3走前3着（12頭）がありながらスコア5位の一発候補）。"
+          },
+          "result": {
+            "top3": [
+              8,
+              5,
+              7
+            ],
+            "sanrenpuku": {
+              "combo": "5-7-8",
+              "payout": 6210
+            },
+            "sanrentan": {
+              "combo": "8-5-7",
+              "payout": 46870
+            },
+            "hits": {
+              "teppan": false,
+              "balance": false,
+              "shoubu": false,
+              "tanTeppan": false,
+              "tanBalance": false,
+              "tanShoubu": false,
+              "sanrentan": false
+            }
           }
         },
         {
@@ -17031,6 +17199,30 @@
               "reason": "前走4着（8頭）がありながらスコア5位の一発候補"
             },
             "comment": "◎11番 イテルム（スコア0.938）。近走は2着で評価最上位。\n対抗は○13番 コウサイリクリ、▲は7番 ヴェントリナ。\n穴候補は8番 モーモーゼロ（前走4着（8頭）がありながらスコア5位の一発候補）。"
+          },
+          "result": {
+            "top3": [
+              11,
+              14,
+              4
+            ],
+            "sanrenpuku": {
+              "combo": "4-11-14",
+              "payout": 14710
+            },
+            "sanrentan": {
+              "combo": "11-14-4",
+              "payout": 75470
+            },
+            "hits": {
+              "teppan": false,
+              "balance": false,
+              "shoubu": false,
+              "tanTeppan": false,
+              "tanBalance": false,
+              "tanShoubu": false,
+              "sanrentan": false
+            }
           }
         },
         {
@@ -18006,6 +18198,30 @@
               "reason": "前走2着（15頭）・勝ち馬と0.2秒差の接戦がありながらスコア9位の一発候補"
             },
             "comment": "◎5番 ファイアリービート（スコア0.866）。近走は1-3-4-5着で評価最上位。\n対抗は○14番 ナックシュバリエ、▲は15番 ニーナバイリッカ。\n穴候補は2番 ソングコレクター（前走2着（15頭）・勝ち馬と0.2秒差の接戦がありながらスコア9位の一発候補）。"
+          },
+          "result": {
+            "top3": [
+              3,
+              12,
+              8
+            ],
+            "sanrenpuku": {
+              "combo": "3-8-12",
+              "payout": 5090
+            },
+            "sanrentan": {
+              "combo": "3-12-8",
+              "payout": 13690
+            },
+            "hits": {
+              "teppan": false,
+              "balance": false,
+              "shoubu": false,
+              "tanTeppan": false,
+              "tanBalance": false,
+              "tanShoubu": false,
+              "sanrentan": false
+            }
           }
         },
         {
@@ -18793,6 +19009,30 @@
               "reason": "前走4着（8頭）がありながらスコア5位の一発候補"
             },
             "comment": "◎1番 ブランフォルテ（スコア0.592）。近走は2-9-5-11着で評価最上位。\n対抗は○8番 メイショウゴッホ、▲は9番 スカイロケット。\n穴候補は5番 サトノドルチェ（前走4着（8頭）がありながらスコア5位の一発候補）。"
+          },
+          "result": {
+            "top3": [
+              1,
+              10,
+              12
+            ],
+            "sanrenpuku": {
+              "combo": "1-10-12",
+              "payout": 1650
+            },
+            "sanrentan": {
+              "combo": "1-10-12",
+              "payout": 9840
+            },
+            "hits": {
+              "teppan": false,
+              "balance": false,
+              "shoubu": false,
+              "tanTeppan": false,
+              "tanBalance": false,
+              "tanShoubu": false,
+              "sanrentan": false
+            }
           }
         },
         {
@@ -25206,5 +25446,6 @@
     "errors": [],
     "warnings": 0,
     "checkedAt": "2026-11-15T01:32:42.506Z"
-  }
+  },
+  "resultsUpdatedAt": "2026-11-15T02:21:20.788Z"
 }

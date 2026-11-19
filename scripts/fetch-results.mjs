@@ -29,9 +29,21 @@ const BASE = 'https://race.netkeiba.com';
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function fetchHtml(url) {
-  const res = await fetch(url, { headers: { 'User-Agent': UA, 'Accept-Language': 'ja' } });
-  if (!res.ok) throw new Error(`HTTP ${res.status} ${url}`);
-  return await res.text();
+  // リトライ付き (2026-11-19 強化): 一過性の失敗でレース全体を落とさない。
+  // 4xx は再試行しても無駄なので即失敗、5xx・通信エラー・タイムアウトは再試行する。
+  let lastErr = null;
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const res = await fetch(url, { headers: { 'User-Agent': UA, 'Accept-Language': 'ja' }, signal: AbortSignal.timeout(30000) });
+      if (!res.ok) { const err = new Error(`HTTP ${res.status} ${url}`); err.httpStatus = res.status; throw err; }
+      return await res.text();
+    } catch (e) {
+      lastErr = e;
+      if (e.httpStatus && e.httpStatus < 500) break;
+      if (attempt < 2) await sleep(1500 * (attempt + 1));
+    }
+  }
+  throw lastErr;
 }
 
 function jstToday() {

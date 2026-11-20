@@ -81,6 +81,7 @@
   .combos .odds, .pred-box .odds{font-size:12.5px;color:var(--accent2);font-weight:700;margin-left:3px}
   .combo-hit .odds{color:#191102}
   .combo-hit{background:var(--gold-grad);color:#191102;border-radius:6px;padding:1px 8px;font-weight:800;box-shadow:0 2px 8px rgba(255,157,0,.4);white-space:nowrap}
+  .revised-badge{display:inline-block;background:#d32f2f;color:#fff;font-weight:800;font-size:12.5px;padding:3px 12px;border-radius:999px;margin-bottom:8px}
   .plan-panel .ana{margin-top:8px;font-size:13.5px;color:var(--accent)}
   details.comment-fold{margin-top:12px}
   details.comment-fold summary{cursor:pointer;color:var(--sub);font-size:13.5px}
@@ -520,7 +521,7 @@ function renderContent(){
     const hitPuku = cc => !!winPukuKey && cc.split('-').map(Number).sort((a,b)=>a-b).join('-') === winPukuKey;
     const hitTan = cc => !!winTanKey && cc.replace(/→/g,'-').split('-').map(Number).join('-') === winTanKey;
     const wrapHit = (inner, hit) => hit ? '<span class="combo-hit">' + inner + ' 🎯</span>' : inner;
-    html += '<div class="card"><h4>GAUDICODE予想</h4><div class="pred-grid">';
+    html += '<div class="card"><h4>GAUDICODE予想</h4>' + (p.revised ? '<div class="revised-badge">買い方変更（新しい買い方で再計算）</div>' : '') + '<div class="pred-grid">';
     if(p.honmei) html += '<div class="pred-box"><div class="k">本命</div><div class="v">◎ '+p.honmei.num+'番 '+esc(p.honmei.name)+'</div></div>';
     if(p.ana) html += '<div class="pred-box"><div class="k">穴候補</div><div class="v">'+p.ana.num+'番 '+esc(p.ana.name)+'</div><div style="font-size:12.5px;color:var(--sub)">'+esc(p.ana.reason)+'</div></div>';
     if(p.sanrenpuku) html += '<div class="pred-box"><div class="k">三連複（スコア純正）</div><div class="v">'+p.sanrenpuku.map(cc=>{ const o = r.odds && r.odds[cc.split('-').map(Number).sort((a,b)=>a-b).join('-')]; return wrapHit(esc(cc) + (o ? '<span class="odds">' + o.toFixed(1) + '倍</span>' : ''), hitPuku(cc)); }).join(' ／ ')+'</div></div>';

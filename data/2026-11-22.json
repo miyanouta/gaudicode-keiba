@@ -1,0 +1,1767 @@
+{
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-20T18:57:34.638Z",
+  "source": "netkeiba (JRA)",
+  "venues": [
+    {
+      "id": "05",
+      "name": "東京",
+      "grade": "",
+      "title": "5回 5日目",
+      "category": null,
+      "desc": "",
+      "races": [
+        {
+          "no": 1,
+          "raceId": "202605050501",
+          "name": "2歳未勝利",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 2,
+          "raceId": "202605050502",
+          "name": "2歳未勝利",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 3,
+          "raceId": "202605050503",
+          "name": "2歳未勝利",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 4,
+          "raceId": "202605050504",
+          "name": "2歳新馬",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 5,
+          "raceId": "202605050505",
+          "name": "2歳新馬",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 6,
+          "raceId": "202605050506",
+          "name": "2歳新馬",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 7,
+          "raceId": "202605050507",
+          "name": "3歳以上1勝クラス",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 8,
+          "raceId": "202605050508",
+          "name": "3歳以上2勝クラス",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 9,
+          "raceId": "202605050509",
+          "name": "赤松賞",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 10,
+          "raceId": "202605050510",
+          "name": "秋色S",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 11,
+          "raceId": "202605050511",
+          "name": "霜月S",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 12,
+          "raceId": "202605050512",
+          "name": "3歳以上2勝クラス",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "name": "京都",
+      "grade": "",
+      "title": "5回 6日目",
+      "category": null,
+      "desc": "",
+      "races": [
+        {
+          "no": 1,
+          "raceId": "202608050601",
+          "name": "2歳未勝利",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 2,
+          "raceId": "202608050602",
+          "name": "2歳未勝利",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 3,
+          "raceId": "202608050603",
+          "name": "2歳未勝利",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 4,
+          "raceId": "202608050604",
+          "name": "2歳新馬",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 5,
+          "raceId": "202608050605",
+          "name": "2歳新馬",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 6,
+          "raceId": "202608050606",
+          "name": "3歳以上1勝クラス",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 7,
+          "raceId": "202608050607",
+          "name": "3歳以上1勝クラス",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 8,
+          "raceId": "202608050608",
+          "name": "3歳以上2勝クラス",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 9,
+          "raceId": "202608050609",
+          "name": "花見小路特別",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 10,
+          "raceId": "202608050610",
+          "name": "西陣S",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 11,
+          "raceId": "202608050611",
+          "name": "マイルCS",
+          "status": "ready",
+          "startTime": "15:40",
+          "course": "芝1600m",
+          "horses": [
+            {
+              "num": 1,
+              "horseId": "2023190001",
+              "waku": 1,
+              "name": "エルデナリ",
+              "sexAge": "セ3",
+              "weight": 57,
+              "jockey": "バルザロー",
+              "trainer": "海外グラファー",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-07-19",
+                  "venue": "シャンティイ",
+                  "raceName": "メシドール GIII",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 3,
+                  "field": 7,
+                  "popularity": 1,
+                  "jockey": "バルザロ",
+                  "carriedWeight": 54.5,
+                  "corners": null,
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2026-06-27",
+                  "venue": "ドーヴィル",
+                  "raceName": "サンパトリ OP",
+                  "surface": "ダ",
+                  "distance": 1500,
+                  "going": "稍重",
+                  "pos": 1,
+                  "field": 7,
+                  "popularity": 1,
+                  "jockey": "バルザロ",
+                  "carriedWeight": 56.5,
+                  "corners": null,
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2026-05-07",
+                  "venue": "パリロンシャン",
+                  "raceName": "条件戦",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "重",
+                  "pos": 1,
+                  "field": 6,
+                  "popularity": 1,
+                  "jockey": "バルザロ",
+                  "carriedWeight": 57,
+                  "corners": null,
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2026-03-29",
+                  "venue": "サンクルー",
+                  "raceName": "未勝利戦",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "重",
+                  "pos": 1,
+                  "field": 13,
+                  "popularity": 1,
+                  "jockey": "バルザロ",
+                  "carriedWeight": 58,
+                  "corners": null,
+                  "margin": 0,
+                  "valid": true
+                }
+              ],
+              "score": 0.939,
+              "mark": "▲"
+            },
+            {
+              "num": 2,
+              "horseId": "2022105185",
+              "waku": 1,
+              "name": "エンブロイダリー",
+              "sexAge": "牝4",
+              "weight": 56,
+              "jockey": "ルメール",
+              "trainer": "美浦森一",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-05-17",
+                  "venue": "東京",
+                  "raceName": "ヴィクトリ GI",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 18,
+                  "popularity": 1,
+                  "jockey": "ルメール",
+                  "carriedWeight": 56,
+                  "corners": [
+                    6,
+                    6
+                  ],
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2026-04-11",
+                  "venue": "阪神",
+                  "raceName": "阪神牝馬S GII",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 10,
+                  "popularity": 1,
+                  "jockey": "ルメール",
+                  "carriedWeight": 57,
+                  "corners": [
+                    1,
+                    1
+                  ],
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2025-12-14",
+                  "venue": "シャティン",
+                  "raceName": "香港マイル GI",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 11,
+                  "field": 14,
+                  "popularity": 4,
+                  "jockey": "ルメール",
+                  "carriedWeight": 55,
+                  "corners": null,
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2025-10-19",
+                  "venue": "京都",
+                  "raceName": "秋華賞 GI",
+                  "surface": "芝",
+                  "distance": 2000,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 18,
+                  "popularity": 2,
+                  "jockey": "ルメール",
+                  "carriedWeight": 55,
+                  "corners": [
+                    6,
+                    6,
+                    2,
+                    2
+                  ],
+                  "margin": 0,
+                  "valid": true
+                }
+              ],
+              "score": 0.876,
+              "mark": ""
+            },
+            {
+              "num": 3,
+              "horseId": "2022105891",
+              "waku": 2,
+              "name": "ドラゴンブースト",
+              "sexAge": "牡4",
+              "weight": 58,
+              "jockey": "浜中",
+              "trainer": "栗東藤野",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-06-07",
+                  "venue": "東京",
+                  "raceName": "安田記念 GI",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 8,
+                  "field": 17,
+                  "popularity": 13,
+                  "jockey": "丹内祐次",
+                  "carriedWeight": 58,
+                  "corners": [
+                    11,
+                    11
+                  ],
+                  "margin": 0.6,
+                  "valid": true
+                },
+                {
+                  "date": "2026-04-26",
+                  "venue": "京都",
+                  "raceName": "マイラーズ GII",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 2,
+                  "field": 18,
+                  "popularity": 9,
+                  "jockey": "丹内祐次",
+                  "carriedWeight": 57,
+                  "corners": [
+                    6,
+                    8
+                  ],
+                  "margin": 0.1,
+                  "valid": true
+                },
+                {
+                  "date": "2026-03-08",
+                  "venue": "阪神",
+                  "raceName": "大阪城S L",
+                  "surface": "芝",
+                  "distance": 1800,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 13,
+                  "popularity": 7,
+                  "jockey": "岩田望来",
+                  "carriedWeight": 58,
+                  "corners": [
+                    7,
+                    7
+                  ],
+                  "margin": 0,
+                  "valid": true
+                }
+              ],
+              "score": 0.836,
+              "mark": ""
+            },
+            {
+              "num": 4,
+              "horseId": "2021105724",
+              "waku": 2,
+              "name": "シックスペンス",
+              "sexAge": "牡5",
+              "weight": 58,
+              "jockey": "プーシャン",
+              "trainer": "美浦田中博",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-08-16",
+                  "venue": "ドーヴィル",
+                  "raceName": "ジャックル GI",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "稍重",
+                  "pos": 10,
+                  "field": 10,
+                  "popularity": 5,
+                  "jockey": "武豊",
+                  "carriedWeight": 60,
+                  "corners": null,
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2026-06-07",
+                  "venue": "東京",
+                  "raceName": "安田記念 GI",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 17,
+                  "popularity": 8,
+                  "jockey": "武豊",
+                  "carriedWeight": 58,
+                  "corners": [
+                    2,
+                    2
+                  ],
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2026-04-26",
+                  "venue": "京都",
+                  "raceName": "マイラーズ GII",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 7,
+                  "field": 18,
+                  "popularity": 4,
+                  "jockey": "戸崎圭太",
+                  "carriedWeight": 57,
+                  "corners": [
+                    9,
+                    8
+                  ],
+                  "margin": 0.4,
+                  "valid": true
+                },
+                {
+                  "date": "2026-02-22",
+                  "venue": "東京",
+                  "raceName": "フェブラリ GI",
+                  "surface": "ダ",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 9,
+                  "field": 16,
+                  "popularity": 6,
+                  "jockey": "戸崎圭太",
+                  "carriedWeight": 58,
+                  "corners": [
+                    1,
+                    1
+                  ],
+                  "margin": 1,
+                  "valid": true
+                }
+              ],
+              "score": 0.524,
+              "mark": ""
+            },
+            {
+              "num": 5,
+              "horseId": "2022105396",
+              "waku": 3,
+              "name": "アドマイヤズーム",
+              "sexAge": "牡4",
+              "weight": 58,
+              "jockey": "武豊",
+              "trainer": "栗東友道",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-04-26",
+                  "venue": "京都",
+                  "raceName": "マイラーズ GII",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 18,
+                  "popularity": 1,
+                  "jockey": "武豊",
+                  "carriedWeight": 57,
+                  "corners": [
+                    2,
+                    2
+                  ],
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2025-10-13",
+                  "venue": "京都",
+                  "raceName": "MBSスワ GII",
+                  "surface": "芝",
+                  "distance": 1400,
+                  "going": "良",
+                  "pos": 6,
+                  "field": 18,
+                  "popularity": 2,
+                  "jockey": "坂井瑠星",
+                  "carriedWeight": 55,
+                  "corners": [
+                    6,
+                    6
+                  ],
+                  "margin": 0.2,
+                  "valid": true
+                },
+                {
+                  "date": "2025-05-11",
+                  "venue": "東京",
+                  "raceName": "NHKマイ GI",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 14,
+                  "field": 18,
+                  "popularity": 1,
+                  "jockey": "川田将雅",
+                  "carriedWeight": 57,
+                  "corners": [
+                    3,
+                    2
+                  ],
+                  "margin": 1,
+                  "valid": true
+                }
+              ],
+              "score": 0.693,
+              "mark": ""
+            },
+            {
+              "num": 6,
+              "horseId": "2022101765",
+              "waku": 3,
+              "name": "ピコローズ",
+              "sexAge": "牝4",
+              "weight": 56,
+              "jockey": "三浦",
+              "trainer": "美浦伊藤大",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-07-25",
+                  "venue": "新潟",
+                  "raceName": "新潟日報賞 3勝",
+                  "surface": "芝",
+                  "distance": 1400,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 17,
+                  "popularity": 3,
+                  "jockey": "田辺裕信",
+                  "carriedWeight": 56,
+                  "corners": [
+                    12,
+                    11
+                  ],
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2026-05-24",
+                  "venue": "東京",
+                  "raceName": "フリーウェ 3勝",
+                  "surface": "芝",
+                  "distance": 1400,
+                  "going": "良",
+                  "pos": 8,
+                  "field": 14,
+                  "popularity": 5,
+                  "jockey": "三浦皇成",
+                  "carriedWeight": 56,
+                  "corners": [
+                    5,
+                    6
+                  ],
+                  "margin": 0.4,
+                  "valid": true
+                },
+                {
+                  "date": "2026-03-14",
+                  "venue": "中山",
+                  "raceName": "幕張S 3勝",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 6,
+                  "field": 16,
+                  "popularity": 5,
+                  "jockey": "三浦皇成",
+                  "carriedWeight": 54,
+                  "corners": [
+                    9,
+                    9,
+                    10
+                  ],
+                  "margin": 0.3,
+                  "valid": true
+                },
+                {
+                  "date": "2026-02-22",
+                  "venue": "東京",
+                  "raceName": "4歳以上2勝クラス",
+                  "surface": "芝",
+                  "distance": 1400,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 16,
+                  "popularity": 2,
+                  "jockey": "三浦皇成",
+                  "carriedWeight": 56,
+                  "corners": [
+                    8,
+                    7
+                  ],
+                  "margin": 0,
+                  "valid": true
+                }
+              ],
+              "score": 0.81,
+              "mark": ""
+            },
+            {
+              "num": 7,
+              "horseId": "2020101607",
+              "waku": 4,
+              "name": "ココナッツブラウン",
+              "sexAge": "牝6",
+              "weight": 56,
+              "jockey": "北村友",
+              "trainer": "栗東上村",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-08-02",
+                  "venue": "札幌",
+                  "raceName": "クイーンS GIII",
+                  "surface": "芝",
+                  "distance": 1800,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 14,
+                  "popularity": 1,
+                  "jockey": "北村友一",
+                  "carriedWeight": 55,
+                  "corners": [
+                    11,
+                    11,
+                    10,
+                    4
+                  ],
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2026-05-17",
+                  "venue": "東京",
+                  "raceName": "ヴィクトリ GI",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 5,
+                  "field": 18,
+                  "popularity": 7,
+                  "jockey": "北村友一",
+                  "carriedWeight": 56,
+                  "corners": [
+                    11,
+                    12
+                  ],
+                  "margin": 0.5,
+                  "valid": true
+                },
+                {
+                  "date": "2026-01-24",
+                  "venue": "小倉",
+                  "raceName": "小倉牝馬S GIII",
+                  "surface": "芝",
+                  "distance": 2000,
+                  "going": "良",
+                  "pos": 3,
+                  "field": 18,
+                  "popularity": 2,
+                  "jockey": "北村友一",
+                  "carriedWeight": 55.5,
+                  "corners": [
+                    7,
+                    7,
+                    6,
+                    6
+                  ],
+                  "margin": 0.1,
+                  "valid": true
+                },
+                {
+                  "date": "2025-11-16",
+                  "venue": "京都",
+                  "raceName": "エリザベス GI",
+                  "surface": "芝",
+                  "distance": 2200,
+                  "going": "良",
+                  "pos": 5,
+                  "field": 16,
+                  "popularity": 3,
+                  "jockey": "北村友一",
+                  "carriedWeight": 56,
+                  "corners": [
+                    11,
+                    12,
+                    12,
+                    12
+                  ],
+                  "margin": 0.5,
+                  "valid": true
+                }
+              ],
+              "score": 0.893,
+              "mark": "△"
+            },
+            {
+              "num": 8,
+              "horseId": "2023107166",
+              "waku": 4,
+              "name": "ロデオドライブ",
+              "sexAge": "牡3",
+              "weight": 57,
+              "jockey": "モレイラ",
+              "trainer": "美浦辻",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-05-10",
+                  "venue": "東京",
+                  "raceName": "NHKマイ GI",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 18,
+                  "popularity": 1,
+                  "jockey": "レーン",
+                  "carriedWeight": 57,
+                  "corners": [
+                    14,
+                    14
+                  ],
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2026-04-11",
+                  "venue": "中山",
+                  "raceName": "NZT GII",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 2,
+                  "field": 15,
+                  "popularity": 1,
+                  "jockey": "津村明秀",
+                  "carriedWeight": 57,
+                  "corners": [
+                    3,
+                    3,
+                    3
+                  ],
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2026-03-01",
+                  "venue": "中山",
+                  "raceName": "3歳1勝クラス",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 12,
+                  "popularity": 2,
+                  "jockey": "津村明秀",
+                  "carriedWeight": 57,
+                  "corners": [
+                    3,
+                    5,
+                    4
+                  ],
+                  "margin": 0,
+                  "valid": true
+                }
+              ],
+              "score": 1.026,
+              "mark": "◎"
+            },
+            {
+              "num": 9,
+              "horseId": "2021100913",
+              "waku": 5,
+              "name": "ジューンテイク",
+              "sexAge": "牡5",
+              "weight": 58,
+              "jockey": "川田",
+              "trainer": "栗東武英",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-06-14",
+                  "venue": "阪神",
+                  "raceName": "宝塚記念 GI",
+                  "surface": "芝",
+                  "distance": 2200,
+                  "going": "重",
+                  "pos": 8,
+                  "field": 18,
+                  "popularity": 15,
+                  "jockey": "松山弘平",
+                  "carriedWeight": 58,
+                  "corners": [
+                    7,
+                    7,
+                    5,
+                    3
+                  ],
+                  "margin": 1.6,
+                  "valid": true
+                },
+                {
+                  "date": "2026-04-26",
+                  "venue": "シャティン",
+                  "raceName": "QE2世C GI",
+                  "surface": "芝",
+                  "distance": 2000,
+                  "going": "良",
+                  "pos": 8,
+                  "field": 8,
+                  "popularity": 6,
+                  "jockey": "モレイラ",
+                  "carriedWeight": 57,
+                  "corners": null,
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2026-03-15",
+                  "venue": "中京",
+                  "raceName": "金鯱賞 GII",
+                  "surface": "芝",
+                  "distance": 2000,
+                  "going": "良",
+                  "pos": 4,
+                  "field": 14,
+                  "popularity": 5,
+                  "jockey": "武豊",
+                  "carriedWeight": 58,
+                  "corners": [
+                    7,
+                    6,
+                    3,
+                    3
+                  ],
+                  "margin": 0.1,
+                  "valid": true
+                }
+              ],
+              "score": 0.413,
+              "mark": ""
+            },
+            {
+              "num": 10,
+              "horseId": "2021100953",
+              "waku": 5,
+              "name": "ウォーターリヒト",
+              "sexAge": "牡5",
+              "weight": 58,
+              "jockey": "幸",
+              "trainer": "栗東石橋",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-06-07",
+                  "venue": "東京",
+                  "raceName": "安田記念 GI",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 13,
+                  "field": 17,
+                  "popularity": 9,
+                  "jockey": "高杉吏麒",
+                  "carriedWeight": 58,
+                  "corners": [
+                    16,
+                    17
+                  ],
+                  "margin": 1,
+                  "valid": true
+                },
+                {
+                  "date": "2026-04-26",
+                  "venue": "京都",
+                  "raceName": "マイラーズ GII",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 13,
+                  "field": 18,
+                  "popularity": 3,
+                  "jockey": "高杉吏麒",
+                  "carriedWeight": 57,
+                  "corners": [
+                    12,
+                    14
+                  ],
+                  "margin": 0.5,
+                  "valid": true
+                },
+                {
+                  "date": "2026-02-10",
+                  "venue": "東京",
+                  "raceName": "東京新聞杯 GIII",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 3,
+                  "field": 16,
+                  "popularity": 3,
+                  "jockey": "高杉吏麒",
+                  "carriedWeight": 58,
+                  "corners": [
+                    10,
+                    9
+                  ],
+                  "margin": 0.1,
+                  "valid": true
+                }
+              ],
+              "score": 0.419,
+              "mark": ""
+            },
+            {
+              "num": 11,
+              "horseId": "2019104476",
+              "waku": 6,
+              "name": "ガイアフォース",
+              "sexAge": "牡7",
+              "weight": 58,
+              "jockey": "西村淳",
+              "trainer": "栗東杉山晴",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-06-07",
+                  "venue": "東京",
+                  "raceName": "安田記念 GI",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 2,
+                  "field": 17,
+                  "popularity": 1,
+                  "jockey": "横山武史",
+                  "carriedWeight": 58,
+                  "corners": [
+                    8,
+                    9
+                  ],
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2026-03-29",
+                  "venue": "メイダン",
+                  "raceName": "ドバイター GI",
+                  "surface": "芝",
+                  "distance": 1800,
+                  "going": "良",
+                  "pos": 6,
+                  "field": 11,
+                  "popularity": 4,
+                  "jockey": "坂井瑠星",
+                  "carriedWeight": 57,
+                  "corners": null,
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2025-11-23",
+                  "venue": "京都",
+                  "raceName": "マイルCS GI",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 2,
+                  "field": 18,
+                  "popularity": 4,
+                  "jockey": "横山武史",
+                  "carriedWeight": 58,
+                  "corners": [
+                    4,
+                    4
+                  ],
+                  "margin": 0.3,
+                  "valid": true
+                },
+                {
+                  "date": "2025-10-18",
+                  "venue": "東京",
+                  "raceName": "富士S GII",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 14,
+                  "popularity": 3,
+                  "jockey": "横山武史",
+                  "carriedWeight": 57,
+                  "corners": [
+                    2,
+                    2
+                  ],
+                  "margin": 0,
+                  "valid": true
+                }
+              ],
+              "score": 0.855,
+              "mark": ""
+            },
+            {
+              "num": 12,
+              "horseId": "2021105864",
+              "waku": 6,
+              "name": "ワールズエンド",
+              "sexAge": "牡5",
+              "weight": 58,
+              "jockey": "Ｃデムーロ",
+              "trainer": "栗東池添",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-06-07",
+                  "venue": "東京",
+                  "raceName": "安田記念 GI",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 2,
+                  "field": 17,
+                  "popularity": 7,
+                  "jockey": "津村明秀",
+                  "carriedWeight": 58,
+                  "corners": [
+                    1,
+                    1
+                  ],
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2026-05-02",
+                  "venue": "東京",
+                  "raceName": "京王杯SC GII",
+                  "surface": "芝",
+                  "distance": 1400,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 18,
+                  "popularity": 3,
+                  "jockey": "津村明秀",
+                  "carriedWeight": 57,
+                  "corners": [
+                    1,
+                    1
+                  ],
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2025-12-13",
+                  "venue": "阪神",
+                  "raceName": "リゲルS L",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 2,
+                  "field": 13,
+                  "popularity": 2,
+                  "jockey": "Ｃ．デム",
+                  "carriedWeight": 57,
+                  "corners": [
+                    3,
+                    3
+                  ],
+                  "margin": 0.1,
+                  "valid": true
+                }
+              ],
+              "score": 0.99,
+              "mark": "○"
+            },
+            {
+              "num": 13,
+              "horseId": "2023103268",
+              "waku": 7,
+              "name": "レザベーション",
+              "sexAge": "牡3",
+              "weight": 57,
+              "jockey": "田口",
+              "trainer": "栗東松下",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-10-12",
+                  "venue": "京都",
+                  "raceName": "MBSスワ GII",
+                  "surface": "芝",
+                  "distance": 1400,
+                  "going": "良",
+                  "pos": 10,
+                  "field": 18,
+                  "popularity": 12,
+                  "jockey": "原優介",
+                  "carriedWeight": 56,
+                  "corners": [
+                    16,
+                    16
+                  ],
+                  "margin": 0.3,
+                  "valid": true
+                },
+                {
+                  "date": "2026-09-05",
+                  "venue": "中山",
+                  "raceName": "京成杯AH GIII",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 11,
+                  "field": 16,
+                  "popularity": 2,
+                  "jockey": "原優介",
+                  "carriedWeight": 55,
+                  "corners": [
+                    7,
+                    7,
+                    8
+                  ],
+                  "margin": 0.7,
+                  "valid": true
+                },
+                {
+                  "date": "2026-05-10",
+                  "venue": "東京",
+                  "raceName": "NHKマイ GI",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 6,
+                  "field": 18,
+                  "popularity": 11,
+                  "jockey": "原優介",
+                  "carriedWeight": 57,
+                  "corners": [
+                    2,
+                    2
+                  ],
+                  "margin": 0.5,
+                  "valid": true
+                },
+                {
+                  "date": "2026-04-11",
+                  "venue": "中山",
+                  "raceName": "NZT GII",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 15,
+                  "popularity": 6,
+                  "jockey": "原優介",
+                  "carriedWeight": 57,
+                  "corners": [
+                    2,
+                    2,
+                    2
+                  ],
+                  "margin": 0,
+                  "valid": true
+                }
+              ],
+              "score": 0.572,
+              "mark": ""
+            },
+            {
+              "num": 14,
+              "horseId": "2023106920",
+              "waku": 7,
+              "name": "スターアニス",
+              "sexAge": "牝3",
+              "weight": 55,
+              "jockey": "松山",
+              "trainer": "栗東高野",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-05-24",
+                  "venue": "東京",
+                  "raceName": "優駿牝馬 GI",
+                  "surface": "芝",
+                  "distance": 2400,
+                  "going": "良",
+                  "pos": 12,
+                  "field": 18,
+                  "popularity": 1,
+                  "jockey": "松山弘平",
+                  "carriedWeight": 55,
+                  "corners": [
+                    4,
+                    6,
+                    8,
+                    10
+                  ],
+                  "margin": 0.8,
+                  "valid": true
+                },
+                {
+                  "date": "2026-04-12",
+                  "venue": "阪神",
+                  "raceName": "桜花賞 GI",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 18,
+                  "popularity": 1,
+                  "jockey": "松山弘平",
+                  "carriedWeight": 55,
+                  "corners": [
+                    9,
+                    9
+                  ],
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2025-12-14",
+                  "venue": "阪神",
+                  "raceName": "阪神JF GI",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 18,
+                  "popularity": 2,
+                  "jockey": "松山弘平",
+                  "carriedWeight": 55,
+                  "corners": [
+                    8,
+                    7
+                  ],
+                  "margin": 0,
+                  "valid": true
+                }
+              ],
+              "score": 0.806,
+              "mark": ""
+            },
+            {
+              "num": 15,
+              "horseId": "2021105565",
+              "waku": 7,
+              "name": "エコロブルーム",
+              "sexAge": "牡5",
+              "weight": 58,
+              "jockey": "坂井",
+              "trainer": "美浦加藤征",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-05-31",
+                  "venue": "京都",
+                  "raceName": "安土城S L",
+                  "surface": "芝",
+                  "distance": 1400,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 17,
+                  "popularity": 7,
+                  "jockey": "菱田裕二",
+                  "carriedWeight": 57.5,
+                  "corners": [
+                    2,
+                    2
+                  ],
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2025-05-11",
+                  "venue": "新潟",
+                  "raceName": "谷川岳S L",
+                  "surface": "芝",
+                  "distance": 1400,
+                  "going": "稍重",
+                  "pos": 4,
+                  "field": 14,
+                  "popularity": 1,
+                  "jockey": "丹内祐次",
+                  "carriedWeight": 58,
+                  "corners": [
+                    5,
+                    5
+                  ],
+                  "margin": 0.2,
+                  "valid": true
+                },
+                {
+                  "date": "2025-04-05",
+                  "venue": "中山",
+                  "raceName": "ダービーC GIII",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": null,
+                  "field": null,
+                  "popularity": null,
+                  "jockey": null,
+                  "carriedWeight": null,
+                  "corners": null,
+                  "margin": 0,
+                  "valid": false
+                }
+              ],
+              "score": 0.9,
+              "mark": "△"
+            },
+            {
+              "num": 16,
+              "horseId": "2020105018",
+              "waku": 8,
+              "name": "スズハローム",
+              "sexAge": "牡6",
+              "weight": 58,
+              "jockey": "藤懸",
+              "trainer": "栗東牧田",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-06-07",
+                  "venue": "東京",
+                  "raceName": "安田記念 GI",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 17,
+                  "field": 17,
+                  "popularity": 12,
+                  "jockey": "藤懸貴志",
+                  "carriedWeight": 58,
+                  "corners": [
+                    14,
+                    14
+                  ],
+                  "margin": 1.8,
+                  "valid": true
+                },
+                {
+                  "date": "2026-04-04",
+                  "venue": "中山",
+                  "raceName": "ダービーC GIII",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "稍重",
+                  "pos": 1,
+                  "field": 15,
+                  "popularity": 10,
+                  "jockey": "藤懸貴志",
+                  "carriedWeight": 57,
+                  "corners": [
+                    14,
+                    15,
+                    14
+                  ],
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2026-02-14",
+                  "venue": "京都",
+                  "raceName": "洛陽S L",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 14,
+                  "popularity": 7,
+                  "jockey": "藤懸貴志",
+                  "carriedWeight": 55,
+                  "corners": [
+                    11,
+                    10
+                  ],
+                  "margin": 0,
+                  "valid": true
+                }
+              ],
+              "score": 0.624,
+              "mark": ""
+            },
+            {
+              "num": 17,
+              "horseId": "2021110030",
+              "waku": 8,
+              "name": "アンパドゥ",
+              "sexAge": "牡5",
+              "weight": 58,
+              "jockey": "岩田望",
+              "trainer": "美浦木村",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-07-26",
+                  "venue": "新潟",
+                  "raceName": "関屋記念 GIII",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "不良",
+                  "pos": 1,
+                  "field": 14,
+                  "popularity": 1,
+                  "jockey": "岩田望来",
+                  "carriedWeight": 56,
+                  "corners": [
+                    12,
+                    11
+                  ],
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2026-05-09",
+                  "venue": "東京",
+                  "raceName": "分倍河原S 3勝",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 12,
+                  "popularity": 1,
+                  "jockey": "ルメール",
+                  "carriedWeight": 58,
+                  "corners": [
+                    8,
+                    8
+                  ],
+                  "margin": 0,
+                  "valid": true
+                },
+                {
+                  "date": "2026-02-15",
+                  "venue": "東京",
+                  "raceName": "雲雀S 3勝",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 7,
+                  "field": 16,
+                  "popularity": 1,
+                  "jockey": "横山武史",
+                  "carriedWeight": 58,
+                  "corners": [
+                    6,
+                    7
+                  ],
+                  "margin": 0.5,
+                  "valid": true
+                },
+                {
+                  "date": "2025-11-29",
+                  "venue": "東京",
+                  "raceName": "3歳以上2勝クラス",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 9,
+                  "popularity": 1,
+                  "jockey": "ルメール",
+                  "carriedWeight": 58,
+                  "corners": [
+                    4,
+                    2
+                  ],
+                  "margin": 0,
+                  "valid": true
+                }
+              ],
+              "score": 0.929,
+              "mark": "△"
+            },
+            {
+              "num": 18,
+              "horseId": "2021110031",
+              "waku": 8,
+              "name": "オフトレイル",
+              "sexAge": "牡5",
+              "weight": 58,
+              "jockey": "菅原明",
+              "trainer": "栗東吉村",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-06-07",
+                  "venue": "東京",
+                  "raceName": "安田記念 GI",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 6,
+                  "field": 17,
+                  "popularity": 10,
+                  "jockey": "菅原明良",
+                  "carriedWeight": 58,
+                  "corners": [
+                    8,
+                    7
+                  ],
+                  "margin": 0.2,
+                  "valid": true
+                },
+                {
+                  "date": "2026-04-26",
+                  "venue": "京都",
+                  "raceName": "マイラーズ GII",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 5,
+                  "field": 18,
+                  "popularity": 2,
+                  "jockey": "岩田望来",
+                  "carriedWeight": 58,
+                  "corners": [
+                    12,
+                    10
+                  ],
+                  "margin": 0.2,
+                  "valid": true
+                },
+                {
+                  "date": "2026-02-10",
+                  "venue": "東京",
+                  "raceName": "東京新聞杯 GIII",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 10,
+                  "field": 16,
+                  "popularity": 6,
+                  "jockey": "菅原明良",
+                  "carriedWeight": 59,
+                  "corners": [
+                    7,
+                    7
+                  ],
+                  "margin": 0.4,
+                  "valid": true
+                }
+              ],
+              "score": 0.608,
+              "mark": ""
+            }
+          ],
+          "prediction": {
+            "honmei": {
+              "num": 8,
+              "name": "ロデオドライブ"
+            },
+            "sanrenpuku": [
+              "1-8-12",
+              "8-12-17",
+              "1-8-17"
+            ],
+            "sanrentan": [
+              "8→12→1",
+              "8→1→12"
+            ],
+            "plans": {
+              "teppan": [
+                "8-12-15",
+                "1-8-15",
+                "8-15-17",
+                "1-12-15"
+              ],
+              "balance": [
+                "8-12-15",
+                "1-8-15",
+                "8-15-17",
+                "1-12-15",
+                "1-8-12",
+                "8-12-17",
+                "1-8-17"
+              ],
+              "shoubu": [
+                "8-12-15",
+                "1-8-15",
+                "8-15-17",
+                "1-12-15",
+                "1-8-12",
+                "8-12-17",
+                "1-8-17",
+                "1-12-17",
+                "12-15-17",
+                "1-15-17"
+              ]
+            },
+            "plansTan": {
+              "teppan": [
+                "8→12→15",
+                "8→15→12",
+                "15→8→12",
+                "12→8→15"
+              ],
+              "balance": [
+                "8→12→15",
+                "8→15→12",
+                "15→8→12",
+                "12→8→15",
+                "8→12→1",
+                "8→1→12",
+                "15→12→8"
+              ],
+              "shoubu": [
+                "8→12→15",
+                "8→15→12",
+                "15→8→12",
+                "12→8→15",
+                "8→12→1",
+                "8→1→12",
+                "15→12→8",
+                "8→12→17",
+                "8→1→15",
+                "8→1→17",
+                "8→15→1",
+                "8→15→17"
+              ]
+            },
+            "ana": {
+              "num": 15,
+              "name": "エコロブルーム",
+              "reason": "前走1着（17頭）がありながらスコア5位の一発候補"
+            },
+            "comment": "◎8番 ロデオドライブ（スコア1.026）。近走は1-2-1着で評価最上位。\n対抗は○12番 ワールズエンド、▲は1番 エルデナリ。\n穴候補は15番 エコロブルーム（前走1着（17頭）がありながらスコア5位の一発候補）。"
+          }
+        },
+        {
+          "no": 12,
+          "raceId": "202608050612",
+          "name": "醍醐S",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        }
+      ]
+    }
+  ],
+  "quality": {
+    "errors": [
+      "東京1R: 取得エラー状態",
+      "東京2R: 取得エラー状態",
+      "東京3R: 取得エラー状態",
+      "東京4R: 取得エラー状態",
+      "東京5R: 取得エラー状態",
+      "東京6R: 取得エラー状態",
+      "東京7R: 取得エラー状態",
+      "東京8R: 取得エラー状態",
+      "東京9R: 取得エラー状態",
+      "東京10R: 取得エラー状態",
+      "東京11R: 取得エラー状態",
+      "東京12R: 取得エラー状態",
+      "京都1R: 取得エラー状態",
+      "京都2R: 取得エラー状態",
+      "京都3R: 取得エラー状態",
+      "京都4R: 取得エラー状態",
+      "京都5R: 取得エラー状態",
+      "京都6R: 取得エラー状態",
+      "京都7R: 取得エラー状態",
+      "京都8R: 取得エラー状態",
+      "京都9R: 取得エラー状態",
+      "京都10R: 取得エラー状態",
+      "京都12R: 取得エラー状態"
+    ],
+    "warnings": 0,
+    "checkedAt": "2026-11-20T18:57:34.639Z"
+  }
+}

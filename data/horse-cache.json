@@ -134071,6 +134071,40 @@
     }
    ]
   },
+  "2024101851": {
+   "name": "シルヴァノーブル",
+   "sire": "Silver State",
+   "sireId": "2013105903",
+   "dam": "Chocolate Lily",
+   "damId": "2010104501",
+   "damsire": "War Emblem ()",
+   "damsireId": "000a00fa35",
+   "pedAt": "2026-11-21T17:52:31.510Z",
+   "fetchedAt": "2026-11-21T17:52:29.007Z",
+   "runs": [
+    {
+     "date": "2026-10-04",
+     "venue": "東京",
+     "venueRaw": "4東京2",
+     "raceName": "2歳新馬",
+     "surface": "芝",
+     "distance": 2000,
+     "going": "良",
+     "pos": 1,
+     "field": 11,
+     "popularity": 2,
+     "jockey": "横山典弘",
+     "carriedWeight": 56,
+     "corners": [
+      1,
+      1,
+      1
+     ],
+     "margin": -0.6,
+     "valid": true
+    }
+   ]
+  },
   "2024101879": {
    "name": "バンブトンウーノ",
    "sire": "Van Gogh",
@@ -136355,6 +136389,60 @@
     }
    ]
   },
+  "2024103816": {
+   "name": "ティフォシ",
+   "sire": "Salios",
+   "sireId": "2017105327",
+   "dam": "Blanc d'Argent",
+   "damId": "2012104898",
+   "damsire": "Zenno Rob Roy",
+   "damsireId": "2000101517",
+   "pedAt": "2026-11-21T17:52:54.804Z",
+   "fetchedAt": "2026-11-21T17:52:49.322Z",
+   "runs": [
+    {
+     "date": "2026-09-05",
+     "venue": "阪神",
+     "venueRaw": "4阪神1",
+     "raceName": "2歳未勝利",
+     "surface": "芝",
+     "distance": 1800,
+     "going": "稍",
+     "pos": 1,
+     "field": 5,
+     "popularity": 1,
+     "jockey": "Ｍ．デム",
+     "carriedWeight": 55,
+     "corners": [
+      1,
+      2
+     ],
+     "margin": -0.3,
+     "valid": true
+    },
+    {
+     "date": "2026-08-16",
+     "venue": "中京",
+     "venueRaw": "2中京8",
+     "raceName": "2歳新馬",
+     "surface": "芝",
+     "distance": 1600,
+     "going": "良",
+     "pos": 2,
+     "field": 8,
+     "popularity": 7,
+     "jockey": "Ｍ．デム",
+     "carriedWeight": 55,
+     "corners": [
+      4,
+      3,
+      3
+     ],
+     "margin": 0,
+     "valid": true
+    }
+   ]
+  },
   "2024103960": {
    "name": "タマモウララカ",
    "sire": "Espoir City",
@@ -137410,6 +137498,61 @@
       3
      ],
      "margin": 0.4,
+     "valid": true
+    }
+   ]
+  },
+  "2024104698": {
+   "name": "オンユアマークス",
+   "sire": "Kizuna",
+   "sireId": "2010105827",
+   "dam": "Trend Hunter",
+   "damId": "2008100618",
+   "damsire": "Manhattan Cafe",
+   "damsireId": "1998101554",
+   "pedAt": "2026-11-21T17:53:21.853Z",
+   "fetchedAt": "2026-11-21T17:53:19.089Z",
+   "runs": [
+    {
+     "date": "2026-10-11",
+     "venue": "京都",
+     "venueRaw": "4京都4",
+     "raceName": "2歳未勝利",
+     "surface": "芝",
+     "distance": 2000,
+     "going": "良",
+     "pos": 1,
+     "field": 10,
+     "popularity": 1,
+     "jockey": "武豊",
+     "carriedWeight": 56,
+     "corners": [
+      5,
+      5,
+      5,
+      5
+     ],
+     "margin": -0.3,
+     "valid": true
+    },
+    {
+     "date": "2026-06-14",
+     "venue": "阪神",
+     "venueRaw": "3阪神4",
+     "raceName": "2歳新馬",
+     "surface": "芝",
+     "distance": 1800,
+     "going": "良",
+     "pos": 3,
+     "field": 8,
+     "popularity": 2,
+     "jockey": "武豊",
+     "carriedWeight": 55,
+     "corners": [
+      2,
+      2
+     ],
+     "margin": 0.3,
      "valid": true
     }
    ]
@@ -139374,6 +139517,41 @@
     }
    ]
   },
+  "2024105964": {
+   "name": "スローブギ",
+   "sire": "Contrail",
+   "sireId": "2017101835",
+   "dam": "Trois Etoiles",
+   "damId": "2015104387",
+   "damsire": "Lord Kanaloa",
+   "damsireId": "2008103552",
+   "pedAt": "2026-11-21T17:52:59.021Z",
+   "fetchedAt": "2026-11-21T17:52:56.515Z",
+   "runs": [
+    {
+     "date": "2026-09-13",
+     "venue": "中山",
+     "venueRaw": "4中山4",
+     "raceName": "2歳新馬",
+     "surface": "芝",
+     "distance": 1800,
+     "going": "稍",
+     "pos": 1,
+     "field": 11,
+     "popularity": 1,
+     "jockey": "ミシェル",
+     "carriedWeight": 55,
+     "corners": [
+      3,
+      2,
+      2,
+      3
+     ],
+     "margin": -0.1,
+     "valid": true
+    }
+   ]
+  },
   "2024106019": {
    "name": "バミューダブーケ",
    "sire": null,
@@ -139565,6 +139743,62 @@
       13
      ],
      "margin": 2.7,
+     "valid": true
+    }
+   ]
+  },
+  "2024106161": {
+   "name": "ジョドレルバンク",
+   "sire": "Efforia",
+   "sireId": "2018105027",
+   "dam": "Earthrise",
+   "damId": "2012104884",
+   "damsire": "Manhattan Cafe",
+   "damsireId": "1998101554",
+   "pedAt": "2026-11-21T17:52:47.546Z",
+   "fetchedAt": "2026-11-21T17:52:44.354Z",
+   "runs": [
+    {
+     "date": "2026-09-26",
+     "venue": "中山",
+     "venueRaw": "4中山8",
+     "raceName": "芙蓉S(OP)",
+     "surface": "芝",
+     "distance": 2000,
+     "going": "重",
+     "pos": 3,
+     "field": 8,
+     "popularity": 1,
+     "jockey": "戸崎圭太",
+     "carriedWeight": 55,
+     "corners": [
+      3,
+      3,
+      2,
+      2
+     ],
+     "margin": 0.3,
+     "valid": true
+    },
+    {
+     "date": "2026-06-07",
+     "venue": "東京",
+     "venueRaw": "3東京2",
+     "raceName": "2歳新馬",
+     "surface": "芝",
+     "distance": 1800,
+     "going": "良",
+     "pos": 1,
+     "field": 10,
+     "popularity": 1,
+     "jockey": "レーン",
+     "carriedWeight": 55,
+     "corners": [
+      5,
+      3,
+      3
+     ],
+     "margin": -0.4,
      "valid": true
     }
    ]
@@ -139911,6 +140145,63 @@
     }
    ]
   },
+  "2024106438": {
+   "name": "ショウナンガレオン",
+   "sire": "Flightline ()",
+   "sireId": "000a01be3f",
+   "dam": "Tan Gritona ()",
+   "damId": "000a01fccf",
+   "damsire": "Full Mast",
+   "damsireId": "000a012c85",
+   "pedAt": "2026-11-21T17:53:12.971Z",
+   "fetchedAt": "2026-11-21T17:53:10.679Z",
+   "runs": [
+    {
+     "date": "2026-09-05",
+     "venue": "札幌",
+     "venueRaw": "2札幌5",
+     "raceName": "札幌2歳S(GIII)",
+     "surface": "芝",
+     "distance": 1800,
+     "going": "稍",
+     "pos": 1,
+     "field": 9,
+     "popularity": 1,
+     "jockey": "鮫島克駿",
+     "carriedWeight": 55,
+     "corners": [
+      2,
+      2,
+      2,
+      2
+     ],
+     "margin": -1,
+     "valid": true
+    },
+    {
+     "date": "2026-07-05",
+     "venue": "函館",
+     "venueRaw": "1函館8",
+     "raceName": "2歳新馬",
+     "surface": "芝",
+     "distance": 1800,
+     "going": "良",
+     "pos": 1,
+     "field": 5,
+     "popularity": 1,
+     "jockey": "鮫島克駿",
+     "carriedWeight": 55,
+     "corners": [
+      3,
+      3,
+      2,
+      2
+     ],
+     "margin": -0.4,
+     "valid": true
+    }
+   ]
+  },
   "2024106464": {
    "name": "テンソンコウリン",
    "sire": null,
@@ -139935,6 +140226,60 @@
       6
      ],
      "margin": 0.4,
+     "valid": true
+    }
+   ]
+  },
+  "2024106471": {
+   "name": "コラリオン",
+   "sire": "Leontes",
+   "sireId": "2013105915",
+   "dam": "Deep Jewelry",
+   "damId": "2012104666",
+   "damsire": "Deep Impact",
+   "damsireId": "2002100816",
+   "pedAt": "2026-11-21T17:53:02.811Z",
+   "fetchedAt": "2026-11-21T17:53:00.721Z",
+   "runs": [
+    {
+     "date": "2026-10-17",
+     "venue": "東京",
+     "venueRaw": "4東京6",
+     "raceName": "アイビーS(L)",
+     "surface": "芝",
+     "distance": 1800,
+     "going": "良",
+     "pos": 2,
+     "field": 12,
+     "popularity": 1,
+     "jockey": "ルメール",
+     "carriedWeight": 56,
+     "corners": [
+      10,
+      10,
+      10
+     ],
+     "margin": 0,
+     "valid": true
+    },
+    {
+     "date": "2026-08-08",
+     "venue": "新潟",
+     "venueRaw": "2新潟5",
+     "raceName": "2歳新馬",
+     "surface": "芝",
+     "distance": 1800,
+     "going": "良",
+     "pos": 1,
+     "field": 12,
+     "popularity": 3,
+     "jockey": "田辺裕信",
+     "carriedWeight": 55,
+     "corners": [
+      7,
+      7
+     ],
+     "margin": -0.4,
      "valid": true
     }
    ]
@@ -140365,6 +140710,93 @@
     }
    ]
   },
+  "2024106662": {
+   "name": "ダノンダックス",
+   "sire": "Saturnalia",
+   "sireId": "2016104505",
+   "dam": "Yankee Rose ()",
+   "damId": "000a013bb2",
+   "damsire": "All American",
+   "damsireId": "000a013b22",
+   "pedAt": "2026-11-21T17:52:27.221Z",
+   "fetchedAt": "2026-11-21T17:52:24.663Z",
+   "runs": [
+    {
+     "date": "2026-10-04",
+     "venue": "東京",
+     "venueRaw": "4東京2",
+     "raceName": "2歳未勝利",
+     "surface": "芝",
+     "distance": 1800,
+     "going": "良",
+     "pos": 1,
+     "field": 12,
+     "popularity": 1,
+     "jockey": "ルメール",
+     "carriedWeight": 56,
+     "corners": [
+      6,
+      6,
+      6
+     ],
+     "margin": -0.4,
+     "valid": true
+    },
+    {
+     "date": "2026-07-26",
+     "venue": "新潟",
+     "venueRaw": "2新潟2",
+     "raceName": "2歳新馬",
+     "surface": "芝",
+     "distance": 1600,
+     "going": "良",
+     "pos": 2,
+     "field": 9,
+     "popularity": 1,
+     "jockey": "戸崎圭太",
+     "carriedWeight": 55,
+     "corners": [
+      4,
+      4
+     ],
+     "margin": 0,
+     "valid": true
+    }
+   ]
+  },
+  "2024106684": {
+   "name": "キングリア",
+   "sire": "Epiphaneia",
+   "sireId": "2010104155",
+   "dam": "Ria Amelia",
+   "damId": "2017105613",
+   "damsire": "Deep Impact",
+   "damsireId": "2002100816",
+   "pedAt": "2026-11-21T17:52:42.617Z",
+   "fetchedAt": "2026-11-21T17:52:40.227Z",
+   "runs": [
+    {
+     "date": "2026-09-21",
+     "venue": "阪神",
+     "venueRaw": "4阪神7",
+     "raceName": "2歳新馬",
+     "surface": "芝",
+     "distance": 1800,
+     "going": "良",
+     "pos": 1,
+     "field": 10,
+     "popularity": 2,
+     "jockey": "川田将雅",
+     "carriedWeight": 55,
+     "corners": [
+      5,
+      5
+     ],
+     "margin": -0.3,
+     "valid": true
+    }
+   ]
+  },
   "2024106772": {
    "name": "トロフィアス",
    "sire": "Authentic ()",
@@ -140636,6 +141068,63 @@
       3
      ],
      "margin": 0.8,
+     "valid": true
+    }
+   ]
+  },
+  "2024106851": {
+   "name": "テンカタイヘイ",
+   "sire": "Tosen Reve",
+   "sireId": "2008103273",
+   "dam": "Tosen Benizakura",
+   "damId": "2009102231",
+   "damsire": "Daiwa Major",
+   "damsireId": "2001103114",
+   "pedAt": "2026-11-21T17:52:38.450Z",
+   "fetchedAt": "2026-11-21T17:52:33.248Z",
+   "runs": [
+    {
+     "date": "2026-09-05",
+     "venue": "札幌",
+     "venueRaw": "2札幌5",
+     "raceName": "札幌2歳S(GIII)",
+     "surface": "芝",
+     "distance": 1800,
+     "going": "稍",
+     "pos": 5,
+     "field": 9,
+     "popularity": 2,
+     "jockey": "丹内祐次",
+     "carriedWeight": 55,
+     "corners": [
+      8,
+      7,
+      3,
+      3
+     ],
+     "margin": 1.3,
+     "valid": true
+    },
+    {
+     "date": "2026-07-19",
+     "venue": "函館",
+     "venueRaw": "1函館12",
+     "raceName": "2歳新馬",
+     "surface": "芝",
+     "distance": 1800,
+     "going": "重",
+     "pos": 1,
+     "field": 14,
+     "popularity": 8,
+     "jockey": "丹内祐次",
+     "carriedWeight": 55,
+     "corners": [
+      8,
+      10,
+      10,
+      8
+     ],
+     "margin": -0.2,
      "valid": true
     }
    ]
@@ -141273,6 +141762,41 @@
     }
    ]
   },
+  "2024107180": {
+   "name": "ビンドゥング",
+   "sire": "Kizuna",
+   "sireId": "2010105827",
+   "dam": "Blanc Neige",
+   "damId": "2011103510",
+   "damsire": "Symboli Kris S",
+   "damsireId": "1999110099",
+   "pedAt": "2026-11-21T17:53:17.379Z",
+   "fetchedAt": "2026-11-21T17:53:14.948Z",
+   "runs": [
+    {
+     "date": "2026-10-18",
+     "venue": "京都",
+     "venueRaw": "4京都7",
+     "raceName": "2歳新馬",
+     "surface": "芝",
+     "distance": 2000,
+     "going": "良",
+     "pos": 1,
+     "field": 5,
+     "popularity": 1,
+     "jockey": "戸崎圭太",
+     "carriedWeight": 56,
+     "corners": [
+      3,
+      3,
+      3,
+      3
+     ],
+     "margin": 0,
+     "valid": true
+    }
+   ]
+  },
   "2024107182": {
    "name": "コルキス",
    "sire": null,
@@ -141299,6 +141823,59 @@
       2
      ],
      "margin": 3,
+     "valid": true
+    }
+   ]
+  },
+  "2024107189": {
+   "name": "ニースケンス",
+   "sire": "Rulership",
+   "sireId": "2007103143",
+   "dam": "Lovinger",
+   "damId": "2016105270",
+   "damsire": "Harbinger ()",
+   "damsireId": "000a011996",
+   "pedAt": "2026-11-21T17:53:08.968Z",
+   "fetchedAt": "2026-11-21T17:53:04.558Z",
+   "runs": [
+    {
+     "date": "2026-10-11",
+     "venue": "東京",
+     "venueRaw": "4東京4",
+     "raceName": "2歳未勝利",
+     "surface": "芝",
+     "distance": 1600,
+     "going": "良",
+     "pos": 1,
+     "field": 12,
+     "popularity": 1,
+     "jockey": "原優介",
+     "carriedWeight": 56,
+     "corners": [
+      8,
+      8
+     ],
+     "margin": -0.6,
+     "valid": true
+    },
+    {
+     "date": "2026-06-14",
+     "venue": "東京",
+     "venueRaw": "3東京4",
+     "raceName": "2歳新馬",
+     "surface": "芝",
+     "distance": 1600,
+     "going": "良",
+     "pos": 2,
+     "field": 8,
+     "popularity": 5,
+     "jockey": "原優介",
+     "carriedWeight": 55,
+     "corners": [
+      4,
+      5
+     ],
+     "margin": 0.5,
      "valid": true
     }
    ]

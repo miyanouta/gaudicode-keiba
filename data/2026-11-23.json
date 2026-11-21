@@ -1,0 +1,654 @@
+{
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-21T17:52:23.635Z",
+  "source": "netkeiba (JRA)",
+  "venues": [
+    {
+      "id": "05",
+      "name": "東京",
+      "grade": "",
+      "title": "5回 6日目",
+      "category": null,
+      "desc": "",
+      "races": [
+        {
+          "no": 1,
+          "raceId": "202605050601",
+          "name": "2歳未勝利",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 2,
+          "raceId": "202605050602",
+          "name": "2歳未勝利",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 3,
+          "raceId": "202605050603",
+          "name": "2歳未勝利",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 4,
+          "raceId": "202605050604",
+          "name": "2歳未勝利",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 5,
+          "raceId": "202605050605",
+          "name": "2歳新馬",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 6,
+          "raceId": "202605050606",
+          "name": "2歳新馬",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 7,
+          "raceId": "202605050607",
+          "name": "3歳以上1勝クラス",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 8,
+          "raceId": "202605050608",
+          "name": "3歳以上2勝クラス",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 9,
+          "raceId": "202605050609",
+          "name": "Lジョッキー",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 10,
+          "raceId": "202605050610",
+          "name": "Lトレーナー",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 11,
+          "raceId": "202605050611",
+          "name": "東スポ2歳S",
+          "status": "ready",
+          "startTime": "15:30",
+          "course": "芝1800m",
+          "horses": [
+            {
+              "num": 1,
+              "horseId": "2024106662",
+              "waku": 1,
+              "name": "ダノンダックス",
+              "sexAge": "牡2",
+              "weight": 56,
+              "jockey": "ルメール",
+              "trainer": "美浦田中博",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-07-26",
+                  "venue": "新潟",
+                  "raceName": "2歳新馬",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 2,
+                  "field": 9,
+                  "popularity": 1,
+                  "jockey": "戸崎圭太",
+                  "carriedWeight": 55,
+                  "corners": [
+                    4,
+                    4
+                  ],
+                  "margin": 0,
+                  "valid": true
+                }
+              ],
+              "score": 0.891,
+              "mark": "△"
+            },
+            {
+              "num": 2,
+              "horseId": "2024101851",
+              "waku": 2,
+              "name": "シルヴァノーブル",
+              "sexAge": "牡2",
+              "weight": 56,
+              "jockey": "横山典",
+              "trainer": "栗東昆",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [],
+              "score": 0.4,
+              "mark": ""
+            },
+            {
+              "num": 3,
+              "horseId": "2024106851",
+              "waku": 3,
+              "name": "テンカタイヘイ",
+              "sexAge": "牡2",
+              "weight": 56,
+              "jockey": "横山和",
+              "trainer": "美浦小野",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-07-19",
+                  "venue": "函館",
+                  "raceName": "2歳新馬",
+                  "surface": "芝",
+                  "distance": 1800,
+                  "going": "重",
+                  "pos": 1,
+                  "field": 14,
+                  "popularity": 8,
+                  "jockey": "丹内祐次",
+                  "carriedWeight": 55,
+                  "corners": [
+                    8,
+                    10,
+                    10,
+                    8
+                  ],
+                  "margin": 0,
+                  "valid": true
+                }
+              ],
+              "score": 0.995,
+              "mark": "○"
+            },
+            {
+              "num": 4,
+              "horseId": "2024106684",
+              "waku": 4,
+              "name": "キングリア",
+              "sexAge": "牡2",
+              "weight": 56,
+              "jockey": "川田",
+              "trainer": "栗東中内田",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [],
+              "score": 0.4,
+              "mark": ""
+            },
+            {
+              "num": 5,
+              "horseId": "2024106161",
+              "waku": 5,
+              "name": "ジョドレルバンク",
+              "sexAge": "牡2",
+              "weight": 56,
+              "jockey": "モレイラ",
+              "trainer": "美浦武井",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-06-07",
+                  "venue": "東京",
+                  "raceName": "2歳新馬",
+                  "surface": "芝",
+                  "distance": 1800,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 10,
+                  "popularity": 1,
+                  "jockey": "レーン",
+                  "carriedWeight": 55,
+                  "corners": [
+                    5,
+                    3,
+                    3
+                  ],
+                  "margin": 0,
+                  "valid": true
+                }
+              ],
+              "score": 1.013,
+              "mark": "◎"
+            },
+            {
+              "num": 6,
+              "horseId": "2024103816",
+              "waku": 5,
+              "name": "ティフォシ",
+              "sexAge": "牡2",
+              "weight": 56,
+              "jockey": "Ｍデムーロ",
+              "trainer": "栗東宮地",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-08-16",
+                  "venue": "中京",
+                  "raceName": "2歳新馬",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 2,
+                  "field": 8,
+                  "popularity": 7,
+                  "jockey": "Ｍ．デム",
+                  "carriedWeight": 55,
+                  "corners": [
+                    4,
+                    3,
+                    3
+                  ],
+                  "margin": 0,
+                  "valid": true
+                }
+              ],
+              "score": 0.86,
+              "mark": "△"
+            },
+            {
+              "num": 7,
+              "horseId": "2024105964",
+              "waku": 6,
+              "name": "スローブギ",
+              "sexAge": "牡2",
+              "weight": 56,
+              "jockey": "松山",
+              "trainer": "美浦和田勇",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [],
+              "score": 0.4,
+              "mark": ""
+            },
+            {
+              "num": 8,
+              "horseId": "2024106471",
+              "waku": 6,
+              "name": "コラリオン",
+              "sexAge": "牡2",
+              "weight": 56,
+              "jockey": "坂井",
+              "trainer": "美浦伊坂",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-08-08",
+                  "venue": "新潟",
+                  "raceName": "2歳新馬",
+                  "surface": "芝",
+                  "distance": 1800,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 12,
+                  "popularity": 3,
+                  "jockey": "田辺裕信",
+                  "carriedWeight": 55,
+                  "corners": [
+                    7,
+                    7
+                  ],
+                  "margin": 0,
+                  "valid": true
+                }
+              ],
+              "score": 0.992,
+              "mark": "▲"
+            },
+            {
+              "num": 9,
+              "horseId": "2024107189",
+              "waku": 7,
+              "name": "ニースケンス",
+              "sexAge": "牡2",
+              "weight": 56,
+              "jockey": "原",
+              "trainer": "美浦小島",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-06-14",
+                  "venue": "東京",
+                  "raceName": "2歳新馬",
+                  "surface": "芝",
+                  "distance": 1600,
+                  "going": "良",
+                  "pos": 2,
+                  "field": 8,
+                  "popularity": 5,
+                  "jockey": "原優介",
+                  "carriedWeight": 55,
+                  "corners": [
+                    4,
+                    5
+                  ],
+                  "margin": 0.5,
+                  "valid": true
+                }
+              ],
+              "score": 0.845,
+              "mark": ""
+            },
+            {
+              "num": 10,
+              "horseId": "2024106438",
+              "waku": 7,
+              "name": "ショウナンガレオン",
+              "sexAge": "牡2",
+              "weight": 56,
+              "jockey": "鮫島駿",
+              "trainer": "美浦加藤士",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-07-05",
+                  "venue": "函館",
+                  "raceName": "2歳新馬",
+                  "surface": "芝",
+                  "distance": 1800,
+                  "going": "良",
+                  "pos": 1,
+                  "field": 5,
+                  "popularity": 1,
+                  "jockey": "鮫島克駿",
+                  "carriedWeight": 55,
+                  "corners": [
+                    3,
+                    3,
+                    2,
+                    2
+                  ],
+                  "margin": 0,
+                  "valid": true
+                }
+              ],
+              "score": 0.988,
+              "mark": "△"
+            },
+            {
+              "num": 11,
+              "horseId": "2024107180",
+              "waku": 8,
+              "name": "ビンドゥング",
+              "sexAge": "牡2",
+              "weight": 56,
+              "jockey": "戸崎圭",
+              "trainer": "栗東上村",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [],
+              "score": 0.4,
+              "mark": ""
+            },
+            {
+              "num": 12,
+              "horseId": "2024104698",
+              "waku": 8,
+              "name": "オンユアマークス",
+              "sexAge": "牡2",
+              "weight": 56,
+              "jockey": "武豊",
+              "trainer": "栗東松永幹",
+              "bodyWeight": null,
+              "bodyWeightDiff": null,
+              "pastRuns": [
+                {
+                  "date": "2026-06-14",
+                  "venue": "阪神",
+                  "raceName": "2歳新馬",
+                  "surface": "芝",
+                  "distance": 1800,
+                  "going": "良",
+                  "pos": 3,
+                  "field": 8,
+                  "popularity": 2,
+                  "jockey": "武豊",
+                  "carriedWeight": 55,
+                  "corners": [
+                    2,
+                    2
+                  ],
+                  "margin": 0.3,
+                  "valid": true
+                }
+              ],
+              "score": 0.75,
+              "mark": ""
+            }
+          ],
+          "prediction": {
+            "honmei": {
+              "num": 5,
+              "name": "ジョドレルバンク"
+            },
+            "sanrenpuku": [
+              "3-5-8",
+              "3-5-10",
+              "5-8-10"
+            ],
+            "sanrentan": [
+              "5→3→8",
+              "5→8→3"
+            ],
+            "plans": {
+              "teppan": [
+                "1-3-5",
+                "1-5-8",
+                "1-5-10",
+                "1-3-8"
+              ],
+              "balance": [
+                "1-3-5",
+                "1-5-8",
+                "1-5-10",
+                "1-3-8",
+                "3-5-8",
+                "3-5-10",
+                "5-8-10"
+              ],
+              "shoubu": [
+                "1-3-5",
+                "1-5-8",
+                "1-5-10",
+                "1-3-8",
+                "3-5-8",
+                "3-5-10",
+                "5-8-10",
+                "3-8-10",
+                "1-3-10",
+                "1-8-10"
+              ]
+            },
+            "plansTan": {
+              "teppan": [
+                "5→3→1",
+                "5→1→3",
+                "1→5→3",
+                "3→5→1"
+              ],
+              "balance": [
+                "5→3→1",
+                "5→1→3",
+                "1→5→3",
+                "3→5→1",
+                "5→3→8",
+                "5→8→3",
+                "1→3→5"
+              ],
+              "shoubu": [
+                "5→3→1",
+                "5→1→3",
+                "1→5→3",
+                "3→5→1",
+                "5→3→8",
+                "5→8→3",
+                "1→3→5",
+                "5→3→10",
+                "5→8→1",
+                "5→8→10",
+                "5→1→8",
+                "5→1→10"
+              ]
+            },
+            "ana": {
+              "num": 1,
+              "name": "ダノンダックス",
+              "reason": "前走2着（9頭）・勝ち馬と0秒差の接戦がありながらスコア5位の一発候補"
+            },
+            "comment": "◎5番 ジョドレルバンク（スコア1.013）。近走は1着で評価最上位。\n対抗は○3番 テンカタイヘイ、▲は8番 コラリオン。\n穴候補は1番 ダノンダックス（前走2着（9頭）・勝ち馬と0秒差の接戦がありながらスコア5位の一発候補）。"
+          }
+        },
+        {
+          "no": 12,
+          "raceId": "202605050612",
+          "name": "3歳以上1勝クラス",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "name": "福島",
+      "grade": "",
+      "title": "3回 6日目",
+      "category": null,
+      "desc": "",
+      "races": [
+        {
+          "no": 1,
+          "raceId": "202603030601",
+          "name": "2歳未勝利",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 2,
+          "raceId": "202603030602",
+          "name": "3歳以上1勝クラス",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 3,
+          "raceId": "202603030603",
+          "name": "3歳以上1勝クラス",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 4,
+          "raceId": "202603030604",
+          "name": "3歳以上障害未勝利",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 5,
+          "raceId": "202603030605",
+          "name": "2歳新馬",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 6,
+          "raceId": "202603030606",
+          "name": "2歳未勝利",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 7,
+          "raceId": "202603030607",
+          "name": "3歳以上1勝クラス",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 8,
+          "raceId": "202603030608",
+          "name": "3歳以上1勝クラス",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 9,
+          "raceId": "202603030609",
+          "name": "磐梯山特別",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 10,
+          "raceId": "202603030610",
+          "name": "五色沼特別",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 11,
+          "raceId": "202603030611",
+          "name": "奥羽S",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        },
+        {
+          "no": 12,
+          "raceId": "202603030612",
+          "name": "3歳以上1勝クラス",
+          "status": "error",
+          "error": "出馬表を抽出できませんでした (0頭)"
+        }
+      ]
+    }
+  ],
+  "quality": {
+    "errors": [
+      "東京1R: 取得エラー状態",
+      "東京2R: 取得エラー状態",
+      "東京3R: 取得エラー状態",
+      "東京4R: 取得エラー状態",
+      "東京5R: 取得エラー状態",
+      "東京6R: 取得エラー状態",
+      "東京7R: 取得エラー状態",
+      "東京8R: 取得エラー状態",
+      "東京9R: 取得エラー状態",
+      "東京10R: 取得エラー状態",
+      "東京12R: 取得エラー状態",
+      "福島1R: 取得エラー状態",
+      "福島2R: 取得エラー状態",
+      "福島3R: 取得エラー状態",
+      "福島4R: 取得エラー状態",
+      "福島5R: 取得エラー状態",
+      "福島6R: 取得エラー状態",
+      "福島7R: 取得エラー状態",
+      "福島8R: 取得エラー状態",
+      "福島9R: 取得エラー状態",
+      "福島10R: 取得エラー状態",
+      "福島11R: 取得エラー状態",
+      "福島12R: 取得エラー状態"
+    ],
+    "warnings": 0,
+    "checkedAt": "2026-11-21T17:52:23.636Z"
+  }
+}

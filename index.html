@@ -55,6 +55,9 @@
   .race.pending{opacity:.55}
   h3.race-title{margin:2px 0 12px;font-size:20px;font-weight:900;letter-spacing:.02em}
   h3.race-title small{color:var(--sub);font-size:13px;margin-left:8px;font-weight:600}
+  .vid-row{display:flex;gap:8px;margin:0 0 12px}
+  .vid-btn{display:inline-block;padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:var(--panel2);color:var(--text);text-decoration:none;font-size:13.5px;font-weight:700}
+  .vid-btn.live{border-color:#c2261b;color:#ff9d94}
   .card{background:linear-gradient(180deg,rgba(255,255,255,.025),transparent 130px),var(--panel);
     border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:15px;overflow-x:auto;
     box-shadow:0 8px 22px rgba(0,0,0,.35)}
@@ -461,6 +464,7 @@ function renderContent(){
   const c = $('content');
   if(!r || r.status!=='ready'){
     c.innerHTML = '<h3 class="race-title">'+v.name+' '+ (r?r.no:'') +'R</h3>' +
+      (state.data.date === todayStrJST()? '<div class="vid-row"><a class="vid-btn live" target="_blank" rel="noopener" href="https://www.youtube.com/@jraofficial/live">📺 ライブ映像</a></div>' : '') +
       '<div class="empty">このレースの出走表はまだ取得されていません。<br>自動取得が完了すると、出走表とGAUDICODE予想が表示されます。</div>';
     return;
   }
@@ -469,6 +473,10 @@ function renderContent(){
     (r.startTime? '<small>発走 '+r.startTime+'</small>' : '') +
     '<small>'+esc(r.name||'')+'</small>' +
     (r.course? '<small>'+esc(r.course)+'</small>' : '') + '</h3>';
+  let vid = '';
+  if(state.data.date === todayStrJST()) vid += '<a class="vid-btn live" target="_blank" rel="noopener" href="https://www.youtube.com/@jraofficial/live">📺 ライブ映像</a>';
+  if(r.result) vid += '<a class="vid-btn" target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=' + encodeURIComponent(v.name + ' ' + r.no + 'R ' + (r.name||'') + ' JRA公式') + '">🎬 レース映像</a>';
+  if(vid) html += '<div class="vid-row">' + vid + '</div>';
 
   // 結果 (確定していれば)
   if(r.result){

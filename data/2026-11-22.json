@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "generatedAt": "2026-11-21T21:57:44.581Z",
+  "generatedAt": "2026-11-22T01:31:38.779Z",
   "source": "netkeiba (JRA)",
   "venues": [
     {
@@ -28,8 +28,8 @@
               "weight": 55,
               "jockey": "古川吉",
               "trainer": "美浦的場",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 442,
+              "bodyWeightDiff": 8,
               "pastRuns": [
                 {
                   "date": "2026-10-12",
@@ -63,8 +63,8 @@
               "weight": 56,
               "jockey": "鮫島駿",
               "trainer": "美浦加藤征",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 464,
+              "bodyWeightDiff": 14,
               "pastRuns": [
                 {
                   "date": "2026-07-25",
@@ -100,8 +100,8 @@
               "weight": 55,
               "jockey": "杉原",
               "trainer": "美浦清水英",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 436,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.411,
               "mark": ""
@@ -115,8 +115,8 @@
               "weight": 56,
               "jockey": "津村",
               "trainer": "美浦中舘",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 478,
+              "bodyWeightDiff": 6,
               "pastRuns": [
                 {
                   "date": "2026-09-26",
@@ -179,7 +179,7 @@
                 }
               ],
               "score": 0.419,
-              "mark": "▲"
+              "mark": "△"
             },
             {
               "num": 5,
@@ -190,8 +190,8 @@
               "weight": 53,
               "jockey": "◇小林美",
               "trainer": "美浦天間",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 428,
+              "bodyWeightDiff": 8,
               "pastRuns": [
                 {
                   "date": "2026-09-05",
@@ -252,7 +252,7 @@
                 }
               ],
               "score": 0.351,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 6,
@@ -263,8 +263,8 @@
               "weight": 56,
               "jockey": "石川",
               "trainer": "美浦相沢",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 440,
+              "bodyWeightDiff": 4,
               "pastRuns": [
                 {
                   "date": "2026-09-13",
@@ -306,7 +306,7 @@
                 }
               ],
               "score": 0.665,
-              "mark": "△"
+              "mark": "◎"
             },
             {
               "num": 7,
@@ -317,8 +317,8 @@
               "weight": 56,
               "jockey": "横山武",
               "trainer": "美浦勢司",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 464,
+              "bodyWeightDiff": 6,
               "pastRuns": [
                 {
                   "date": "2026-09-13",
@@ -360,7 +360,7 @@
                 }
               ],
               "score": 0.653,
-              "mark": "◎"
+              "mark": "○"
             },
             {
               "num": 8,
@@ -371,8 +371,8 @@
               "weight": 55,
               "jockey": "丹内",
               "trainer": "美浦尾形",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 466,
+              "bodyWeightDiff": 12,
               "pastRuns": [
                 {
                   "date": "2026-10-17",
@@ -414,7 +414,7 @@
                 }
               ],
               "score": 0.403,
-              "mark": "○"
+              "mark": ""
             },
             {
               "num": 9,
@@ -425,8 +425,8 @@
               "weight": 52,
               "jockey": "▲佐藤",
               "trainer": "美浦伊藤圭",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 484,
+              "bodyWeightDiff": 6,
               "pastRuns": [
                 {
                   "date": "2026-07-26",
@@ -468,7 +468,7 @@
                 }
               ],
               "score": 0.439,
-              "mark": ""
+              "mark": "△"
             },
             {
               "num": 10,
@@ -479,8 +479,8 @@
               "weight": 54,
               "jockey": "☆長浜",
               "trainer": "美浦畠山",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 436,
+              "bodyWeightDiff": -2,
               "pastRuns": [
                 {
                   "date": "2026-08-01",
@@ -521,7 +521,7 @@
                 }
               ],
               "score": 0.612,
-              "mark": ""
+              "mark": "▲"
             },
             {
               "num": 11,
@@ -532,8 +532,8 @@
               "weight": 56,
               "jockey": "柴田大",
               "trainer": "美浦嘉藤",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 450,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-09-06",
@@ -605,8 +605,8 @@
               "weight": 54,
               "jockey": "△石田",
               "trainer": "美浦本間",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 470,
+              "bodyWeightDiff": 8,
               "pastRuns": [],
               "score": 0.407,
               "mark": ""
@@ -620,8 +620,8 @@
               "weight": 53,
               "jockey": "▲河原田",
               "trainer": "美浦加藤和",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 490,
+              "bodyWeightDiff": 18,
               "pastRuns": [],
               "score": 0.403,
               "mark": ""
@@ -635,8 +635,8 @@
               "weight": 56,
               "jockey": "野中",
               "trainer": "美浦田中勝",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 440,
+              "bodyWeightDiff": 6,
               "pastRuns": [
                 {
                   "date": "2026-08-16",
@@ -670,8 +670,8 @@
               "weight": 55,
               "jockey": "佐々木",
               "trainer": "美浦秋本",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 420,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.387,
               "mark": ""
@@ -685,8 +685,8 @@
               "weight": 55,
               "jockey": "武藤",
               "trainer": "美浦和田勇",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 450,
+              "bodyWeightDiff": -4,
               "pastRuns": [],
               "score": 0.387,
               "mark": ""
@@ -694,114 +694,85 @@
           ],
           "prediction": {
             "honmei": {
-              "num": 7,
-              "name": "サイモンオリエント"
+              "num": 6,
+              "name": "セイカタカキヤチク"
             },
             "sanrenpuku": [
-              "4-7-8",
-              "7-8-14",
-              "4-7-14"
+              "6-7-10",
+              "6-7-14",
+              "6-10-14"
             ],
             "sanrentan": [
-              "7→8→4",
-              "7→4→8"
+              "6→7→10",
+              "6→10→7"
             ],
             "plans": {
               "teppan": [
-                "6-7-8",
                 "4-6-7",
-                "6-7-14",
-                "4-6-8"
+                "4-6-10",
+                "4-6-14",
+                "4-7-10"
               ],
               "balance": [
-                "6-7-8",
                 "4-6-7",
+                "4-6-10",
+                "4-6-14",
+                "4-7-10",
+                "6-7-10",
                 "6-7-14",
-                "4-6-8",
-                "4-7-8",
-                "7-8-14",
-                "4-7-14"
+                "6-10-14"
               ],
               "shoubu": [
-                "6-7-8",
                 "4-6-7",
+                "4-6-10",
+                "4-6-14",
+                "4-7-10",
+                "6-7-10",
                 "6-7-14",
-                "4-6-8",
-                "4-7-8",
-                "7-8-14",
+                "6-10-14",
+                "7-10-14",
                 "4-7-14",
-                "4-8-14",
-                "6-8-14",
-                "4-6-14"
+                "4-10-14"
               ]
             },
             "plansTan": {
               "teppan": [
-                "7→8→6",
-                "7→6→8",
-                "6→7→8",
-                "8→7→6"
+                "6→7→4",
+                "6→4→7",
+                "4→6→7",
+                "7→6→4"
               ],
               "balance": [
-                "7→8→6",
-                "7→6→8",
-                "6→7→8",
-                "8→7→6",
-                "7→8→4",
-                "7→4→8",
-                "6→8→7"
+                "6→7→4",
+                "6→4→7",
+                "4→6→7",
+                "7→6→4",
+                "6→7→10",
+                "6→10→7",
+                "4→7→6"
               ],
               "shoubu": [
-                "7→8→6",
-                "7→6→8",
-                "6→7→8",
-                "8→7→6",
-                "7→8→4",
-                "7→4→8",
-                "6→8→7",
-                "7→8→14",
-                "7→4→6",
-                "7→4→14",
+                "6→7→4",
+                "6→4→7",
+                "4→6→7",
                 "7→6→4",
-                "7→6→14"
+                "6→7→10",
+                "6→10→7",
+                "4→7→6",
+                "6→7→14",
+                "6→10→4",
+                "6→10→14",
+                "6→4→10",
+                "6→4→14"
               ]
             },
             "ana": {
-              "num": 6,
-              "name": "セイカタカキヤチク",
-              "reason": "人気5位ながらエンジンスコア1位の一発候補"
+              "num": 4,
+              "name": "ハイトラクション",
+              "reason": "前走3着（13頭）がありながらスコア6位の一発候補"
             },
-            "comment": "【人気ベース再構成】◎7番 サイモンオリエント（1番人気）。\n対抗は○8番 ライヴバーボン、▲は4番 ハイトラクション。\n穴候補は6番 セイカタカキヤチク（人気5位ながらエンジンスコア1位の一発候補）。",
-            "basis": "popana",
-            "popAt": "2026-11-22T00:37:34.792Z"
+            "comment": "◎6番 セイカタカキヤチク（スコア0.665）。近走は4-8着で評価最上位。\n対抗は○7番 サイモンオリエント、▲は10番 サザンキンレンカ。\n穴候補は4番 ハイトラクション（前走3着（13頭）がありながらスコア6位の一発候補）。"
           },
-          "odds": {
-            "4-6-7": 19.1,
-            "4-6-8": 44.5,
-            "4-6-14": 195.5,
-            "4-7-8": 4.3,
-            "4-7-14": 24,
-            "4-8-14": 55.9,
-            "6-7-8": 8.4,
-            "6-7-14": 54.9,
-            "6-8-14": 123.1,
-            "7-8-14": 11.5
-          },
-          "oddsTan": {
-            "6-7-8": 81.9,
-            "6-8-7": 116.8,
-            "7-4-6": 44,
-            "7-4-8": 13.9,
-            "7-4-14": 50.9,
-            "7-6-4": 72.5,
-            "7-6-8": 47.4,
-            "7-6-14": 161.2,
-            "7-8-4": 11,
-            "7-8-6": 24.6,
-            "7-8-14": 31.3,
-            "8-7-6": 41.2
-          },
-          "oddsAt": "2026-11-22T01:13:55.859Z",
           "result": {
             "top3": [
               10,
@@ -844,11 +815,11 @@
               "weight": 53,
               "jockey": "△石神道",
               "trainer": "美浦和田郎",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 436,
+              "bodyWeightDiff": -4,
               "pastRuns": [],
               "score": 0.417,
-              "mark": ""
+              "mark": "▲"
             },
             {
               "num": 2,
@@ -859,11 +830,11 @@
               "weight": 55,
               "jockey": "☆長浜",
               "trainer": "美浦中川",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 488,
+              "bodyWeightDiff": -2,
               "pastRuns": [],
               "score": 0.401,
-              "mark": ""
+              "mark": "△"
             },
             {
               "num": 3,
@@ -874,11 +845,11 @@
               "weight": 56,
               "jockey": "斎藤",
               "trainer": "美浦斎藤誠",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 474,
+              "bodyWeightDiff": -2,
               "pastRuns": [],
               "score": 0.393,
-              "mark": "▲"
+              "mark": ""
             },
             {
               "num": 4,
@@ -889,8 +860,8 @@
               "weight": 56,
               "jockey": "野中",
               "trainer": "美浦上原博",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 502,
+              "bodyWeightDiff": 6,
               "pastRuns": [
                 {
                   "date": "2026-10-18",
@@ -943,8 +914,8 @@
               "weight": 55,
               "jockey": "原",
               "trainer": "美浦青木",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 464,
+              "bodyWeightDiff": -2,
               "pastRuns": [],
               "score": 0.401,
               "mark": "△"
@@ -958,8 +929,8 @@
               "weight": 56,
               "jockey": "丹内",
               "trainer": "美浦田島",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 486,
+              "bodyWeightDiff": 8,
               "pastRuns": [
                 {
                   "date": "2026-08-15",
@@ -982,7 +953,7 @@
                 }
               ],
               "score": 0.838,
-              "mark": "△"
+              "mark": "◎"
             },
             {
               "num": 7,
@@ -993,8 +964,8 @@
               "weight": 55,
               "jockey": "石橋脩",
               "trainer": "美浦清水英",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 422,
+              "bodyWeightDiff": 4,
               "pastRuns": [
                 {
                   "date": "2026-10-12",
@@ -1028,8 +999,8 @@
               "weight": 52,
               "jockey": "▲河原田",
               "trainer": "美浦加藤和",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 464,
+              "bodyWeightDiff": -4,
               "pastRuns": [
                 {
                   "date": "2026-08-09",
@@ -1063,8 +1034,8 @@
               "weight": 55,
               "jockey": "的場",
               "trainer": "美浦的場",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 470,
+              "bodyWeightDiff": -6,
               "pastRuns": [
                 {
                   "date": "2026-10-03",
@@ -1136,8 +1107,8 @@
               "weight": 55,
               "jockey": "石川",
               "trainer": "美浦相沢",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 472,
+              "bodyWeightDiff": 2,
               "pastRuns": [],
               "score": 0.401,
               "mark": "△"
@@ -1151,8 +1122,8 @@
               "weight": 56,
               "jockey": "木幡巧",
               "trainer": "美浦牧",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 462,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-10-17",
@@ -1186,11 +1157,11 @@
               "weight": 56,
               "jockey": "岩田康",
               "trainer": "美浦戸田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 530,
+              "bodyWeightDiff": 10,
               "pastRuns": [],
               "score": 0.393,
-              "mark": "◎"
+              "mark": ""
             },
             {
               "num": 13,
@@ -1201,8 +1172,8 @@
               "weight": 56,
               "jockey": "丸田",
               "trainer": "美浦秋本",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 506,
+              "bodyWeightDiff": 10,
               "pastRuns": [
                 {
                   "date": "2026-08-22",
@@ -1249,114 +1220,112 @@
           ],
           "prediction": {
             "honmei": {
-              "num": 12,
-              "name": "ペントザリス"
+              "num": 6,
+              "name": "リバーススイープ"
             },
             "sanrenpuku": [
-              "3-12-13",
-              "6-12-13",
-              "3-6-12"
+              "1-6-13",
+              "2-6-13",
+              "1-2-6"
             ],
             "sanrentan": [
-              "12→13→3",
-              "12→3→13"
+              "6→13→1",
+              "6→1→13"
             ],
             "plans": {
               "teppan": [
-                "2-12-13",
-                "2-3-12",
-                "2-6-12",
-                "2-3-13"
+                "4-6-13",
+                "1-4-6",
+                "2-4-6",
+                "1-4-13"
               ],
               "balance": [
-                "2-12-13",
-                "2-3-12",
-                "2-6-12",
-                "2-3-13",
-                "3-12-13",
-                "6-12-13",
-                "3-6-12"
+                "4-6-13",
+                "1-4-6",
+                "2-4-6",
+                "1-4-13",
+                "1-6-13",
+                "2-6-13",
+                "1-2-6"
               ],
               "shoubu": [
-                "2-12-13",
-                "2-3-12",
-                "2-6-12",
-                "2-3-13",
-                "3-12-13",
-                "6-12-13",
-                "3-6-12",
-                "3-6-13",
+                "4-6-13",
+                "1-4-6",
+                "2-4-6",
+                "1-4-13",
+                "1-6-13",
                 "2-6-13",
-                "2-3-6"
+                "1-2-6",
+                "1-2-13",
+                "2-4-13",
+                "1-2-4"
               ]
             },
             "plansTan": {
               "teppan": [
-                "12→13→2",
-                "12→2→13",
-                "2→12→13",
-                "13→12→2"
+                "6→13→4",
+                "6→4→13",
+                "4→6→13",
+                "13→6→4"
               ],
               "balance": [
-                "12→13→2",
-                "12→2→13",
-                "2→12→13",
-                "13→12→2",
-                "12→13→3",
-                "12→3→13",
-                "2→13→12"
+                "6→13→4",
+                "6→4→13",
+                "4→6→13",
+                "13→6→4",
+                "6→13→1",
+                "6→1→13",
+                "4→13→6"
               ],
               "shoubu": [
-                "12→13→2",
-                "12→2→13",
-                "2→12→13",
-                "13→12→2",
-                "12→13→3",
-                "12→3→13",
-                "2→13→12",
-                "12→13→6",
-                "12→3→2",
-                "12→3→6",
-                "12→2→3",
-                "12→2→6"
+                "6→13→4",
+                "6→4→13",
+                "4→6→13",
+                "13→6→4",
+                "6→13→1",
+                "6→1→13",
+                "4→13→6",
+                "6→13→2",
+                "6→1→4",
+                "6→1→2",
+                "6→4→1",
+                "6→4→2"
               ]
             },
             "ana": {
-              "num": 2,
-              "name": "スターホッピング",
-              "reason": "人気9位ながらエンジンスコア4位の一発候補"
+              "num": 4,
+              "name": "セイウンサイフィー",
+              "reason": "2走前6着（8頭）がありながらスコア9位の一発候補"
             },
-            "comment": "【人気ベース再構成】◎12番 ペントザリス（1番人気）。\n対抗は○13番 アラータス、▲は3番 タイセイリメンバー。\n穴候補は2番 スターホッピング（人気9位ながらエンジンスコア4位の一発候補）。",
-            "basis": "popana",
-            "popAt": "2026-11-22T01:14:23.102Z"
+            "comment": "◎6番 リバーススイープ（スコア0.838）。近走は3着で評価最上位。\n対抗は○13番 アラータス、▲は1番 コスモディプロマ。\n穴候補は4番 セイウンサイフィー（2走前6着（8頭）がありながらスコア9位の一発候補）。"
           },
           "odds": {
-            "2-3-6": 659.4,
-            "2-3-12": 141,
-            "2-3-13": 490.3,
-            "2-6-12": 326.3,
-            "2-6-13": 1258,
-            "2-12-13": 177,
-            "3-6-12": 8.5,
-            "3-6-13": 23.3,
-            "3-12-13": 3.5,
-            "6-12-13": 9.9
+            "1-2-4": 8251.2,
+            "1-2-6": 6529.7,
+            "1-2-13": 7090.9,
+            "1-4-6": 3374.1,
+            "1-4-13": 1776.1,
+            "1-6-13": 454.7,
+            "2-4-6": 5971.3,
+            "2-4-13": 5042.4,
+            "2-6-13": 1485.4,
+            "4-6-13": 314.6
           },
           "oddsTan": {
-            "12-2-3": 1022.3,
-            "12-2-6": 1761.4,
-            "12-2-13": 1059.4,
-            "12-3-2": 384.7,
-            "12-3-6": 19.6,
-            "12-3-13": 8.6,
-            "12-13-2": 421.3,
-            "12-13-3": 9.4,
-            "12-13-6": 22.9,
-            "13-12-2": 1029.5,
-            "2-12-13": 5414.8,
-            "2-13-12": 8122.2
+            "13-6-4": 1172.5,
+            "4-6-13": 5361.8,
+            "4-13-6": 4749,
+            "6-1-2": 78219.3,
+            "6-1-4": 28907.1,
+            "6-1-13": 5682.5,
+            "6-4-1": 28292,
+            "6-4-2": 53189.1,
+            "6-4-13": 3945.7,
+            "6-13-1": 2968.1,
+            "6-13-2": 13851.3,
+            "6-13-4": 2276.9
           },
-          "oddsAt": "2026-11-22T01:14:23.817Z"
+          "oddsAt": "2026-11-22T01:31:39.293Z"
         },
         {
           "no": 3,
@@ -1375,8 +1344,8 @@
               "weight": 55,
               "jockey": "野中",
               "trainer": "美浦和田勇",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 410,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.41,
               "mark": ""
@@ -1390,8 +1359,8 @@
               "weight": 55,
               "jockey": "マーカンド",
               "trainer": "美浦武市",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 440,
+              "bodyWeightDiff": 4,
               "pastRuns": [
                 {
                   "date": "2026-08-15",
@@ -1425,8 +1394,8 @@
               "weight": 55,
               "jockey": "木幡巧",
               "trainer": "美浦勢司",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 440,
+              "bodyWeightDiff": -4,
               "pastRuns": [],
               "score": 0.41,
               "mark": ""
@@ -1440,8 +1409,8 @@
               "weight": 55,
               "jockey": "横山武",
               "trainer": "美浦中舘",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 454,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-08-15",
@@ -1475,8 +1444,8 @@
               "weight": 55,
               "jockey": "荻野極",
               "trainer": "美浦岩戸",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 410,
+              "bodyWeightDiff": 2,
               "pastRuns": [],
               "score": 0.398,
               "mark": ""
@@ -1490,8 +1459,8 @@
               "weight": 55,
               "jockey": "田辺",
               "trainer": "美浦大和田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 412,
+              "bodyWeightDiff": 8,
               "pastRuns": [
                 {
                   "date": "2026-07-04",
@@ -1546,8 +1515,8 @@
               "weight": 55,
               "jockey": "吉田豊",
               "trainer": "美浦高橋文",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 428,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-10-12",
@@ -1581,8 +1550,8 @@
               "weight": 55,
               "jockey": "戸崎圭",
               "trainer": "美浦田中博",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 476,
+              "bodyWeightDiff": 24,
               "pastRuns": [
                 {
                   "date": "2026-08-02",
@@ -1616,8 +1585,8 @@
               "weight": 55,
               "jockey": "大野",
               "trainer": "美浦古賀慎",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 416,
+              "bodyWeightDiff": -4,
               "pastRuns": [],
               "score": 0.398,
               "mark": ""
@@ -1631,8 +1600,8 @@
               "weight": 55,
               "jockey": "丹内",
               "trainer": "美浦加藤士",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 440,
+              "bodyWeightDiff": 10,
               "pastRuns": [],
               "score": 0.398,
               "mark": ""
@@ -1646,8 +1615,8 @@
               "weight": 55,
               "jockey": "横山琉",
               "trainer": "美浦尾形",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 406,
+              "bodyWeightDiff": -4,
               "pastRuns": [
                 {
                   "date": "2026-08-29",
@@ -1681,8 +1650,8 @@
               "weight": 55,
               "jockey": "杉原",
               "trainer": "美浦栗田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 408,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-07-19",
@@ -1716,8 +1685,8 @@
               "weight": 52,
               "jockey": "▲遠藤",
               "trainer": "美浦伊藤伸",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 452,
+              "bodyWeightDiff": -2,
               "pastRuns": [
                 {
                   "date": "2026-10-17",
@@ -1751,8 +1720,8 @@
               "weight": 55,
               "jockey": "丸田",
               "trainer": "美浦天間",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 488,
+              "bodyWeightDiff": -8,
               "pastRuns": [],
               "score": 0.386,
               "mark": ""
@@ -1766,8 +1735,8 @@
               "weight": 55,
               "jockey": "佐々木",
               "trainer": "美浦黒岩",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 434,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.386,
               "mark": ""
@@ -1781,8 +1750,8 @@
               "weight": 55,
               "jockey": "原",
               "trainer": "美浦青木",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 430,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.386,
               "mark": ""
@@ -1796,8 +1765,8 @@
               "weight": 55,
               "jockey": "横山和",
               "trainer": "美浦柄崎",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 428,
+              "bodyWeightDiff": 8,
               "pastRuns": [
                 {
                   "date": "2026-08-15",
@@ -1831,8 +1800,8 @@
               "weight": 53,
               "jockey": "◇小林美",
               "trainer": "美浦千葉",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 436,
+              "bodyWeightDiff": -14,
               "pastRuns": [],
               "score": 0.402,
               "mark": "○"
@@ -1919,7 +1888,7 @@
             },
             "comment": "【人気ベース再構成】◎4番 ディーヴァソラーレ（1番人気）。\n対抗は○18番 ジョワリヴレ、▲は8番 ペアレンツハート。\n穴候補は2番 スナッチアップ（人気6位ながらエンジンスコア2位の一発候補）。",
             "basis": "popana",
-            "popAt": "2026-11-22T01:14:23.110Z"
+            "popAt": "2026-11-22T01:31:39.225Z"
           },
           "odds": {
             "2-4-8": 32.1,
@@ -1947,7 +1916,7 @@
             "4-18-8": 114.6,
             "4-18-11": 234.2
           },
-          "oddsAt": "2026-11-22T01:14:24.101Z"
+          "oddsAt": "2026-11-22T01:31:39.971Z"
         },
         {
           "no": 4,
@@ -1966,8 +1935,8 @@
               "weight": 55,
               "jockey": "柴田大",
               "trainer": "美浦畠山",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 506,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.405,
               "mark": ""
@@ -1981,8 +1950,8 @@
               "weight": 56,
               "jockey": "木幡巧",
               "trainer": "美浦和田勇",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 446,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.397,
               "mark": ""
@@ -1996,8 +1965,8 @@
               "weight": 56,
               "jockey": "石川",
               "trainer": "美浦手塚久",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 466,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.397,
               "mark": ""
@@ -2011,8 +1980,8 @@
               "weight": 56,
               "jockey": "佐々木",
               "trainer": "美浦小笠",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 444,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.397,
               "mark": "△"
@@ -2026,11 +1995,11 @@
               "weight": 56,
               "jockey": "Ｍデムーロ",
               "trainer": "栗東吉岡",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 544,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.397,
-              "mark": "▲"
+              "mark": "△"
             },
             {
               "num": 6,
@@ -2041,8 +2010,8 @@
               "weight": 55,
               "jockey": "丹内",
               "trainer": "美浦田島",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 438,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.405,
               "mark": "◎"
@@ -2056,8 +2025,8 @@
               "weight": 55,
               "jockey": "津村",
               "trainer": "美浦池上",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 532,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.405,
               "mark": ""
@@ -2071,11 +2040,11 @@
               "weight": 56,
               "jockey": "戸崎圭",
               "trainer": "栗東武幸",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 496,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.397,
-              "mark": "○"
+              "mark": "▲"
             },
             {
               "num": 9,
@@ -2086,8 +2055,8 @@
               "weight": 56,
               "jockey": "荻野極",
               "trainer": "栗東今野",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 538,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.397,
               "mark": ""
@@ -2101,8 +2070,8 @@
               "weight": 56,
               "jockey": "マーカンド",
               "trainer": "美浦宮田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 484,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.397,
               "mark": ""
@@ -2116,11 +2085,11 @@
               "weight": 56,
               "jockey": "西塚",
               "trainer": "栗東奥村豊",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 480,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.397,
-              "mark": "△"
+              "mark": "○"
             },
             {
               "num": 12,
@@ -2131,8 +2100,8 @@
               "weight": 55,
               "jockey": "斎藤",
               "trainer": "美浦斎藤誠",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 480,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.405,
               "mark": "△"
@@ -2144,72 +2113,72 @@
               "name": "オペラリリカ"
             },
             "sanrenpuku": [
-              "5-6-8",
               "6-8-11",
-              "5-6-11"
+              "5-6-11",
+              "5-6-8"
             ],
             "sanrentan": [
-              "6→8→5",
-              "6→5→8"
+              "6→11→8",
+              "6→8→11"
             ],
             "plans": {
               "teppan": [
+                "6-11-12",
                 "6-8-12",
                 "5-6-12",
-                "6-11-12",
-                "5-8-12"
+                "8-11-12"
               ],
               "balance": [
+                "6-11-12",
                 "6-8-12",
                 "5-6-12",
-                "6-11-12",
-                "5-8-12",
-                "5-6-8",
-                "6-8-11",
-                "5-6-11"
-              ],
-              "shoubu": [
-                "6-8-12",
-                "5-6-12",
-                "6-11-12",
-                "5-8-12",
-                "5-6-8",
+                "8-11-12",
                 "6-8-11",
                 "5-6-11",
-                "5-8-11",
+                "5-6-8"
+              ],
+              "shoubu": [
+                "6-11-12",
+                "6-8-12",
+                "5-6-12",
                 "8-11-12",
-                "5-11-12"
+                "6-8-11",
+                "5-6-11",
+                "5-6-8",
+                "5-8-11",
+                "5-11-12",
+                "5-8-12"
               ]
             },
             "plansTan": {
               "teppan": [
-                "6→8→12",
-                "6→12→8",
-                "12→6→8",
-                "8→6→12"
+                "6→11→12",
+                "6→12→11",
+                "12→6→11",
+                "11→6→12"
               ],
               "balance": [
-                "6→8→12",
-                "6→12→8",
-                "12→6→8",
-                "8→6→12",
-                "6→8→5",
-                "6→5→8",
-                "12→8→6"
+                "6→11→12",
+                "6→12→11",
+                "12→6→11",
+                "11→6→12",
+                "6→11→8",
+                "6→8→11",
+                "12→11→6"
               ],
               "shoubu": [
-                "6→8→12",
-                "6→12→8",
-                "12→6→8",
-                "8→6→12",
-                "6→8→5",
-                "6→5→8",
-                "12→8→6",
+                "6→11→12",
+                "6→12→11",
+                "12→6→11",
+                "11→6→12",
+                "6→11→8",
                 "6→8→11",
-                "6→5→12",
-                "6→5→11",
-                "6→12→5",
-                "6→12→11"
+                "12→11→6",
+                "6→11→5",
+                "6→8→12",
+                "6→8→5",
+                "6→12→8",
+                "6→12→5"
               ]
             },
             "ana": {
@@ -2217,37 +2186,37 @@
               "name": "リアライズラピス",
               "reason": "人気6位ながらエンジンスコア4位の一発候補"
             },
-            "comment": "【人気ベース再構成】◎6番 オペラリリカ（1番人気）。\n対抗は○8番 トラベルメモリーズ、▲は5番 モンテカルロ。\n穴候補は12番 リアライズラピス（人気6位ながらエンジンスコア4位の一発候補）。",
+            "comment": "【人気ベース再構成】◎6番 オペラリリカ（1番人気）。\n対抗は○11番 マイレホープ、▲は8番 トラベルメモリーズ。\n穴候補は12番 リアライズラピス（人気6位ながらエンジンスコア4位の一発候補）。",
             "basis": "popana",
-            "popAt": "2026-11-22T01:14:24.761Z"
+            "popAt": "2026-11-22T01:31:40.233Z"
           },
           "odds": {
-            "5-6-8": 27.4,
-            "5-6-11": 38.9,
-            "5-6-12": 22.6,
-            "5-8-11": 54.2,
-            "5-8-12": 50.1,
-            "5-11-12": 75.3,
-            "6-8-11": 30.2,
-            "6-8-12": 20.7,
-            "6-11-12": 27.3,
-            "8-11-12": 52.9
+            "5-6-8": 26.3,
+            "5-6-11": 36.1,
+            "5-6-12": 21.9,
+            "5-8-11": 55.4,
+            "5-8-12": 51.6,
+            "5-11-12": 71.9,
+            "6-8-11": 28.5,
+            "6-8-12": 19.5,
+            "6-11-12": 25.3,
+            "8-11-12": 50.4
           },
           "oddsTan": {
-            "12-6-8": 132.3,
-            "12-8-6": 154.5,
-            "6-5-8": 140.2,
-            "6-5-11": 154,
-            "6-5-12": 114.5,
-            "6-8-5": 106.7,
-            "6-8-11": 123.9,
-            "6-8-12": 75.5,
-            "6-12-5": 98.4,
-            "6-12-8": 91.2,
-            "6-12-11": 105.3,
-            "8-6-12": 114.3
+            "11-6-12": 176.3,
+            "12-6-11": 142.8,
+            "12-11-6": 162.5,
+            "6-8-5": 106.8,
+            "6-8-11": 113.5,
+            "6-8-12": 80.1,
+            "6-11-5": 112.6,
+            "6-11-8": 113,
+            "6-11-12": 98.2,
+            "6-12-5": 101.2,
+            "6-12-8": 88.2,
+            "6-12-11": 96.7
           },
-          "oddsAt": "2026-11-22T01:14:24.970Z"
+          "oddsAt": "2026-11-22T01:31:40.562Z"
         },
         {
           "no": 5,
@@ -2519,7 +2488,7 @@
             },
             "comment": "【人気ベース再構成】◎8番 ミクニエクリプス（1番人気）。\n対抗は○7番 ヴァストマーレ、▲は5番 オンザマーキュリー。\n穴候補は6番 ロックリヴァーブ（人気5位ながらエンジンスコア1位の一発候補）。",
             "basis": "popana",
-            "popAt": "2026-11-22T01:14:25.262Z"
+            "popAt": "2026-11-22T01:31:40.912Z"
           },
           "odds": {
             "2-5-6": 92.6,
@@ -2547,7 +2516,7 @@
             "8-7-5": 29.1,
             "8-7-6": 55.4
           },
-          "oddsAt": "2026-11-22T01:14:25.456Z"
+          "oddsAt": "2026-11-22T01:31:41.115Z"
         },
         {
           "no": 6,
@@ -2879,7 +2848,7 @@
             },
             "comment": "【人気ベース再構成】◎5番 シャドウアリア（1番人気）。\n対抗は○7番 ミラージュスター、▲は3番 ダノンマローネ。\n穴候補は4番 フェザリー（人気6位ながらエンジンスコア1位の一発候補）。",
             "basis": "popana",
-            "popAt": "2026-11-22T01:14:26.142Z"
+            "popAt": "2026-11-22T01:31:41.742Z"
           },
           "odds": {
             "3-4-5": 73.3,
@@ -2907,7 +2876,7 @@
             "5-7-12": 67.7,
             "7-5-4": 226.8
           },
-          "oddsAt": "2026-11-22T01:14:27.020Z"
+          "oddsAt": "2026-11-22T01:31:42.501Z"
         },
         {
           "no": 7,
@@ -2988,7 +2957,7 @@
                 }
               ],
               "score": 0.494,
-              "mark": ""
+              "mark": "○"
             },
             {
               "num": 2,
@@ -3288,7 +3257,7 @@
                 }
               ],
               "score": 0.448,
-              "mark": ""
+              "mark": "△"
             },
             {
               "num": 5,
@@ -3651,7 +3620,7 @@
                 }
               ],
               "score": 0.733,
-              "mark": "△"
+              "mark": "▲"
             },
             {
               "num": 9,
@@ -3829,7 +3798,7 @@
                 }
               ],
               "score": 0.828,
-              "mark": "○"
+              "mark": ""
             },
             {
               "num": 11,
@@ -4260,7 +4229,7 @@
                 }
               ],
               "score": 0.744,
-              "mark": "▲"
+              "mark": ""
             },
             {
               "num": 16,
@@ -4367,81 +4336,110 @@
               "name": "モデレートゲイル"
             },
             "sanrenpuku": [
-              "9-10-15",
-              "8-9-10",
-              "8-9-15"
+              "1-8-9",
+              "1-4-9",
+              "4-8-9"
             ],
             "sanrentan": [
-              "9→10→15",
-              "9→15→10"
+              "9→1→8",
+              "9→8→1"
             ],
             "plans": {
               "teppan": [
-                "5-9-10",
-                "5-9-15",
-                "5-8-9",
-                "5-10-15"
+                "1-9-10",
+                "8-9-10",
+                "4-9-10",
+                "1-8-10"
               ],
               "balance": [
-                "5-9-10",
-                "5-9-15",
-                "5-8-9",
-                "5-10-15",
-                "9-10-15",
+                "1-9-10",
                 "8-9-10",
-                "8-9-15"
+                "4-9-10",
+                "1-8-10",
+                "1-8-9",
+                "1-4-9",
+                "4-8-9"
               ],
               "shoubu": [
-                "5-9-10",
-                "5-9-15",
-                "5-8-9",
-                "5-10-15",
-                "9-10-15",
+                "1-9-10",
                 "8-9-10",
-                "8-9-15",
-                "8-10-15",
-                "5-8-10",
-                "5-8-15"
+                "4-9-10",
+                "1-8-10",
+                "1-8-9",
+                "1-4-9",
+                "4-8-9",
+                "1-4-8",
+                "1-4-10",
+                "4-8-10"
               ]
             },
             "plansTan": {
               "teppan": [
-                "9→10→5",
-                "9→5→10",
-                "5→9→10",
-                "10→9→5"
+                "9→1→10",
+                "9→10→1",
+                "10→9→1",
+                "1→9→10"
               ],
               "balance": [
-                "9→10→5",
-                "9→5→10",
-                "5→9→10",
-                "10→9→5",
-                "9→10→15",
-                "9→15→10",
-                "5→10→9"
+                "9→1→10",
+                "9→10→1",
+                "10→9→1",
+                "1→9→10",
+                "9→1→8",
+                "9→8→1",
+                "10→1→9"
               ],
               "shoubu": [
-                "9→10→5",
-                "9→5→10",
-                "5→9→10",
-                "10→9→5",
-                "9→10→15",
-                "9→15→10",
-                "5→10→9",
+                "9→1→10",
+                "9→10→1",
+                "10→9→1",
+                "1→9→10",
+                "9→1→8",
+                "9→8→1",
+                "10→1→9",
+                "9→1→4",
+                "9→8→10",
+                "9→8→4",
                 "9→10→8",
-                "9→15→5",
-                "9→15→8",
-                "9→5→15",
-                "9→5→8"
+                "9→10→4"
               ]
             },
             "ana": {
-              "num": 5,
-              "name": "オメガディコン",
-              "reason": "2走前1着（15頭）がありながらスコア8位の一発候補"
+              "num": 10,
+              "name": "ヴァルカンテソーロ",
+              "reason": "人気9位ながらエンジンスコア2位の一発候補"
             },
-            "comment": "◎9番 モデレートゲイル（スコア0.964）。近走は1-2-2着で評価最上位。\n対抗は○10番 ヴァルカンテソーロ、▲は15番 タイセイデクスター。\n穴候補は5番 オメガディコン（2走前1着（15頭）がありながらスコア8位の一発候補）。"
-          }
+            "comment": "【人気ベース再構成】◎9番 モデレートゲイル（1番人気）。\n対抗は○1番 クラリネットソナタ、▲は8番 ゴールデンダガー。\n穴候補は10番 ヴァルカンテソーロ（人気9位ながらエンジンスコア2位の一発候補）。",
+            "basis": "popana",
+            "popAt": "2026-11-22T01:31:42.295Z"
+          },
+          "odds": {
+            "1-4-8": 287.6,
+            "1-4-9": 47,
+            "1-4-10": 203.2,
+            "1-8-9": 36.9,
+            "1-8-10": 208.3,
+            "1-9-10": 30.6,
+            "4-8-9": 90.3,
+            "4-8-10": 455.1,
+            "4-9-10": 73.1,
+            "8-9-10": 55.6
+          },
+          "oddsTan": {
+            "10-1-9": 386.2,
+            "10-9-1": 282.4,
+            "1-9-10": 184.9,
+            "9-1-4": 160.6,
+            "9-1-8": 126.5,
+            "9-1-10": 110.1,
+            "9-8-1": 169.1,
+            "9-8-4": 312.1,
+            "9-8-10": 221.4,
+            "9-10-1": 115,
+            "9-10-4": 243.5,
+            "9-10-8": 196.3
+          },
+          "oddsAt": "2026-11-22T01:31:42.615Z"
         },
         {
           "no": 8,
@@ -4545,7 +4543,7 @@
                 }
               ],
               "score": 0.56,
-              "mark": ""
+              "mark": "△"
             },
             {
               "num": 2,
@@ -4741,7 +4739,7 @@
                 }
               ],
               "score": 0.97,
-              "mark": "◎"
+              "mark": "○"
             },
             {
               "num": 4,
@@ -4839,7 +4837,7 @@
                 }
               ],
               "score": 0.718,
-              "mark": "△"
+              "mark": "▲"
             },
             {
               "num": 5,
@@ -4914,7 +4912,7 @@
                 }
               ],
               "score": 0.856,
-              "mark": "○"
+              "mark": ""
             },
             {
               "num": 6,
@@ -5087,7 +5085,7 @@
                 }
               ],
               "score": 0.671,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 8,
@@ -5541,7 +5539,7 @@
                 }
               ],
               "score": 0.846,
-              "mark": "▲"
+              "mark": "◎"
             },
             {
               "num": 13,
@@ -5892,90 +5890,119 @@
                 }
               ],
               "score": 0.119,
-              "mark": ""
+              "mark": "△"
             }
           ],
           "prediction": {
             "honmei": {
-              "num": 3,
-              "name": "ヴンダーバール"
+              "num": 12,
+              "name": "ケープウィッカム"
             },
             "sanrenpuku": [
-              "3-5-12",
-              "3-4-5",
-              "3-4-12"
+              "3-4-12",
+              "1-3-12",
+              "1-4-12"
             ],
             "sanrentan": [
-              "3→5→12",
-              "3→12→5"
+              "12→3→4",
+              "12→4→3"
             ],
             "plans": {
               "teppan": [
-                "3-5-7",
-                "3-7-12",
-                "3-4-7",
-                "5-7-12"
+                "3-5-12",
+                "4-5-12",
+                "1-5-12",
+                "3-4-5"
               ],
               "balance": [
-                "3-5-7",
-                "3-7-12",
-                "3-4-7",
-                "5-7-12",
                 "3-5-12",
-                "3-4-5",
-                "3-4-12"
-              ],
-              "shoubu": [
-                "3-5-7",
-                "3-7-12",
-                "3-4-7",
-                "5-7-12",
-                "3-5-12",
+                "4-5-12",
+                "1-5-12",
                 "3-4-5",
                 "3-4-12",
+                "1-3-12",
+                "1-4-12"
+              ],
+              "shoubu": [
+                "3-5-12",
                 "4-5-12",
-                "4-5-7",
-                "4-7-12"
+                "1-5-12",
+                "3-4-5",
+                "3-4-12",
+                "1-3-12",
+                "1-4-12",
+                "1-3-4",
+                "1-3-5",
+                "1-4-5"
               ]
             },
             "plansTan": {
               "teppan": [
-                "3→5→7",
-                "3→7→5",
-                "7→3→5",
-                "5→3→7"
+                "12→3→5",
+                "12→5→3",
+                "5→12→3",
+                "3→12→5"
               ],
               "balance": [
-                "3→5→7",
-                "3→7→5",
-                "7→3→5",
-                "5→3→7",
-                "3→5→12",
+                "12→3→5",
+                "12→5→3",
+                "5→12→3",
                 "3→12→5",
-                "7→5→3"
+                "12→3→4",
+                "12→4→3",
+                "5→3→12"
               ],
               "shoubu": [
-                "3→5→7",
-                "3→7→5",
-                "7→3→5",
-                "5→3→7",
-                "3→5→12",
+                "12→3→5",
+                "12→5→3",
+                "5→12→3",
                 "3→12→5",
-                "7→5→3",
-                "3→5→4",
-                "3→12→7",
-                "3→12→4",
-                "3→7→12",
-                "3→7→4"
+                "12→3→4",
+                "12→4→3",
+                "5→3→12",
+                "12→3→1",
+                "12→4→5",
+                "12→4→1",
+                "12→5→4",
+                "12→5→1"
               ]
             },
             "ana": {
-              "num": 7,
-              "name": "ホウオウフェイント",
-              "reason": "2走前1着（16頭）がありながらスコア6位の一発候補"
+              "num": 5,
+              "name": "ノアヴィヴァーチェ",
+              "reason": "人気7位ながらエンジンスコア2位の一発候補"
             },
-            "comment": "◎3番 ヴンダーバール（スコア0.970）。近走は2-1-2-5着で評価最上位。\n対抗は○5番 ノアヴィヴァーチェ、▲は12番 ケープウィッカム。\n穴候補は7番 ホウオウフェイント（2走前1着（16頭）がありながらスコア6位の一発候補）。"
-          }
+            "comment": "【人気ベース再構成】◎12番 ケープウィッカム（1番人気）。\n対抗は○3番 ヴンダーバール、▲は4番 タイセイジェイド。\n穴候補は5番 ノアヴィヴァーチェ（人気7位ながらエンジンスコア2位の一発候補）。",
+            "basis": "popana",
+            "popAt": "2026-11-22T01:31:43.441Z"
+          },
+          "odds": {
+            "1-3-4": 46.6,
+            "1-3-5": 118.5,
+            "1-3-12": 23.1,
+            "1-4-5": 219.4,
+            "1-4-12": 46.4,
+            "1-5-12": 119.2,
+            "3-4-5": 66.4,
+            "3-4-12": 11.7,
+            "3-5-12": 16.6,
+            "4-5-12": 51.8
+          },
+          "oddsTan": {
+            "12-3-1": 84.7,
+            "12-3-4": 40,
+            "12-3-5": 36.2,
+            "12-4-1": 149.9,
+            "12-4-3": 61.1,
+            "12-4-5": 187.1,
+            "12-5-1": 432.2,
+            "12-5-3": 45.9,
+            "12-5-4": 228.9,
+            "3-12-5": 79.1,
+            "5-3-12": 183.6,
+            "5-12-3": 179.3
+          },
+          "oddsAt": "2026-11-22T01:31:43.943Z"
         },
         {
           "no": 9,
@@ -6018,7 +6045,7 @@
                 }
               ],
               "score": 1.05,
-              "mark": "◎"
+              "mark": "△"
             },
             {
               "num": 2,
@@ -6107,7 +6134,7 @@
                 }
               ],
               "score": 1.05,
-              "mark": "○"
+              "mark": ""
             },
             {
               "num": 4,
@@ -6144,7 +6171,7 @@
                 }
               ],
               "score": 1.05,
-              "mark": "▲"
+              "mark": "◎"
             },
             {
               "num": 5,
@@ -6198,7 +6225,7 @@
                 }
               ],
               "score": 0.757,
-              "mark": ""
+              "mark": "○"
             },
             {
               "num": 6,
@@ -6283,7 +6310,7 @@
               "bodyWeightDiff": null,
               "pastRuns": [],
               "score": 0.4,
-              "mark": ""
+              "mark": "▲"
             },
             {
               "num": 9,
@@ -6318,90 +6345,119 @@
                 }
               ],
               "score": 1.05,
-              "mark": "△"
+              "mark": ""
             }
           ],
           "prediction": {
             "honmei": {
-              "num": 1,
-              "name": "セプタードアイル"
+              "num": 4,
+              "name": "シルクドマルス"
             },
             "sanrenpuku": [
-              "1-3-4",
-              "1-3-6",
-              "1-4-6"
+              "4-5-8",
+              "4-5-6",
+              "4-6-8"
             ],
             "sanrentan": [
-              "1→3→4",
-              "1→4→3"
+              "4→5→8",
+              "4→8→5"
             ],
             "plans": {
               "teppan": [
-                "1-3-9",
-                "1-4-9",
-                "1-6-9",
-                "3-4-9"
+                "1-4-5",
+                "1-4-8",
+                "1-4-6",
+                "1-5-8"
               ],
               "balance": [
-                "1-3-9",
-                "1-4-9",
-                "1-6-9",
-                "3-4-9",
-                "1-3-4",
-                "1-3-6",
-                "1-4-6"
+                "1-4-5",
+                "1-4-8",
+                "1-4-6",
+                "1-5-8",
+                "4-5-8",
+                "4-5-6",
+                "4-6-8"
               ],
               "shoubu": [
-                "1-3-9",
-                "1-4-9",
-                "1-6-9",
-                "3-4-9",
-                "1-3-4",
-                "1-3-6",
+                "1-4-5",
+                "1-4-8",
                 "1-4-6",
-                "3-4-6",
-                "3-6-9",
-                "4-6-9"
+                "1-5-8",
+                "4-5-8",
+                "4-5-6",
+                "4-6-8",
+                "5-6-8",
+                "1-5-6",
+                "1-6-8"
               ]
             },
             "plansTan": {
               "teppan": [
-                "1→3→9",
-                "1→9→3",
-                "9→1→3",
-                "3→1→9"
+                "4→5→1",
+                "4→1→5",
+                "1→4→5",
+                "5→4→1"
               ],
               "balance": [
-                "1→3→9",
-                "1→9→3",
-                "9→1→3",
-                "3→1→9",
-                "1→3→4",
-                "1→4→3",
-                "9→3→1"
+                "4→5→1",
+                "4→1→5",
+                "1→4→5",
+                "5→4→1",
+                "4→5→8",
+                "4→8→5",
+                "1→5→4"
               ],
               "shoubu": [
-                "1→3→9",
-                "1→9→3",
-                "9→1→3",
-                "3→1→9",
-                "1→3→4",
-                "1→4→3",
-                "9→3→1",
-                "1→3→6",
-                "1→4→9",
-                "1→4→6",
-                "1→9→4",
-                "1→9→6"
+                "4→5→1",
+                "4→1→5",
+                "1→4→5",
+                "5→4→1",
+                "4→5→8",
+                "4→8→5",
+                "1→5→4",
+                "4→5→6",
+                "4→8→1",
+                "4→8→6",
+                "4→1→8",
+                "4→1→6"
               ]
             },
             "ana": {
-              "num": 9,
-              "name": "セイウンシャラ",
-              "reason": "前走1着（12頭）がありながらスコア5位の一発候補"
+              "num": 1,
+              "name": "セプタードアイル",
+              "reason": "人気6位ながらエンジンスコア1位の一発候補"
             },
-            "comment": "◎1番 セプタードアイル（スコア1.050）。近走は1着で評価最上位。\n対抗は○3番 カナデルペガサス、▲は4番 シルクドマルス。\n穴候補は9番 セイウンシャラ（前走1着（12頭）がありながらスコア5位の一発候補）。"
-          }
+            "comment": "【人気ベース再構成】◎4番 シルクドマルス（1番人気）。\n対抗は○5番 サトノスプレマシー、▲は8番 ラプチュラス。\n穴候補は1番 セプタードアイル（人気6位ながらエンジンスコア1位の一発候補）。",
+            "basis": "popana",
+            "popAt": "2026-11-22T01:31:43.542Z"
+          },
+          "odds": {
+            "1-4-5": 36.6,
+            "1-4-6": 58.5,
+            "1-4-8": 41.9,
+            "1-5-6": 63.9,
+            "1-5-8": 86.5,
+            "1-6-8": 110.6,
+            "4-5-6": 12.9,
+            "4-5-8": 10.6,
+            "4-6-8": 14.6,
+            "5-6-8": 27.5
+          },
+          "oddsTan": {
+            "1-4-5": 340.2,
+            "1-5-4": 399.9,
+            "4-1-5": 219.2,
+            "4-1-6": 330.1,
+            "4-1-8": 233.4,
+            "4-5-1": 131.8,
+            "4-5-6": 43.8,
+            "4-5-8": 43.1,
+            "4-8-1": 148.1,
+            "4-8-5": 43.7,
+            "4-8-6": 52.7,
+            "5-4-1": 145.4
+          },
+          "oddsAt": "2026-11-22T01:31:43.713Z"
         },
         {
           "no": 10,
@@ -6673,7 +6729,7 @@
                 }
               ],
               "score": 0.919,
-              "mark": "○"
+              "mark": "△"
             },
             {
               "num": 4,
@@ -6749,7 +6805,7 @@
                 }
               ],
               "score": 0.701,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 5,
@@ -6823,7 +6879,7 @@
                 }
               ],
               "score": 0.919,
-              "mark": "▲"
+              "mark": "◎"
             },
             {
               "num": 6,
@@ -6915,7 +6971,7 @@
                 }
               ],
               "score": 0.985,
-              "mark": "◎"
+              "mark": "○"
             },
             {
               "num": 7,
@@ -7456,7 +7512,7 @@
                 }
               ],
               "score": 0.242,
-              "mark": ""
+              "mark": "△"
             },
             {
               "num": 13,
@@ -7642,7 +7698,7 @@
                 }
               ],
               "score": 0.83,
-              "mark": "△"
+              "mark": "▲"
             },
             {
               "num": 15,
@@ -7739,85 +7795,114 @@
           ],
           "prediction": {
             "honmei": {
-              "num": 6,
-              "name": "ウフドゥウフ"
+              "num": 5,
+              "name": "ジッピーチューン"
             },
             "sanrenpuku": [
+              "5-6-14",
               "3-5-6",
-              "3-6-15",
-              "5-6-15"
+              "3-5-14"
             ],
             "sanrentan": [
-              "6→3→5",
-              "6→5→3"
+              "5→6→14",
+              "5→14→6"
             ],
             "plans": {
               "teppan": [
-                "3-4-6",
-                "4-5-6",
-                "4-6-15",
-                "3-4-5"
+                "5-6-15",
+                "5-14-15",
+                "3-5-15",
+                "6-14-15"
               ],
               "balance": [
-                "3-4-6",
-                "4-5-6",
-                "4-6-15",
-                "3-4-5",
+                "5-6-15",
+                "5-14-15",
+                "3-5-15",
+                "6-14-15",
+                "5-6-14",
                 "3-5-6",
-                "3-6-15",
-                "5-6-15"
+                "3-5-14"
               ],
               "shoubu": [
-                "3-4-6",
-                "4-5-6",
-                "4-6-15",
-                "3-4-5",
-                "3-5-6",
-                "3-6-15",
                 "5-6-15",
+                "5-14-15",
                 "3-5-15",
-                "3-4-15",
-                "4-5-15"
+                "6-14-15",
+                "5-6-14",
+                "3-5-6",
+                "3-5-14",
+                "3-6-14",
+                "3-6-15",
+                "3-14-15"
               ]
             },
             "plansTan": {
               "teppan": [
-                "6→3→4",
-                "6→4→3",
-                "4→6→3",
-                "3→6→4"
+                "5→6→15",
+                "5→15→6",
+                "15→5→6",
+                "6→5→15"
               ],
               "balance": [
-                "6→3→4",
-                "6→4→3",
-                "4→6→3",
-                "3→6→4",
-                "6→3→5",
-                "6→5→3",
-                "4→3→6"
+                "5→6→15",
+                "5→15→6",
+                "15→5→6",
+                "6→5→15",
+                "5→6→14",
+                "5→14→6",
+                "15→6→5"
               ],
               "shoubu": [
-                "6→3→4",
-                "6→4→3",
-                "4→6→3",
-                "3→6→4",
-                "6→3→5",
-                "6→5→3",
-                "4→3→6",
-                "6→3→15",
-                "6→5→4",
+                "5→6→15",
+                "5→15→6",
+                "15→5→6",
                 "6→5→15",
-                "6→4→5",
-                "6→4→15"
+                "5→6→14",
+                "5→14→6",
+                "15→6→5",
+                "5→6→3",
+                "5→14→15",
+                "5→14→3",
+                "5→15→14",
+                "5→15→3"
               ]
             },
             "ana": {
-              "num": 4,
-              "name": "ガリレア",
-              "reason": "前走1着（15頭）がありながらスコア6位の一発候補"
+              "num": 15,
+              "name": "ホウオウシェリー",
+              "reason": "人気6位ながらエンジンスコア4位の一発候補"
             },
-            "comment": "◎6番 ウフドゥウフ（スコア0.985）。近走は1-1-2-2着で評価最上位。\n対抗は○3番 ビップディラン、▲は5番 ジッピーチューン。\n穴候補は4番 ガリレア（前走1着（15頭）がありながらスコア6位の一発候補）。"
-          }
+            "comment": "【人気ベース再構成】◎5番 ジッピーチューン（1番人気）。\n対抗は○6番 ウフドゥウフ、▲は14番 デンプシー。\n穴候補は15番 ホウオウシェリー（人気6位ながらエンジンスコア4位の一発候補）。",
+            "basis": "popana",
+            "popAt": "2026-11-22T01:31:44.648Z"
+          },
+          "odds": {
+            "3-5-6": 10.5,
+            "3-5-14": 52,
+            "3-5-15": 30.5,
+            "3-6-14": 41,
+            "3-6-15": 24.3,
+            "3-14-15": 99,
+            "5-6-14": 18.7,
+            "5-6-15": 12.1,
+            "5-14-15": 60,
+            "6-14-15": 43.9
+          },
+          "oddsTan": {
+            "15-5-6": 112.7,
+            "15-6-5": 114.8,
+            "5-6-3": 30.9,
+            "5-6-14": 61.9,
+            "5-6-15": 37,
+            "5-14-3": 240.8,
+            "5-14-6": 127.1,
+            "5-14-15": 240.8,
+            "5-15-3": 119.4,
+            "5-15-6": 65.5,
+            "5-15-14": 189.4,
+            "6-5-15": 42.9
+          },
+          "oddsAt": "2026-11-22T01:31:45.030Z"
         },
         {
           "no": 11,
@@ -7898,7 +7983,7 @@
                 }
               ],
               "score": 1.063,
-              "mark": "◎"
+              "mark": "○"
             },
             {
               "num": 2,
@@ -8084,7 +8169,7 @@
                 }
               ],
               "score": 0.61,
-              "mark": ""
+              "mark": "△"
             },
             {
               "num": 4,
@@ -8249,7 +8334,7 @@
                 }
               ],
               "score": 1.029,
-              "mark": "○"
+              "mark": "▲"
             },
             {
               "num": 6,
@@ -8321,7 +8406,7 @@
                 }
               ],
               "score": 0.982,
-              "mark": "▲"
+              "mark": "◎"
             },
             {
               "num": 7,
@@ -8486,7 +8571,7 @@
                 }
               ],
               "score": 0.72,
-              "mark": ""
+              "mark": "△"
             },
             {
               "num": 9,
@@ -8820,7 +8905,7 @@
                 }
               ],
               "score": 0.817,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 13,
@@ -8893,7 +8978,7 @@
                 }
               ],
               "score": 0.85,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 14,
@@ -9164,85 +9249,114 @@
           ],
           "prediction": {
             "honmei": {
-              "num": 1,
-              "name": "メリディアンスター"
+              "num": 6,
+              "name": "サトノボヤージュ"
             },
             "sanrenpuku": [
               "1-5-6",
-              "1-5-7",
-              "1-6-7"
+              "1-6-8",
+              "5-6-8"
             ],
             "sanrentan": [
-              "1→5→6",
-              "1→6→5"
+              "6→1→5",
+              "6→5→1"
             ],
             "plans": {
               "teppan": [
-                "1-5-13",
-                "1-6-13",
-                "1-7-13",
-                "5-6-13"
-              ],
-              "balance": [
-                "1-5-13",
-                "1-6-13",
-                "1-7-13",
-                "5-6-13",
-                "1-5-6",
-                "1-5-7",
-                "1-6-7"
-              ],
-              "shoubu": [
-                "1-5-13",
-                "1-6-13",
-                "1-7-13",
-                "5-6-13",
-                "1-5-6",
-                "1-5-7",
                 "1-6-7",
                 "5-6-7",
-                "5-7-13",
-                "6-7-13"
+                "6-7-8",
+                "1-5-7"
+              ],
+              "balance": [
+                "1-6-7",
+                "5-6-7",
+                "6-7-8",
+                "1-5-7",
+                "1-5-6",
+                "1-6-8",
+                "5-6-8"
+              ],
+              "shoubu": [
+                "1-6-7",
+                "5-6-7",
+                "6-7-8",
+                "1-5-7",
+                "1-5-6",
+                "1-6-8",
+                "5-6-8",
+                "1-5-8",
+                "1-7-8",
+                "5-7-8"
               ]
             },
             "plansTan": {
               "teppan": [
-                "1→5→13",
-                "1→13→5",
-                "13→1→5",
-                "5→1→13"
+                "6→1→7",
+                "6→7→1",
+                "7→6→1",
+                "1→6→7"
               ],
               "balance": [
-                "1→5→13",
-                "1→13→5",
-                "13→1→5",
-                "5→1→13",
-                "1→5→6",
-                "1→6→5",
-                "13→5→1"
+                "6→1→7",
+                "6→7→1",
+                "7→6→1",
+                "1→6→7",
+                "6→1→5",
+                "6→5→1",
+                "7→1→6"
               ],
               "shoubu": [
-                "1→5→13",
-                "1→13→5",
-                "13→1→5",
-                "5→1→13",
-                "1→5→6",
-                "1→6→5",
-                "13→5→1",
-                "1→5→7",
-                "1→6→13",
+                "6→1→7",
+                "6→7→1",
+                "7→6→1",
                 "1→6→7",
-                "1→13→6",
-                "1→13→7"
+                "6→1→5",
+                "6→5→1",
+                "7→1→6",
+                "6→1→8",
+                "6→5→7",
+                "6→5→8",
+                "6→7→5",
+                "6→7→8"
               ]
             },
             "ana": {
-              "num": 13,
-              "name": "ブレーザー",
-              "reason": "前走1着（15頭）がありながらスコア5位の一発候補"
+              "num": 7,
+              "name": "ペイシャケイプ",
+              "reason": "人気6位ながらエンジンスコア4位の一発候補"
             },
-            "comment": "◎1番 メリディアンスター（スコア1.063）。近走は1-1-1着で評価最上位。\n対抗は○5番 スナッピードレッサ、▲は6番 サトノボヤージュ。\n穴候補は13番 ブレーザー（前走1着（15頭）がありながらスコア5位の一発候補）。"
-          }
+            "comment": "【人気ベース再構成】◎6番 サトノボヤージュ（1番人気）。\n対抗は○1番 メリディアンスター、▲は5番 スナッピードレッサ。\n穴候補は7番 ペイシャケイプ（人気6位ながらエンジンスコア4位の一発候補）。",
+            "basis": "popana",
+            "popAt": "2026-11-22T01:31:45.112Z"
+          },
+          "odds": {
+            "1-5-6": 10.2,
+            "1-5-7": 25.4,
+            "1-5-8": 34.7,
+            "1-6-7": 25,
+            "1-6-8": 32.3,
+            "1-7-8": 69.6,
+            "5-6-7": 31.5,
+            "5-6-8": 42.9,
+            "5-7-8": 96.9,
+            "6-7-8": 80.9
+          },
+          "oddsTan": {
+            "1-6-7": 85.9,
+            "6-1-5": 32.9,
+            "6-1-7": 81,
+            "6-1-8": 113.3,
+            "6-5-1": 40.1,
+            "6-5-7": 111.5,
+            "6-5-8": 155.3,
+            "6-7-1": 142.8,
+            "6-7-5": 172.1,
+            "6-7-8": 325.4,
+            "7-1-6": 223.1,
+            "7-6-1": 224.8
+          },
+          "oddsAt": "2026-11-22T01:31:45.448Z"
         },
         {
           "no": 12,
@@ -9345,7 +9459,7 @@
                 }
               ],
               "score": 0.64,
-              "mark": ""
+              "mark": "▲"
             },
             {
               "num": 2,
@@ -9588,7 +9702,7 @@
                 }
               ],
               "score": 0.911,
-              "mark": "◎"
+              "mark": "△"
             },
             {
               "num": 5,
@@ -9680,7 +9794,7 @@
                 }
               ],
               "score": 0.736,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 6,
@@ -9862,7 +9976,7 @@
                 }
               ],
               "score": 0.895,
-              "mark": "○"
+              "mark": "◎"
             },
             {
               "num": 8,
@@ -10307,7 +10421,7 @@
                 }
               ],
               "score": 0.865,
-              "mark": "▲"
+              "mark": "△"
             },
             {
               "num": 13,
@@ -10399,7 +10513,7 @@
                 }
               ],
               "score": 0.794,
-              "mark": "△"
+              "mark": "○"
             },
             {
               "num": 14,
@@ -10686,85 +10800,114 @@
           ],
           "prediction": {
             "honmei": {
-              "num": 4,
-              "name": "デイトナチャンプ"
+              "num": 7,
+              "name": "イヌボウノウタゴエ"
             },
             "sanrenpuku": [
-              "4-7-12",
-              "4-7-13",
-              "4-12-13"
+              "1-7-13",
+              "7-9-13",
+              "1-7-9"
             ],
             "sanrentan": [
-              "4→7→12",
-              "4→12→7"
+              "7→13→1",
+              "7→1→13"
             ],
             "plans": {
               "teppan": [
-                "4-5-7",
-                "4-5-12",
-                "4-5-13",
-                "5-7-12"
+                "4-7-13",
+                "1-4-7",
+                "4-7-9",
+                "1-4-13"
               ],
               "balance": [
-                "4-5-7",
-                "4-5-12",
-                "4-5-13",
-                "5-7-12",
-                "4-7-12",
                 "4-7-13",
-                "4-12-13"
+                "1-4-7",
+                "4-7-9",
+                "1-4-13",
+                "1-7-13",
+                "7-9-13",
+                "1-7-9"
               ],
               "shoubu": [
-                "4-5-7",
-                "4-5-12",
-                "4-5-13",
-                "5-7-12",
-                "4-7-12",
                 "4-7-13",
-                "4-12-13",
-                "7-12-13",
-                "5-7-13",
-                "5-12-13"
+                "1-4-7",
+                "4-7-9",
+                "1-4-13",
+                "1-7-13",
+                "7-9-13",
+                "1-7-9",
+                "1-9-13",
+                "4-9-13",
+                "1-4-9"
               ]
             },
             "plansTan": {
               "teppan": [
-                "4→7→5",
-                "4→5→7",
-                "5→4→7",
-                "7→4→5"
+                "7→13→4",
+                "7→4→13",
+                "4→7→13",
+                "13→7→4"
               ],
               "balance": [
-                "4→7→5",
-                "4→5→7",
-                "5→4→7",
-                "7→4→5",
-                "4→7→12",
-                "4→12→7",
-                "5→7→4"
+                "7→13→4",
+                "7→4→13",
+                "4→7→13",
+                "13→7→4",
+                "7→13→1",
+                "7→1→13",
+                "4→13→7"
               ],
               "shoubu": [
-                "4→7→5",
-                "4→5→7",
-                "5→4→7",
-                "7→4→5",
-                "4→7→12",
-                "4→12→7",
-                "5→7→4",
+                "7→13→4",
+                "7→4→13",
                 "4→7→13",
-                "4→12→5",
-                "4→12→13",
-                "4→5→12",
-                "4→5→13"
+                "13→7→4",
+                "7→13→1",
+                "7→1→13",
+                "4→13→7",
+                "7→13→9",
+                "7→1→4",
+                "7→1→9",
+                "7→4→1",
+                "7→4→9"
               ]
             },
             "ana": {
-              "num": 5,
-              "name": "メローネ",
-              "reason": "2走前1着（9頭）がありながらスコア5位の一発候補"
+              "num": 4,
+              "name": "デイトナチャンプ",
+              "reason": "人気6位ながらエンジンスコア1位の一発候補"
             },
-            "comment": "◎4番 デイトナチャンプ（スコア0.911）。近走は1-6-2-1着で評価最上位。\n対抗は○7番 イヌボウノウタゴエ、▲は12番 ライネリーベ。\n穴候補は5番 メローネ（2走前1着（9頭）がありながらスコア5位の一発候補）。"
-          }
+            "comment": "【人気ベース再構成】◎7番 イヌボウノウタゴエ（1番人気）。\n対抗は○13番 ラパンチュール、▲は1番 ヒズマスターピース。\n穴候補は4番 デイトナチャンプ（人気6位ながらエンジンスコア1位の一発候補）。",
+            "basis": "popana",
+            "popAt": "2026-11-22T01:31:46.200Z"
+          },
+          "odds": {
+            "1-4-7": 55.2,
+            "1-4-9": 47.1,
+            "1-4-13": 52.4,
+            "1-7-9": 42.4,
+            "1-7-13": 44.7,
+            "1-9-13": 32.3,
+            "4-7-9": 30.1,
+            "4-7-13": 30.8,
+            "4-9-13": 19.9,
+            "7-9-13": 17
+          },
+          "oddsTan": {
+            "13-7-4": 152.3,
+            "4-7-13": 178.5,
+            "4-13-7": 159.4,
+            "7-1-4": 395,
+            "7-1-9": 305.8,
+            "7-1-13": 302.7,
+            "7-4-1": 347.7,
+            "7-4-9": 212.6,
+            "7-4-13": 210,
+            "7-13-1": 208.1,
+            "7-13-4": 167,
+            "7-13-9": 112.3
+          },
+          "oddsAt": "2026-11-22T01:31:46.706Z"
         }
       ]
     },
@@ -10793,8 +10936,8 @@
               "weight": 55,
               "jockey": "坂井",
               "trainer": "栗東武英",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 428,
+              "bodyWeightDiff": 0,
               "pastRuns": [
                 {
                   "date": "2026-08-29",
@@ -10839,7 +10982,7 @@
                 }
               ],
               "score": 0.306,
-              "mark": "▲"
+              "mark": ""
             },
             {
               "num": 2,
@@ -10850,8 +10993,8 @@
               "weight": 55,
               "jockey": "川田",
               "trainer": "栗東須貝",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 466,
+              "bodyWeightDiff": 4,
               "pastRuns": [],
               "score": 0.398,
               "mark": "○"
@@ -10865,8 +11008,8 @@
               "weight": 55,
               "jockey": "荻野琢",
               "trainer": "栗東宮本",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 456,
+              "bodyWeightDiff": 0,
               "pastRuns": [
                 {
                   "date": "2026-09-21",
@@ -10900,11 +11043,11 @@
               "weight": 55,
               "jockey": "城戸",
               "trainer": "栗東荒川",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 420,
+              "bodyWeightDiff": -2,
               "pastRuns": [],
               "score": 0.398,
-              "mark": ""
+              "mark": "▲"
             },
             {
               "num": 5,
@@ -10915,8 +11058,8 @@
               "weight": 55,
               "jockey": "田口",
               "trainer": "栗東大橋",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 486,
+              "bodyWeightDiff": 6,
               "pastRuns": [],
               "score": 0.398,
               "mark": "△"
@@ -10930,8 +11073,8 @@
               "weight": 55,
               "jockey": "幸",
               "trainer": "栗東大根田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 424,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-10-04",
@@ -10954,7 +11097,7 @@
                 }
               ],
               "score": -0.011,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 7,
@@ -10965,8 +11108,8 @@
               "weight": 55,
               "jockey": "高倉",
               "trainer": "栗東畑端",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 480,
+              "bodyWeightDiff": 4,
               "pastRuns": [],
               "score": 0.398,
               "mark": "△"
@@ -10980,11 +11123,11 @@
               "weight": 55,
               "jockey": "松若",
               "trainer": "栗東東田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 468,
+              "bodyWeightDiff": -2,
               "pastRuns": [],
               "score": 0.398,
-              "mark": "◎"
+              "mark": "△"
             },
             {
               "num": 9,
@@ -10995,11 +11138,11 @@
               "weight": 54,
               "jockey": "☆田山",
               "trainer": "栗東畑端",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 528,
+              "bodyWeightDiff": 6,
               "pastRuns": [],
               "score": 0.406,
-              "mark": ""
+              "mark": "◎"
             },
             {
               "num": 10,
@@ -11010,8 +11153,8 @@
               "weight": 55,
               "jockey": "中井",
               "trainer": "栗東加藤公",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 408,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-10-18",
@@ -11045,8 +11188,8 @@
               "weight": 53,
               "jockey": "△柴田裕",
               "trainer": "栗東中竹",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 448,
+              "bodyWeightDiff": -4,
               "pastRuns": [
                 {
                   "date": "2026-10-25",
@@ -11080,8 +11223,8 @@
               "weight": 55,
               "jockey": "酒井",
               "trainer": "栗東西村",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 452,
+              "bodyWeightDiff": 6,
               "pastRuns": [],
               "score": 0.398,
               "mark": ""
@@ -11089,114 +11232,85 @@
           ],
           "prediction": {
             "honmei": {
-              "num": 8,
-              "name": "ポアサムシュガー"
+              "num": 9,
+              "name": "アディエル"
             },
             "sanrenpuku": [
-              "1-2-8",
-              "2-6-8",
-              "1-6-8"
+              "2-4-9",
+              "2-5-9",
+              "4-5-9"
             ],
             "sanrentan": [
-              "8→2→1",
-              "8→1→2"
+              "9→2→4",
+              "9→4→2"
             ],
             "plans": {
               "teppan": [
-                "2-5-8",
-                "1-5-8",
-                "5-6-8",
-                "1-2-5"
+                "1-2-9",
+                "1-4-9",
+                "1-5-9",
+                "1-2-4"
               ],
               "balance": [
-                "2-5-8",
-                "1-5-8",
-                "5-6-8",
-                "1-2-5",
-                "1-2-8",
-                "2-6-8",
-                "1-6-8"
+                "1-2-9",
+                "1-4-9",
+                "1-5-9",
+                "1-2-4",
+                "2-4-9",
+                "2-5-9",
+                "4-5-9"
               ],
               "shoubu": [
-                "2-5-8",
-                "1-5-8",
-                "5-6-8",
+                "1-2-9",
+                "1-4-9",
+                "1-5-9",
+                "1-2-4",
+                "2-4-9",
+                "2-5-9",
+                "4-5-9",
+                "2-4-5",
                 "1-2-5",
-                "1-2-8",
-                "2-6-8",
-                "1-6-8",
-                "1-2-6",
-                "2-5-6",
-                "1-5-6"
+                "1-4-5"
               ]
             },
             "plansTan": {
               "teppan": [
-                "8→2→5",
-                "8→5→2",
-                "5→8→2",
-                "2→8→5"
+                "9→2→1",
+                "9→1→2",
+                "1→9→2",
+                "2→9→1"
               ],
               "balance": [
-                "8→2→5",
-                "8→5→2",
-                "5→8→2",
-                "2→8→5",
-                "8→2→1",
-                "8→1→2",
-                "5→2→8"
+                "9→2→1",
+                "9→1→2",
+                "1→9→2",
+                "2→9→1",
+                "9→2→4",
+                "9→4→2",
+                "1→2→9"
               ],
               "shoubu": [
-                "8→2→5",
-                "8→5→2",
-                "5→8→2",
-                "2→8→5",
-                "8→2→1",
-                "8→1→2",
-                "5→2→8",
-                "8→2→6",
-                "8→1→5",
-                "8→1→6",
-                "8→5→1",
-                "8→5→6"
+                "9→2→1",
+                "9→1→2",
+                "1→9→2",
+                "2→9→1",
+                "9→2→4",
+                "9→4→2",
+                "1→2→9",
+                "9→2→5",
+                "9→4→1",
+                "9→4→5",
+                "9→1→4",
+                "9→1→5"
               ]
             },
             "ana": {
-              "num": 5,
-              "name": "タマモウララカ",
-              "reason": "人気5位ながらエンジンスコア4位の一発候補"
+              "num": 1,
+              "name": "マシュマロデイズ",
+              "reason": "2走前6着（14頭）がありながらスコア8位の一発候補"
             },
-            "comment": "【人気ベース再構成】◎8番 ポアサムシュガー（1番人気）。\n対抗は○2番 エイントノーウェイ、▲は1番 マシュマロデイズ。\n穴候補は5番 タマモウララカ（人気5位ながらエンジンスコア4位の一発候補）。",
-            "basis": "popana",
-            "popAt": "2026-11-22T00:37:37.438Z"
+            "comment": "◎9番 アディエル（スコア0.406）。近走は実績なしで評価最上位。\n対抗は○2番 エイントノーウェイ、▲は4番 ヒガンバナ。\n穴候補は1番 マシュマロデイズ（2走前6着（14頭）がありながらスコア8位の一発候補）。"
           },
-          "odds": {
-            "1-2-5": 53.5,
-            "1-2-6": 27.7,
-            "1-2-8": 4,
-            "1-5-6": 89.1,
-            "1-5-8": 13.9,
-            "1-6-8": 6.7,
-            "2-5-6": 173.5,
-            "2-5-8": 18.1,
-            "2-6-8": 15.6,
-            "5-6-8": 50.2
-          },
-          "oddsTan": {
-            "2-8-5": 60.6,
-            "5-2-8": 438.5,
-            "5-8-2": 318.2,
-            "8-1-2": 13.6,
-            "8-1-5": 37.5,
-            "8-1-6": 16.1,
-            "8-2-1": 17.5,
-            "8-2-5": 53.2,
-            "8-2-6": 41,
-            "8-5-1": 78.5,
-            "8-5-2": 108.7,
-            "8-5-6": 226.4
-          },
-          "oddsAt": "2026-11-22T01:14:09.918Z",
           "result": {
             "top3": [
               11,
@@ -11239,8 +11353,8 @@
               "weight": 55,
               "jockey": "城戸",
               "trainer": "栗東宮地",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 422,
+              "bodyWeightDiff": 2,
               "pastRuns": [],
               "score": 0.405,
               "mark": ""
@@ -11254,8 +11368,8 @@
               "weight": 56,
               "jockey": "幸",
               "trainer": "栗東安達",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 464,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-10-18",
@@ -11348,8 +11462,8 @@
               "weight": 56,
               "jockey": "松山",
               "trainer": "栗東梅田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 438,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.397,
               "mark": "△"
@@ -11363,8 +11477,8 @@
               "weight": 55,
               "jockey": "松若",
               "trainer": "栗東森田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 438,
+              "bodyWeightDiff": -8,
               "pastRuns": [],
               "score": 0.405,
               "mark": "△"
@@ -11378,8 +11492,8 @@
               "weight": 56,
               "jockey": "岩部",
               "trainer": "栗東昆",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 470,
+              "bodyWeightDiff": 0,
               "pastRuns": [
                 {
                   "date": "2026-10-17",
@@ -11434,8 +11548,8 @@
               "weight": 55,
               "jockey": "吉村",
               "trainer": "栗東清水久",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 476,
+              "bodyWeightDiff": -14,
               "pastRuns": [],
               "score": 0.405,
               "mark": "○"
@@ -11449,8 +11563,8 @@
               "weight": 56,
               "jockey": "三浦",
               "trainer": "美浦小手川",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 464,
+              "bodyWeightDiff": 4,
               "pastRuns": [],
               "score": 0.397,
               "mark": ""
@@ -11464,8 +11578,8 @@
               "weight": 56,
               "jockey": "高倉",
               "trainer": "栗東武英",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 484,
+              "bodyWeightDiff": 2,
               "pastRuns": [],
               "score": 0.397,
               "mark": ""
@@ -11479,8 +11593,8 @@
               "weight": 56,
               "jockey": "岩田望",
               "trainer": "栗東茶木",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 438,
+              "bodyWeightDiff": 4,
               "pastRuns": [
                 {
                   "date": "2026-10-25",
@@ -11514,8 +11628,8 @@
               "weight": 55,
               "jockey": "武豊",
               "trainer": "栗東石坂",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 432,
+              "bodyWeightDiff": 0,
               "pastRuns": [
                 {
                   "date": "2026-09-06",
@@ -11606,8 +11720,8 @@
               "weight": 56,
               "jockey": "菱田",
               "trainer": "栗東岡田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 444,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.397,
               "mark": ""
@@ -11621,8 +11735,8 @@
               "weight": 55,
               "jockey": "菅原明",
               "trainer": "栗東荒川",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 442,
+              "bodyWeightDiff": -2,
               "pastRuns": [],
               "score": 0.405,
               "mark": ""
@@ -11636,8 +11750,8 @@
               "weight": 56,
               "jockey": "西村淳",
               "trainer": "栗東庄野",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 440,
+              "bodyWeightDiff": 2,
               "pastRuns": [],
               "score": 0.397,
               "mark": "△"
@@ -11724,35 +11838,35 @@
             },
             "comment": "【人気ベース再構成】◎10番 スマートメモリー（1番人気）。\n対抗は○6番 プラナベルデ、▲は9番 パロディ。\n穴候補は4番 シングインザレイン（人気6位ながらエンジンスコア4位の一発候補）。",
             "basis": "popana",
-            "popAt": "2026-11-22T01:14:26.383Z"
+            "popAt": "2026-11-22T01:31:46.374Z"
           },
           "odds": {
-            "4-6-9": 108.4,
-            "4-6-10": 24.5,
-            "4-6-13": 137.7,
-            "4-9-10": 31.7,
-            "4-9-13": 139.1,
-            "4-10-13": 35.1,
-            "6-9-10": 10.7,
-            "6-9-13": 52,
-            "6-10-13": 12.2,
-            "9-10-13": 14.1
+            "4-6-9": 131.9,
+            "4-6-10": 23.6,
+            "4-6-13": 134.9,
+            "4-9-10": 28.9,
+            "4-9-13": 142.3,
+            "4-10-13": 31.1,
+            "6-9-10": 10.4,
+            "6-9-13": 51.8,
+            "6-10-13": 10.9,
+            "9-10-13": 12.5
           },
           "oddsTan": {
-            "10-4-6": 113.9,
-            "10-4-9": 126.5,
-            "10-4-13": 139.7,
-            "10-6-4": 60.9,
-            "10-6-9": 26.8,
-            "10-6-13": 29.4,
-            "10-9-4": 78.3,
-            "10-9-6": 32.9,
-            "10-9-13": 37.5,
-            "4-6-10": 379.7,
-            "4-10-6": 296.5,
-            "6-10-4": 118.7
+            "10-4-6": 97.1,
+            "10-4-9": 111.3,
+            "10-4-13": 114.6,
+            "10-6-4": 59.1,
+            "10-6-9": 25.9,
+            "10-6-13": 27.1,
+            "10-9-4": 71.7,
+            "10-9-6": 29.6,
+            "10-9-13": 32.8,
+            "4-6-10": 348.9,
+            "4-10-6": 271,
+            "6-10-4": 114.3
           },
-          "oddsAt": "2026-11-22T01:14:26.623Z"
+          "oddsAt": "2026-11-22T01:31:46.733Z"
         },
         {
           "no": 3,
@@ -11771,8 +11885,8 @@
               "weight": 55,
               "jockey": "☆田山",
               "trainer": "栗東橋口",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 466,
+              "bodyWeightDiff": -4,
               "pastRuns": [],
               "score": 0.404,
               "mark": ""
@@ -11786,8 +11900,8 @@
               "weight": 56,
               "jockey": "岩田望",
               "trainer": "栗東須貝",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 468,
+              "bodyWeightDiff": 0,
               "pastRuns": [],
               "score": 0.396,
               "mark": "△"
@@ -11801,8 +11915,8 @@
               "weight": 56,
               "jockey": "松山",
               "trainer": "栗東宮",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 460,
+              "bodyWeightDiff": 4,
               "pastRuns": [],
               "score": 0.396,
               "mark": ""
@@ -11816,8 +11930,8 @@
               "weight": 55,
               "jockey": "Ｃデムーロ",
               "trainer": "栗東石坂",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 432,
+              "bodyWeightDiff": -6,
               "pastRuns": [],
               "score": 0.404,
               "mark": "▲"
@@ -11831,8 +11945,8 @@
               "weight": 56,
               "jockey": "武豊",
               "trainer": "栗東本田",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 462,
+              "bodyWeightDiff": 4,
               "pastRuns": [
                 {
                   "date": "2026-09-12",
@@ -11909,8 +12023,8 @@
               "weight": 55,
               "jockey": "吉村",
               "trainer": "栗東清水久",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 458,
+              "bodyWeightDiff": 2,
               "pastRuns": [
                 {
                   "date": "2026-08-09",
@@ -11967,8 +12081,8 @@
               "weight": 56,
               "jockey": "幸",
               "trainer": "栗東宮本",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 470,
+              "bodyWeightDiff": 2,
               "pastRuns": [],
               "score": 0.396,
               "mark": "○"
@@ -11982,8 +12096,8 @@
               "weight": 55,
               "jockey": "松若",
               "trainer": "栗東宮本",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 440,
+              "bodyWeightDiff": -2,
               "pastRuns": [],
               "score": 0.404,
               "mark": "△"
@@ -11997,8 +12111,8 @@
               "weight": 56,
               "jockey": "浜中",
               "trainer": "栗東武幸",
-              "bodyWeight": null,
-              "bodyWeightDiff": null,
+              "bodyWeight": 516,
+              "bodyWeightDiff": 18,
               "pastRuns": [
                 {
                   "date": "2026-08-08",
@@ -12107,7 +12221,7 @@
             },
             "comment": "【人気ベース再構成】◎5番 メイショウジェード（1番人気）。\n対抗は○7番 ヒロノリホープ、▲は4番 クオーレサンライズ。\n穴候補は6番 マハロハ（人気5位ながらエンジンスコア2位の一発候補）。",
             "basis": "popana",
-            "popAt": "2026-11-22T01:14:27.571Z"
+            "popAt": "2026-11-22T01:31:47.884Z"
           },
           "odds": {
             "4-5-6": 12.1,
@@ -12135,7 +12249,7 @@
             "6-7-5": 194.3,
             "7-5-6": 59.4
           },
-          "oddsAt": "2026-11-22T01:14:27.730Z"
+          "oddsAt": "2026-11-22T01:31:48.192Z"
         },
         {
           "no": 4,
@@ -12377,7 +12491,7 @@
             },
             "comment": "【人気ベース再構成】◎1番 デュランバローズ（1番人気）。\n対抗は○9番 ショーヴェントス、▲は3番 ブレイヴモナーク。\n穴候補は4番 リープデイリズム（人気8位ながらエンジンスコア1位の一発候補）。",
             "basis": "popana",
-            "popAt": "2026-11-22T01:14:27.955Z"
+            "popAt": "2026-11-22T01:31:47.658Z"
           },
           "odds": {
             "1-3-4": 67.9,
@@ -12405,7 +12519,7 @@
             "4-9-1": 1145.6,
             "9-1-4": 475.7
           },
-          "oddsAt": "2026-11-22T01:14:28.235Z"
+          "oddsAt": "2026-11-22T01:31:48.027Z"
         },
         {
           "no": 5,
@@ -12473,7 +12587,7 @@
               "bodyWeightDiff": null,
               "pastRuns": [],
               "score": 0.397,
-              "mark": ""
+              "mark": "△"
             },
             {
               "num": 5,
@@ -12563,7 +12677,7 @@
               "bodyWeightDiff": null,
               "pastRuns": [],
               "score": 0.405,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 11,
@@ -12677,35 +12791,35 @@
             },
             "comment": "【人気ベース再構成】◎9番 フィネスブレード（1番人気）。\n対抗は○2番 アルデオリエンス、▲は11番 サトノセブンス。\n穴候補は6番 サフランローブ（人気9位ながらエンジンスコア2位の一発候補）。",
             "basis": "popana",
-            "popAt": "2026-11-22T01:14:28.890Z"
+            "popAt": "2026-11-22T01:31:48.962Z"
           },
           "odds": {
-            "2-3-6": 47.5,
-            "2-3-9": 19.7,
-            "2-3-11": 18.7,
-            "2-6-9": 45.8,
-            "2-6-11": 39.5,
-            "2-9-11": 14.1,
-            "3-6-9": 78.2,
-            "3-6-11": 72.2,
-            "3-9-11": 32,
-            "6-9-11": 58.8
+            "2-3-6": 48.5,
+            "2-3-9": 20.3,
+            "2-3-11": 15.3,
+            "2-6-9": 50,
+            "2-6-11": 39.6,
+            "2-9-11": 14.5,
+            "3-6-9": 83.4,
+            "3-6-11": 71.5,
+            "3-9-11": 32.1,
+            "6-9-11": 61.4
           },
           "oddsTan": {
-            "2-9-6": 208.9,
-            "6-2-9": 474.6,
-            "6-9-2": 411.8,
-            "9-2-3": 67.9,
-            "9-2-6": 148.9,
-            "9-2-11": 46,
-            "9-6-2": 273.2,
-            "9-6-3": 347.8,
-            "9-6-11": 327.5,
-            "9-11-2": 56.6,
-            "9-11-3": 127.2,
-            "9-11-6": 215.4
+            "2-9-6": 213.6,
+            "6-2-9": 444,
+            "6-9-2": 376.9,
+            "9-2-3": 65.8,
+            "9-2-6": 162.4,
+            "9-2-11": 40.8,
+            "9-6-2": 302.8,
+            "9-6-3": 398.1,
+            "9-6-11": 373.6,
+            "9-11-2": 60.8,
+            "9-11-3": 138.8,
+            "9-11-6": 226.1
           },
-          "oddsAt": "2026-11-22T01:14:29.271Z"
+          "oddsAt": "2026-11-22T01:31:49.268Z"
         },
         {
           "no": 6,
@@ -12994,7 +13108,7 @@
                 }
               ],
               "score": 0.67,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 4,
@@ -13159,7 +13273,7 @@
                 }
               ],
               "score": 0.334,
-              "mark": ""
+              "mark": "○"
             },
             {
               "num": 6,
@@ -13343,7 +13457,7 @@
                 }
               ],
               "score": 0.469,
-              "mark": ""
+              "mark": "△"
             },
             {
               "num": 8,
@@ -13626,7 +13740,7 @@
                 }
               ],
               "score": 0.397,
-              "mark": ""
+              "mark": "△"
             },
             {
               "num": 11,
@@ -13701,7 +13815,7 @@
                 }
               ],
               "score": 0.771,
-              "mark": "○"
+              "mark": ""
             },
             {
               "num": 12,
@@ -13799,7 +13913,7 @@
                 }
               ],
               "score": 0.696,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 13,
@@ -14039,7 +14153,7 @@
                 }
               ],
               "score": 0.716,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 16,
@@ -14131,7 +14245,7 @@
                 }
               ],
               "score": 0.641,
-              "mark": ""
+              "mark": "△"
             }
           ],
           "prediction": {
@@ -14140,81 +14254,110 @@
               "name": "スターフュージョン"
             },
             "sanrenpuku": [
-              "4-11-13",
-              "4-11-15",
-              "4-13-15"
+              "4-5-13",
+              "4-5-16",
+              "4-13-16"
             ],
             "sanrentan": [
-              "4→11→13",
-              "4→13→11"
+              "4→5→13",
+              "4→13→5"
             ],
             "plans": {
               "teppan": [
-                "4-11-12",
-                "4-12-13",
-                "4-12-15",
-                "11-12-13"
+                "4-5-15",
+                "4-13-15",
+                "4-15-16",
+                "5-13-15"
               ],
               "balance": [
-                "4-11-12",
-                "4-12-13",
-                "4-12-15",
-                "11-12-13",
-                "4-11-13",
-                "4-11-15",
-                "4-13-15"
+                "4-5-15",
+                "4-13-15",
+                "4-15-16",
+                "5-13-15",
+                "4-5-13",
+                "4-5-16",
+                "4-13-16"
               ],
               "shoubu": [
-                "4-11-12",
-                "4-12-13",
-                "4-12-15",
-                "11-12-13",
-                "4-11-13",
-                "4-11-15",
+                "4-5-15",
                 "4-13-15",
-                "11-13-15",
-                "11-12-15",
-                "12-13-15"
+                "4-15-16",
+                "5-13-15",
+                "4-5-13",
+                "4-5-16",
+                "4-13-16",
+                "5-13-16",
+                "5-15-16",
+                "13-15-16"
               ]
             },
             "plansTan": {
               "teppan": [
-                "4→11→12",
-                "4→12→11",
-                "12→4→11",
-                "11→4→12"
+                "4→5→15",
+                "4→15→5",
+                "15→4→5",
+                "5→4→15"
               ],
               "balance": [
-                "4→11→12",
-                "4→12→11",
-                "12→4→11",
-                "11→4→12",
-                "4→11→13",
-                "4→13→11",
-                "12→11→4"
+                "4→5→15",
+                "4→15→5",
+                "15→4→5",
+                "5→4→15",
+                "4→5→13",
+                "4→13→5",
+                "15→5→4"
               ],
               "shoubu": [
-                "4→11→12",
-                "4→12→11",
-                "12→4→11",
-                "11→4→12",
-                "4→11→13",
-                "4→13→11",
-                "12→11→4",
-                "4→11→15",
-                "4→13→12",
+                "4→5→15",
+                "4→15→5",
+                "15→4→5",
+                "5→4→15",
+                "4→5→13",
+                "4→13→5",
+                "15→5→4",
+                "4→5→16",
                 "4→13→15",
-                "4→12→13",
-                "4→12→15"
+                "4→13→16",
+                "4→15→13",
+                "4→15→16"
               ]
             },
             "ana": {
-              "num": 12,
-              "name": "エンブルーシャ",
-              "reason": "前走1着（9頭）がありながらスコア5位の一発候補"
+              "num": 15,
+              "name": "ビサーロ",
+              "reason": "人気8位ながらエンジンスコア4位の一発候補"
             },
-            "comment": "◎4番 スターフュージョン（スコア1.019）。近走は2-1-2着で評価最上位。\n対抗は○11番 ジューンオアシス、▲は13番 ヒッグスボソン。\n穴候補は12番 エンブルーシャ（前走1着（9頭）がありながらスコア5位の一発候補）。"
-          }
+            "comment": "【人気ベース再構成】◎4番 スターフュージョン（1番人気）。\n対抗は○5番 エシェックオロワ、▲は13番 ヒッグスボソン。\n穴候補は15番 ビサーロ（人気8位ながらエンジンスコア4位の一発候補）。",
+            "basis": "popana",
+            "popAt": "2026-11-22T01:31:49.365Z"
+          },
+          "odds": {
+            "13-15-16": 153.8,
+            "4-5-13": 21.7,
+            "4-5-15": 61.6,
+            "4-5-16": 14.2,
+            "4-13-15": 85.1,
+            "4-13-16": 15,
+            "4-15-16": 51.7,
+            "5-13-15": 209.2,
+            "5-13-16": 47.3,
+            "5-15-16": 148
+          },
+          "oddsTan": {
+            "15-4-5": 741.1,
+            "15-5-4": 886.3,
+            "4-5-13": 75.1,
+            "4-5-15": 222.7,
+            "4-5-16": 56.1,
+            "4-13-5": 104.9,
+            "4-13-15": 293.4,
+            "4-13-16": 74.6,
+            "4-15-5": 398,
+            "4-15-13": 434.2,
+            "4-15-16": 324.4,
+            "5-4-15": 338.4
+          },
+          "oddsAt": "2026-11-22T01:31:49.654Z"
         },
         {
           "no": 7,
@@ -14322,7 +14465,7 @@
                 }
               ],
               "score": 0.92,
-              "mark": "▲"
+              "mark": "△"
             },
             {
               "num": 2,
@@ -14422,7 +14565,7 @@
                 }
               ],
               "score": 0.571,
-              "mark": ""
+              "mark": "△"
             },
             {
               "num": 3,
@@ -14520,7 +14663,7 @@
                 }
               ],
               "score": 0.893,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 4,
@@ -14599,7 +14742,7 @@
                 }
               ],
               "score": 1.008,
-              "mark": "◎"
+              "mark": ""
             },
             {
               "num": 5,
@@ -14699,7 +14842,7 @@
                 }
               ],
               "score": 0.444,
-              "mark": ""
+              "mark": "○"
             },
             {
               "num": 6,
@@ -15076,7 +15219,7 @@
                 }
               ],
               "score": 0.932,
-              "mark": "○"
+              "mark": "◎"
             },
             {
               "num": 10,
@@ -15176,7 +15319,7 @@
                 }
               ],
               "score": 0.787,
-              "mark": ""
+              "mark": "△"
             },
             {
               "num": 11,
@@ -15354,7 +15497,7 @@
                 }
               ],
               "score": 0.433,
-              "mark": ""
+              "mark": "▲"
             },
             {
               "num": 13,
@@ -15453,7 +15596,7 @@
                 }
               ],
               "score": 0.798,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 14,
@@ -15669,7 +15812,7 @@
                 }
               ],
               "score": 0.869,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 17,
@@ -15872,85 +16015,114 @@
           ],
           "prediction": {
             "honmei": {
-              "num": 4,
-              "name": "タイセイアビオン"
+              "num": 9,
+              "name": "ドリームプレミア"
             },
             "sanrenpuku": [
-              "1-4-9",
-              "3-4-9",
-              "1-3-4"
+              "5-9-12",
+              "1-5-9",
+              "1-9-12"
             ],
             "sanrentan": [
-              "4→9→1",
-              "4→1→9"
+              "9→5→12",
+              "9→12→5"
             ],
             "plans": {
               "teppan": [
-                "4-9-10",
-                "1-4-10",
-                "3-4-10",
-                "1-9-10"
+                "3-5-9",
+                "3-9-12",
+                "1-3-9",
+                "3-5-12"
               ],
               "balance": [
-                "4-9-10",
-                "1-4-10",
-                "3-4-10",
-                "1-9-10",
-                "1-4-9",
-                "3-4-9",
-                "1-3-4"
+                "3-5-9",
+                "3-9-12",
+                "1-3-9",
+                "3-5-12",
+                "5-9-12",
+                "1-5-9",
+                "1-9-12"
               ],
               "shoubu": [
-                "4-9-10",
-                "1-4-10",
-                "3-4-10",
-                "1-9-10",
-                "1-4-9",
-                "3-4-9",
-                "1-3-4",
+                "3-5-9",
+                "3-9-12",
                 "1-3-9",
-                "3-9-10",
-                "1-3-10"
+                "3-5-12",
+                "5-9-12",
+                "1-5-9",
+                "1-9-12",
+                "1-5-12",
+                "1-3-5",
+                "1-3-12"
               ]
             },
             "plansTan": {
               "teppan": [
-                "4→9→10",
-                "4→10→9",
-                "10→4→9",
-                "9→4→10"
+                "9→5→3",
+                "9→3→5",
+                "3→9→5",
+                "5→9→3"
               ],
               "balance": [
-                "4→9→10",
-                "4→10→9",
-                "10→4→9",
-                "9→4→10",
-                "4→9→1",
-                "4→1→9",
-                "10→9→4"
+                "9→5→3",
+                "9→3→5",
+                "3→9→5",
+                "5→9→3",
+                "9→5→12",
+                "9→12→5",
+                "3→5→9"
               ],
               "shoubu": [
-                "4→9→10",
-                "4→10→9",
-                "10→4→9",
-                "9→4→10",
-                "4→9→1",
-                "4→1→9",
-                "10→9→4",
-                "4→9→3",
-                "4→1→10",
-                "4→1→3",
-                "4→10→1",
-                "4→10→3"
+                "9→5→3",
+                "9→3→5",
+                "3→9→5",
+                "5→9→3",
+                "9→5→12",
+                "9→12→5",
+                "3→5→9",
+                "9→5→1",
+                "9→12→3",
+                "9→12→1",
+                "9→3→12",
+                "9→3→1"
               ]
             },
             "ana": {
-              "num": 10,
-              "name": "パーヴォ",
-              "reason": "2走前1着（16頭）がありながらスコア7位の一発候補"
+              "num": 3,
+              "name": "ゴールデンテティス",
+              "reason": "人気8位ながらエンジンスコア4位の一発候補"
             },
-            "comment": "◎4番 タイセイアビオン（スコア1.008）。近走は1-2-3着で評価最上位。\n対抗は○9番 ドリームプレミア、▲は1番 コワンニシタガウ。\n穴候補は10番 パーヴォ（2走前1着（16頭）がありながらスコア7位の一発候補）。"
-          }
+            "comment": "【人気ベース再構成】◎9番 ドリームプレミア（1番人気）。\n対抗は○5番 ページターナー、▲は12番 ボンドマティーニ。\n穴候補は3番 ゴールデンテティス（人気8位ながらエンジンスコア4位の一発候補）。",
+            "basis": "popana",
+            "popAt": "2026-11-22T01:31:50.202Z"
+          },
+          "odds": {
+            "1-3-5": 159,
+            "1-3-9": 159.4,
+            "1-3-12": 334.3,
+            "1-5-9": 36.9,
+            "1-5-12": 65.9,
+            "1-9-12": 67.6,
+            "3-5-9": 104.9,
+            "3-5-12": 187.5,
+            "3-9-12": 166.3,
+            "5-9-12": 27.8
+          },
+          "oddsTan": {
+            "3-5-9": 966.1,
+            "3-9-5": 1099.4,
+            "5-9-3": 478.2,
+            "9-3-1": 735.7,
+            "9-3-5": 549.7,
+            "9-3-12": 1039.6,
+            "9-5-1": 172.3,
+            "9-5-3": 432.7,
+            "9-5-12": 144.4,
+            "9-12-1": 286.3,
+            "9-12-3": 673.5,
+            "9-12-5": 161.8
+          },
+          "oddsAt": "2026-11-22T01:31:50.598Z"
         },
         {
           "no": 8,
@@ -16058,7 +16230,7 @@
                 }
               ],
               "score": 0.744,
-              "mark": "▲"
+              "mark": "○"
             },
             {
               "num": 2,
@@ -16135,7 +16307,7 @@
                 }
               ],
               "score": 0.476,
-              "mark": ""
+              "mark": "◎"
             },
             {
               "num": 3,
@@ -16233,7 +16405,7 @@
                 }
               ],
               "score": 0.842,
-              "mark": "○"
+              "mark": ""
             },
             {
               "num": 4,
@@ -16529,7 +16701,7 @@
                 }
               ],
               "score": 0.9,
-              "mark": "◎"
+              "mark": "△"
             },
             {
               "num": 7,
@@ -16629,7 +16801,7 @@
                 }
               ],
               "score": 0.497,
-              "mark": ""
+              "mark": "▲"
             },
             {
               "num": 8,
@@ -16829,7 +17001,7 @@
                 }
               ],
               "score": 0.498,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 10,
@@ -16934,85 +17106,114 @@
           ],
           "prediction": {
             "honmei": {
-              "num": 6,
-              "name": "アンティスマ"
+              "num": 2,
+              "name": "スカイストライプス"
             },
             "sanrenpuku": [
-              "1-3-6",
-              "3-4-6",
-              "1-4-6"
+              "1-2-7",
+              "1-2-10",
+              "2-7-10"
             ],
             "sanrentan": [
-              "6→3→1",
-              "6→1→3"
+              "2→1→7",
+              "2→7→1"
             ],
             "plans": {
               "teppan": [
-                "3-6-10",
-                "1-6-10",
-                "4-6-10",
-                "1-3-10"
+                "1-2-6",
+                "2-6-7",
+                "2-6-10",
+                "1-6-7"
               ],
               "balance": [
-                "3-6-10",
-                "1-6-10",
-                "4-6-10",
-                "1-3-10",
-                "1-3-6",
-                "3-4-6",
-                "1-4-6"
+                "1-2-6",
+                "2-6-7",
+                "2-6-10",
+                "1-6-7",
+                "1-2-7",
+                "1-2-10",
+                "2-7-10"
               ],
               "shoubu": [
-                "3-6-10",
+                "1-2-6",
+                "2-6-7",
+                "2-6-10",
+                "1-6-7",
+                "1-2-7",
+                "1-2-10",
+                "2-7-10",
+                "1-7-10",
                 "1-6-10",
-                "4-6-10",
-                "1-3-10",
-                "1-3-6",
-                "3-4-6",
-                "1-4-6",
-                "1-3-4",
-                "3-4-10",
-                "1-4-10"
+                "6-7-10"
               ]
             },
             "plansTan": {
               "teppan": [
-                "6→3→10",
-                "6→10→3",
-                "10→6→3",
-                "3→6→10"
+                "2→1→6",
+                "2→6→1",
+                "6→2→1",
+                "1→2→6"
               ],
               "balance": [
-                "6→3→10",
-                "6→10→3",
-                "10→6→3",
-                "3→6→10",
-                "6→3→1",
-                "6→1→3",
-                "10→3→6"
+                "2→1→6",
+                "2→6→1",
+                "6→2→1",
+                "1→2→6",
+                "2→1→7",
+                "2→7→1",
+                "6→1→2"
               ],
               "shoubu": [
-                "6→3→10",
-                "6→10→3",
-                "10→6→3",
-                "3→6→10",
-                "6→3→1",
-                "6→1→3",
-                "10→3→6",
-                "6→3→4",
-                "6→1→10",
-                "6→1→4",
-                "6→10→1",
-                "6→10→4"
+                "2→1→6",
+                "2→6→1",
+                "6→2→1",
+                "1→2→6",
+                "2→1→7",
+                "2→7→1",
+                "6→1→2",
+                "2→1→10",
+                "2→7→6",
+                "2→7→10",
+                "2→6→7",
+                "2→6→10"
               ]
             },
             "ana": {
-              "num": 10,
-              "name": "ヒミノエトワール",
-              "reason": "3走前1着（9頭）がありながらスコア5位の一発候補"
+              "num": 6,
+              "name": "アンティスマ",
+              "reason": "人気5位ながらエンジンスコア1位の一発候補"
             },
-            "comment": "◎6番 アンティスマ（スコア0.900）。近走は1-1-2-11着で評価最上位。\n対抗は○3番 サマーナイト、▲は1番 ブラックレジェンド。\n穴候補は10番 ヒミノエトワール（3走前1着（9頭）がありながらスコア5位の一発候補）。"
-          }
+            "comment": "【人気ベース再構成】◎2番 スカイストライプス（1番人気）。\n対抗は○1番 ブラックレジェンド、▲は7番 ロードソルスティス。\n穴候補は6番 アンティスマ（人気5位ながらエンジンスコア1位の一発候補）。",
+            "basis": "popana",
+            "popAt": "2026-11-22T01:31:50.822Z"
+          },
+          "odds": {
+            "1-2-6": 10.7,
+            "1-2-7": 7.6,
+            "1-2-10": 18,
+            "1-6-7": 29.3,
+            "1-6-10": 65.5,
+            "1-7-10": 43.7,
+            "2-6-7": 11.2,
+            "2-6-10": 24.4,
+            "2-7-10": 18.8,
+            "6-7-10": 63.3
+          },
+          "oddsTan": {
+            "1-2-6": 79.6,
+            "2-1-6": 31.9,
+            "2-1-7": 19.3,
+            "2-1-10": 44.6,
+            "2-6-1": 36.4,
+            "2-6-7": 37.1,
+            "2-6-10": 75.3,
+            "2-7-1": 21.5,
+            "2-7-6": 37.8,
+            "2-7-10": 47.1,
+            "6-1-2": 118.3,
+            "6-2-1": 76
+          },
+          "oddsAt": "2026-11-22T01:31:51.118Z"
         },
         {
           "no": 9,
@@ -17207,7 +17408,7 @@
                 }
               ],
               "score": 0.66,
-              "mark": "△"
+              "mark": "○"
             },
             {
               "num": 3,
@@ -17402,7 +17603,7 @@
                 }
               ],
               "score": 0.4,
-              "mark": ""
+              "mark": "△"
             },
             {
               "num": 5,
@@ -17569,7 +17770,7 @@
                 }
               ],
               "score": 0.568,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 7,
@@ -17949,7 +18150,7 @@
                 }
               ],
               "score": 0.764,
-              "mark": "▲"
+              "mark": ""
             },
             {
               "num": 11,
@@ -18042,7 +18243,7 @@
                 }
               ],
               "score": 0.797,
-              "mark": "○"
+              "mark": "◎"
             },
             {
               "num": 12,
@@ -18137,7 +18338,7 @@
                 }
               ],
               "score": 0.515,
-              "mark": ""
+              "mark": "▲"
             },
             {
               "num": 13,
@@ -18229,7 +18430,7 @@
                 }
               ],
               "score": 1.01,
-              "mark": "◎"
+              "mark": ""
             },
             {
               "num": 14,
@@ -18323,97 +18524,126 @@
                 }
               ],
               "score": 0.51,
-              "mark": ""
+              "mark": "△"
             }
           ],
           "prediction": {
             "honmei": {
-              "num": 13,
-              "name": "タナブイハチターボ"
+              "num": 11,
+              "name": "バルセシート"
             },
             "sanrenpuku": [
-              "10-11-13",
-              "3-11-13",
-              "3-10-13"
+              "2-11-12",
+              "2-11-14",
+              "11-12-14"
             ],
             "sanrentan": [
-              "13→11→10",
-              "13→10→11"
+              "11→2→12",
+              "11→12→2"
             ],
             "plans": {
               "teppan": [
-                "7-11-13",
-                "7-10-13",
-                "3-7-13",
-                "7-10-11"
+                "2-11-13",
+                "11-12-13",
+                "11-13-14",
+                "2-12-13"
               ],
               "balance": [
-                "7-11-13",
-                "7-10-13",
-                "3-7-13",
-                "7-10-11",
-                "10-11-13",
-                "3-11-13",
-                "3-10-13"
+                "2-11-13",
+                "11-12-13",
+                "11-13-14",
+                "2-12-13",
+                "2-11-12",
+                "2-11-14",
+                "11-12-14"
               ],
               "shoubu": [
-                "7-11-13",
-                "7-10-13",
-                "3-7-13",
-                "7-10-11",
-                "10-11-13",
-                "3-11-13",
-                "3-10-13",
-                "3-10-11",
-                "3-7-11",
-                "3-7-10"
+                "2-11-13",
+                "11-12-13",
+                "11-13-14",
+                "2-12-13",
+                "2-11-12",
+                "2-11-14",
+                "11-12-14",
+                "2-12-14",
+                "2-13-14",
+                "12-13-14"
               ]
             },
             "plansTan": {
               "teppan": [
-                "13→11→7",
-                "13→7→11",
-                "7→13→11",
-                "11→13→7"
+                "11→2→13",
+                "11→13→2",
+                "13→11→2",
+                "2→11→13"
               ],
               "balance": [
-                "13→11→7",
-                "13→7→11",
-                "7→13→11",
-                "11→13→7",
-                "13→11→10",
-                "13→10→11",
-                "7→11→13"
+                "11→2→13",
+                "11→13→2",
+                "13→11→2",
+                "2→11→13",
+                "11→2→12",
+                "11→12→2",
+                "13→2→11"
               ],
               "shoubu": [
-                "13→11→7",
-                "13→7→11",
-                "7→13→11",
-                "11→13→7",
-                "13→11→10",
-                "13→10→11",
-                "7→11→13",
-                "13→11→3",
-                "13→10→7",
-                "13→10→3",
-                "13→7→10",
-                "13→7→3"
+                "11→2→13",
+                "11→13→2",
+                "13→11→2",
+                "2→11→13",
+                "11→2→12",
+                "11→12→2",
+                "13→2→11",
+                "11→2→14",
+                "11→12→13",
+                "11→12→14",
+                "11→13→12",
+                "11→13→14"
               ]
             },
             "ana": {
-              "num": 7,
-              "name": "モアニ",
-              "reason": "3走前1着（16頭）がありながらスコア7位の一発候補"
+              "num": 13,
+              "name": "タナブイハチターボ",
+              "reason": "人気7位ながらエンジンスコア1位の一発候補"
             },
-            "comment": "◎13番 タナブイハチターボ（スコア1.010）。近走は1-1-2-2着で評価最上位。\n対抗は○11番 バルセシート、▲は10番 オックスアイ。\n穴候補は7番 モアニ（3走前1着（16頭）がありながらスコア7位の一発候補）。"
-          }
+            "comment": "【人気ベース再構成】◎11番 バルセシート（1番人気）。\n対抗は○2番 リカントロポ、▲は12番 アイガーリー。\n穴候補は13番 タナブイハチターボ（人気7位ながらエンジンスコア1位の一発候補）。",
+            "basis": "popana",
+            "popAt": "2026-11-22T01:31:51.530Z"
+          },
+          "odds": {
+            "11-12-13": 84.7,
+            "11-12-14": 19.3,
+            "11-13-14": 60.5,
+            "12-13-14": 165.7,
+            "2-11-12": 15.3,
+            "2-11-13": 36.4,
+            "2-11-14": 12,
+            "2-12-13": 138.9,
+            "2-12-14": 34.4,
+            "2-13-14": 86.2
+          },
+          "oddsTan": {
+            "11-2-12": 44.4,
+            "11-2-13": 137.5,
+            "11-2-14": 36,
+            "11-12-2": 59.9,
+            "11-12-13": 276.1,
+            "11-12-14": 66.3,
+            "11-13-2": 246.5,
+            "11-13-12": 403.7,
+            "11-13-14": 325.5,
+            "13-2-11": 362.9,
+            "13-11-2": 471.3,
+            "2-11-13": 196.2
+          },
+          "oddsAt": "2026-11-22T01:31:51.900Z"
         },
         {
           "no": 10,
           "raceId": "202608050610",
           "name": "西陣S",
           "status": "ready",
-          "startTime": "15:00",
+          "startTime": "15:01",
           "course": "ダ1400m",
           "horses": [
             {
@@ -18604,7 +18834,7 @@
                 }
               ],
               "score": 0.697,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 3,
@@ -18792,7 +19022,7 @@
                 }
               ],
               "score": 0.768,
-              "mark": "▲"
+              "mark": "△"
             },
             {
               "num": 5,
@@ -18884,7 +19114,7 @@
                 }
               ],
               "score": 0.555,
-              "mark": ""
+              "mark": "▲"
             },
             {
               "num": 6,
@@ -19162,7 +19392,7 @@
                 }
               ],
               "score": 0.668,
-              "mark": ""
+              "mark": "△"
             },
             {
               "num": 9,
@@ -19536,7 +19766,7 @@
                 }
               ],
               "score": 0.689,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 13,
@@ -19690,41 +19920,41 @@
               "name": "ニューオーリンズ"
             },
             "sanrenpuku": [
+              "1-5-9",
               "1-4-9",
-              "1-2-9",
-              "1-2-4"
+              "1-4-5"
             ],
             "sanrentan": [
-              "1→9→4",
-              "1→4→9"
+              "1→9→5",
+              "1→5→9"
             ],
             "plans": {
               "teppan": [
                 "1-9-12",
+                "1-5-12",
                 "1-4-12",
-                "1-2-12",
-                "4-9-12"
+                "5-9-12"
               ],
               "balance": [
                 "1-9-12",
+                "1-5-12",
                 "1-4-12",
-                "1-2-12",
-                "4-9-12",
+                "5-9-12",
+                "1-5-9",
                 "1-4-9",
-                "1-2-9",
-                "1-2-4"
+                "1-4-5"
               ],
               "shoubu": [
                 "1-9-12",
+                "1-5-12",
                 "1-4-12",
-                "1-2-12",
-                "4-9-12",
+                "5-9-12",
+                "1-5-9",
                 "1-4-9",
-                "1-2-9",
-                "1-2-4",
-                "2-4-9",
-                "2-9-12",
-                "2-4-12"
+                "1-4-5",
+                "4-5-9",
+                "4-9-12",
+                "4-5-12"
               ]
             },
             "plansTan": {
@@ -19739,8 +19969,8 @@
                 "1→12→9",
                 "12→1→9",
                 "9→1→12",
-                "1→9→4",
-                "1→4→9",
+                "1→9→5",
+                "1→5→9",
                 "12→9→1"
               ],
               "shoubu": [
@@ -19748,23 +19978,52 @@
                 "1→12→9",
                 "12→1→9",
                 "9→1→12",
-                "1→9→4",
-                "1→4→9",
+                "1→9→5",
+                "1→5→9",
                 "12→9→1",
-                "1→9→2",
-                "1→4→12",
-                "1→4→2",
-                "1→12→4",
-                "1→12→2"
+                "1→9→4",
+                "1→5→12",
+                "1→5→4",
+                "1→12→5",
+                "1→12→4"
               ]
             },
             "ana": {
               "num": 12,
               "name": "メイケイレイン",
-              "reason": "2走前1着（14頭）がありながらスコア5位の一発候補"
+              "reason": "人気7位ながらエンジンスコア5位の一発候補"
             },
-            "comment": "◎1番 ニューオーリンズ（スコア0.938）。近走は3-3-2-1着で評価最上位。\n対抗は○9番 フェンダー、▲は4番 コーラルクラウン。\n穴候補は12番 メイケイレイン（2走前1着（14頭）がありながらスコア5位の一発候補）。"
-          }
+            "comment": "【人気ベース再構成】◎1番 ニューオーリンズ（1番人気）。\n対抗は○9番 フェンダー、▲は5番 トゥロン。\n穴候補は12番 メイケイレイン（人気7位ながらエンジンスコア5位の一発候補）。",
+            "basis": "popana",
+            "popAt": "2026-11-22T01:31:52.047Z"
+          },
+          "odds": {
+            "1-4-5": 18.9,
+            "1-4-9": 20.8,
+            "1-4-12": 53,
+            "1-5-9": 13,
+            "1-5-12": 33.1,
+            "1-9-12": 37.2,
+            "4-5-9": 28.7,
+            "4-5-12": 73.8,
+            "4-9-12": 82,
+            "5-9-12": 47
+          },
+          "oddsTan": {
+            "12-1-9": 343.1,
+            "12-9-1": 371.2,
+            "1-5-4": 59.9,
+            "1-5-9": 41.3,
+            "1-5-12": 101.1,
+            "1-9-4": 69.5,
+            "1-9-5": 43.1,
+            "1-9-12": 124.6,
+            "1-12-4": 197.5,
+            "1-12-5": 135.2,
+            "1-12-9": 167.2,
+            "9-1-12": 173
+          },
+          "oddsAt": "2026-11-22T01:31:52.305Z"
         },
         {
           "no": 11,
@@ -19852,7 +20111,7 @@
                 }
               ],
               "score": 0.939,
-              "mark": "▲"
+              "mark": "△"
             },
             {
               "num": 2,
@@ -19943,7 +20202,7 @@
                 }
               ],
               "score": 0.876,
-              "mark": ""
+              "mark": "○"
             },
             {
               "num": 3,
@@ -20178,7 +20437,7 @@
                 }
               ],
               "score": 0.693,
-              "mark": ""
+              "mark": "△"
             },
             {
               "num": 6,
@@ -20369,7 +20628,7 @@
                 }
               ],
               "score": 0.893,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 8,
@@ -20444,7 +20703,7 @@
                 }
               ],
               "score": 1.026,
-              "mark": "◎"
+              "mark": "▲"
             },
             {
               "num": 9,
@@ -20680,7 +20939,7 @@
                 }
               ],
               "score": 0.855,
-              "mark": ""
+              "mark": "△"
             },
             {
               "num": 12,
@@ -20753,7 +21012,7 @@
                 }
               ],
               "score": 0.99,
-              "mark": "○"
+              "mark": ""
             },
             {
               "num": 13,
@@ -20922,7 +21181,7 @@
                 }
               ],
               "score": 0.806,
-              "mark": ""
+              "mark": "◎"
             },
             {
               "num": 15,
@@ -20992,7 +21251,7 @@
                 }
               ],
               "score": 0.9,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 16,
@@ -21158,7 +21417,7 @@
                 }
               ],
               "score": 0.929,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 18,
@@ -21236,85 +21495,114 @@
           ],
           "prediction": {
             "honmei": {
-              "num": 8,
-              "name": "ロデオドライブ"
+              "num": 14,
+              "name": "スターアニス"
             },
             "sanrenpuku": [
-              "1-8-12",
-              "8-12-17",
-              "1-8-17"
+              "2-8-14",
+              "1-2-14",
+              "1-8-14"
             ],
             "sanrentan": [
-              "8→12→1",
-              "8→1→12"
+              "14→2→8",
+              "14→8→2"
             ],
             "plans": {
               "teppan": [
-                "8-12-15",
-                "1-8-15",
-                "8-15-17",
-                "1-12-15"
+                "2-12-14",
+                "8-12-14",
+                "1-12-14",
+                "2-8-12"
               ],
               "balance": [
-                "8-12-15",
-                "1-8-15",
-                "8-15-17",
-                "1-12-15",
-                "1-8-12",
-                "8-12-17",
-                "1-8-17"
+                "2-12-14",
+                "8-12-14",
+                "1-12-14",
+                "2-8-12",
+                "2-8-14",
+                "1-2-14",
+                "1-8-14"
               ],
               "shoubu": [
-                "8-12-15",
-                "1-8-15",
-                "8-15-17",
-                "1-12-15",
-                "1-8-12",
-                "8-12-17",
-                "1-8-17",
-                "1-12-17",
-                "12-15-17",
-                "1-15-17"
+                "2-12-14",
+                "8-12-14",
+                "1-12-14",
+                "2-8-12",
+                "2-8-14",
+                "1-2-14",
+                "1-8-14",
+                "1-2-8",
+                "1-2-12",
+                "1-8-12"
               ]
             },
             "plansTan": {
               "teppan": [
-                "8→12→15",
-                "8→15→12",
-                "15→8→12",
-                "12→8→15"
+                "14→2→12",
+                "14→12→2",
+                "12→14→2",
+                "2→14→12"
               ],
               "balance": [
-                "8→12→15",
-                "8→15→12",
-                "15→8→12",
-                "12→8→15",
-                "8→12→1",
-                "8→1→12",
-                "15→12→8"
+                "14→2→12",
+                "14→12→2",
+                "12→14→2",
+                "2→14→12",
+                "14→2→8",
+                "14→8→2",
+                "12→2→14"
               ],
               "shoubu": [
-                "8→12→15",
-                "8→15→12",
-                "15→8→12",
-                "12→8→15",
-                "8→12→1",
-                "8→1→12",
-                "15→12→8",
-                "8→12→17",
-                "8→1→15",
-                "8→1→17",
-                "8→15→1",
-                "8→15→17"
+                "14→2→12",
+                "14→12→2",
+                "12→14→2",
+                "2→14→12",
+                "14→2→8",
+                "14→8→2",
+                "12→2→14",
+                "14→2→1",
+                "14→8→12",
+                "14→8→1",
+                "14→12→8",
+                "14→12→1"
               ]
             },
             "ana": {
-              "num": 15,
-              "name": "エコロブルーム",
-              "reason": "前走1着（17頭）がありながらスコア5位の一発候補"
+              "num": 12,
+              "name": "ワールズエンド",
+              "reason": "人気7位ながらエンジンスコア2位の一発候補"
             },
-            "comment": "◎8番 ロデオドライブ（スコア1.026）。近走は1-2-1着で評価最上位。\n対抗は○12番 ワールズエンド、▲は1番 エルデナリ。\n穴候補は15番 エコロブルーム（前走1着（17頭）がありながらスコア5位の一発候補）。"
-          }
+            "comment": "【人気ベース再構成】◎14番 スターアニス（1番人気）。\n対抗は○2番 エンブロイダリー、▲は8番 ロデオドライブ。\n穴候補は12番 ワールズエンド（人気7位ながらエンジンスコア2位の一発候補）。",
+            "basis": "popana",
+            "popAt": "2026-11-22T01:31:52.840Z"
+          },
+          "odds": {
+            "1-2-8": 40.3,
+            "1-2-12": 76.6,
+            "1-2-14": 40.4,
+            "1-8-12": 87.7,
+            "1-8-14": 37.4,
+            "1-12-14": 105.8,
+            "2-8-12": 38.3,
+            "2-8-14": 22.2,
+            "2-12-14": 44.4,
+            "8-12-14": 47.2
+          },
+          "oddsTan": {
+            "12-2-14": 305.9,
+            "12-14-2": 335.9,
+            "14-2-1": 160.6,
+            "14-2-8": 91.5,
+            "14-2-12": 180.3,
+            "14-8-1": 172.4,
+            "14-8-2": 100.3,
+            "14-8-12": 209.2,
+            "14-12-1": 491.6,
+            "14-12-2": 242.8,
+            "14-12-8": 263.4,
+            "2-14-12": 179.6
+          },
+          "oddsAt": "2026-11-22T01:31:53.363Z"
         },
         {
           "no": 12,
@@ -21468,7 +21756,7 @@
                 }
               ],
               "score": 0.722,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 3,
@@ -21560,7 +21848,7 @@
                 }
               ],
               "score": 0.519,
-              "mark": ""
+              "mark": "△"
             },
             {
               "num": 4,
@@ -21652,7 +21940,7 @@
                 }
               ],
               "score": 0.75,
-              "mark": "○"
+              "mark": ""
             },
             {
               "num": 5,
@@ -22001,7 +22289,7 @@
                 }
               ],
               "score": 0.554,
-              "mark": ""
+              "mark": "▲"
             },
             {
               "num": 9,
@@ -22074,7 +22362,7 @@
                 }
               ],
               "score": 0.744,
-              "mark": "△"
+              "mark": ""
             },
             {
               "num": 10,
@@ -22147,7 +22435,7 @@
                 }
               ],
               "score": 0.749,
-              "mark": "▲"
+              "mark": ""
             },
             {
               "num": 11,
@@ -22293,7 +22581,7 @@
                 }
               ],
               "score": 0.501,
-              "mark": ""
+              "mark": "△"
             },
             {
               "num": 13,
@@ -22385,7 +22673,7 @@
                 }
               ],
               "score": 0.636,
-              "mark": ""
+              "mark": "○"
             }
           ],
           "prediction": {
@@ -22394,81 +22682,110 @@
               "name": "ルージュスプリヤ"
             },
             "sanrenpuku": [
-              "4-10-11",
-              "4-9-11",
-              "9-10-11"
+              "8-11-13",
+              "6-11-13",
+              "6-8-11"
             ],
             "sanrentan": [
-              "11→4→10",
-              "11→10→4"
+              "11→13→8",
+              "11→8→13"
             ],
             "plans": {
               "teppan": [
-                "2-4-11",
-                "2-10-11",
-                "2-9-11",
-                "2-4-10"
+                "10-11-13",
+                "8-10-11",
+                "6-10-11",
+                "8-10-13"
               ],
               "balance": [
-                "2-4-11",
-                "2-10-11",
-                "2-9-11",
-                "2-4-10",
-                "4-10-11",
-                "4-9-11",
-                "9-10-11"
+                "10-11-13",
+                "8-10-11",
+                "6-10-11",
+                "8-10-13",
+                "8-11-13",
+                "6-11-13",
+                "6-8-11"
               ],
               "shoubu": [
-                "2-4-11",
-                "2-10-11",
-                "2-9-11",
-                "2-4-10",
-                "4-10-11",
-                "4-9-11",
-                "9-10-11",
-                "4-9-10",
-                "2-4-9",
-                "2-9-10"
+                "10-11-13",
+                "8-10-11",
+                "6-10-11",
+                "8-10-13",
+                "8-11-13",
+                "6-11-13",
+                "6-8-11",
+                "6-8-13",
+                "6-10-13",
+                "6-8-10"
               ]
             },
             "plansTan": {
               "teppan": [
-                "11→4→2",
-                "11→2→4",
-                "2→11→4",
-                "4→11→2"
+                "11→13→10",
+                "11→10→13",
+                "10→11→13",
+                "13→11→10"
               ],
               "balance": [
-                "11→4→2",
-                "11→2→4",
-                "2→11→4",
-                "4→11→2",
-                "11→4→10",
-                "11→10→4",
-                "2→4→11"
+                "11→13→10",
+                "11→10→13",
+                "10→11→13",
+                "13→11→10",
+                "11→13→8",
+                "11→8→13",
+                "10→13→11"
               ],
               "shoubu": [
-                "11→4→2",
-                "11→2→4",
-                "2→11→4",
-                "4→11→2",
-                "11→4→10",
-                "11→10→4",
-                "2→4→11",
-                "11→4→9",
-                "11→10→2",
-                "11→10→9",
-                "11→2→10",
-                "11→2→9"
+                "11→13→10",
+                "11→10→13",
+                "10→11→13",
+                "13→11→10",
+                "11→13→8",
+                "11→8→13",
+                "10→13→11",
+                "11→13→6",
+                "11→8→10",
+                "11→8→6",
+                "11→10→8",
+                "11→10→6"
               ]
             },
             "ana": {
-              "num": 2,
-              "name": "トーセントラム",
-              "reason": "2走前1着（11頭）がありながらスコア5位の一発候補"
+              "num": 10,
+              "name": "ディアドコス",
+              "reason": "人気8位ながらエンジンスコア3位の一発候補"
             },
-            "comment": "◎11番 ルージュスプリヤ（スコア1.014）。近走は1-1-4着で評価最上位。\n対抗は○4番 ミロワール、▲は10番 ディアドコス。\n穴候補は2番 トーセントラム（2走前1着（11頭）がありながらスコア5位の一発候補）。"
-          }
+            "comment": "【人気ベース再構成】◎11番 ルージュスプリヤ（1番人気）。\n対抗は○13番 ファビュラススター、▲は8番 メルトユアハート。\n穴候補は10番 ディアドコス（人気8位ながらエンジンスコア3位の一発候補）。",
+            "basis": "popana",
+            "popAt": "2026-11-22T01:31:53.235Z"
+          },
+          "odds": {
+            "10-11-13": 16.7,
+            "6-8-10": 365.5,
+            "6-8-11": 60.2,
+            "6-8-13": 266,
+            "6-10-11": 50.8,
+            "6-10-13": 273.1,
+            "6-11-13": 26.1,
+            "8-10-11": 36.3,
+            "8-10-13": 164.6,
+            "8-11-13": 16.1
+          },
+          "oddsTan": {
+            "10-11-13": 218,
+            "10-13-11": 278.9,
+            "11-8-6": 144.5,
+            "11-8-10": 102.4,
+            "11-8-13": 62.1,
+            "11-10-6": 132.3,
+            "11-10-8": 94.9,
+            "11-10-13": 61.4,
+            "11-13-6": 51.5,
+            "11-13-8": 35,
+            "11-13-10": 33.7,
+            "13-11-10": 108.1
+          },
+          "oddsAt": "2026-11-22T01:31:53.517Z"
         }
       ]
     }
@@ -22476,8 +22793,8 @@
   "quality": {
     "errors": [],
     "warnings": 0,
-    "checkedAt": "2026-11-21T21:57:44.583Z"
+    "checkedAt": "2026-11-22T01:31:38.781Z"
   },
   "resultsUpdatedAt": "2026-11-22T01:14:21.425Z",
-  "oddsUpdatedAt": "2026-11-22T01:14:30.071Z"
+  "oddsUpdatedAt": "2026-11-22T01:31:54.316Z"
 }

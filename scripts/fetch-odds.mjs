@@ -106,19 +106,20 @@ async function main() {
         // その新しい買い目でオッズを取り直す。発走後は凍結 (対象外)。
         if (!finalMode && dateStr === now.date && r.startTime && toMin(r.startTime) > now.minutes) {
           try {
-            const pop = await fetchPopularity(fetchText, BASE, r);
+            const { pop, status, reason } = await fetchPopularity(fetchText, BASE, r);
             if (pop && rebuildWithPopularity(r, pop)) rebuilt++;
+            else console.log(`[odds] ${v.name} ${r.no}R 人気なし (status=${status} reason=${reason || '-'}) : 予想は据え置き`);
           } catch (e) {
             console.log(`[odds] ${v.name} ${r.no}R 人気取得/再構成失敗 (予想は据え置き): ${e.message || e}`);
           }
         }
-        const { odds, oddsTan } = await fetchKeibaOdds(fetchText, BASE, r);
+        const { odds, oddsTan, status: oStatus, reason: oReason } = await fetchKeibaOdds(fetchText, BASE, r);
         if (Object.keys(odds).length > 0 || Object.keys(oddsTan).length > 0) {
           r.odds = odds;
           r.oddsTan = oddsTan;
           r.oddsAt = new Date().toISOString();
           updated++;
-        } else { empty++; }
+        } else { empty++; console.log(`[odds] ${v.name} ${r.no}R オッズなし (status=${oStatus} reason=${oReason || '-'})`); }
       } catch (e) {
         failed++;
         console.log(`[odds] ${v.name} ${r.no}R 取得失敗: ${e.message || e}`);

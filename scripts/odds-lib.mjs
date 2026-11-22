@@ -7,7 +7,40 @@
 // 値は [オッズ文字列, 変動, 人気] の配列で、オッズはカンマ区切り。
 // 全組み合わせは三連単で最大4896通りと多いため、保存はプランの
 // 買い目分だけに絞る (表示に必要なのは買い目のオッズと区分平均)。
+//
+// APIの呼び出し方 (2026-11-22 実測で確定):
+//   race_id と type だけの呼び出しでは、未発走レースに
+//   {"status":"middle","data":"","reason":"result odds empty"} が返り、
+//   発売中のオッズは取得できない (2026-11-21 はこのため popana が
+//   live では一度も成功しなかった)。
+//   オッズページの更新プラグイン (jquery.odds_update.js) と同じ
+//   パラメータ群 (pid/input/output/action/sort/compress) を付けると、
+//   発売中 (status:"middle") のオッズが data.odds に返る。
+//   compress=0 で平文JSONが返る。compress=1 だと data は
+//   zlib+base64圧縮のため本ライブラリでは使わない。
 // ============================================================
+
+// オッズAPIのURLを作る (上記の実測パラメータ群つき)。
+export function oddsApiUrl(base, raceId, type) {
+  const q = new URLSearchParams({
+    pid: 'api_get_jra_odds', input: 'UTF-8', output: 'json',
+    race_id: String(raceId), type: String(type),
+    action: 'init', sort: 'odds', compress: '0',
+  });
+  return `${base}/api/api_get_jra_odds.html?${q.toString()}`;
+}
+
+// APIレスポンス本文をパースする。JSONP形式 (output=jsonp) にも対応。
+// 返値 { json, status, reason }。data が空文字の場合は status/reason
+// (例: middle / "result odds empty") が理由として残る。
+export function parseOddsResponse(txt) {
+  let s = String(txt || '').trim();
+  if (s.startsWith('(') && s.endsWith(')')) s = s.slice(1, -1);
+  const json = JSON.parse(s);
+  const status = json && json.status ? String(json.status) : 'unknown';
+  const reason = json && json.reason ? String(json.reason) : '';
+  return { json, status, reason };
+}
 
 // レースの予想から、オッズが必要な買い目集合を作る
 export function planCombos(race) {
@@ -43,15 +76,20 @@ export function extractOdds(apiJson, type, wanted) {
 
 // 1レース分のオッズ (三連複+三連単、プランの買い目分) を取得する。
 // fetchText は呼び出し側の取得関数 (UA付きで本文テキストを返す)。
+// 返値に API の status/reason を含める (空応答の理由をログに残すため)。
 export async function fetchKeibaOdds(fetchText, base, race) {
   const { fuku, tan } = planCombos(race);
   const [fTxt, tTxt] = await Promise.all([
-    fetchText(`${base}/api/api_get_jra_odds.html?race_id=${race.raceId}&type=7`),
-    fetchText(`${base}/api/api_get_jra_odds.html?race_id=${race.raceId}&type=8`),
+    fetchText(oddsApiUrl(base, race.raceId, 7)),
+    fetchText(oddsApiUrl(base, race.raceId, 8)),
   ]);
+  const f = parseOddsResponse(fTxt);
+  const t = parseOddsResponse(tTxt);
   return {
-    odds: extractOdds(JSON.parse(fTxt), 7, fuku),
-    oddsTan: extractOdds(JSON.parse(tTxt), 8, tan),
+    odds: extractOdds(f.json, 7, fuku),
+    oddsTan: extractOdds(t.json, 8, tan),
+    status: f.status,
+    reason: f.reason || t.reason,
   };
 }
 
@@ -66,24 +104,28 @@ export async function fetchKeibaOdds(fetchText, base, race) {
 
 // 単勝オッズ (type=1) から人気順マップ {馬番: 人気} を作る。
 // 人気フィールドが無い馬は単勝オッズ順で補完する。
-// カバー率が低ければ null (再構成しない)。
+// カバー率が低ければ pop=null (再構成しない)。
+// 返値は { pop, status, reason }。pop が null のとき reason に
+// 空応答の理由が入る (無言失敗にしないため)。
 export async function fetchPopularity(fetchText, base, race) {
-  const txt = await fetchText(`${base}/api/api_get_jra_odds.html?race_id=${race.raceId}&type=1`);
-  const j = JSON.parse(txt);
+  const txt = await fetchText(oddsApiUrl(base, race.raceId, 1));
+  const { json: j, status, reason } = parseOddsResponse(txt);
   const map = j && j.data && j.data.odds && j.data.odds['1'];
-  if (!map) return null;
+  if (!map) return { pop: null, status, reason: reason || 'odds empty (dataなし)' };
   const entries = Object.entries(map).map(([k, val]) => ({
     num: parseInt(k, 10),
     odds: parseFloat(String(val[0]).replace(/,/g, '')),
     pop: parseInt(val[2], 10) || null,
   })).filter((e) => Number.isFinite(e.num) && Number.isFinite(e.odds) && e.odds > 0);
-  if (!entries.length) return null;
+  if (!entries.length) return { pop: null, status, reason: reason || 'odds empty (有効な単勝オッズなし)' };
   entries.sort((a, b) => (a.odds - b.odds) || (a.num - b.num));
   const pop = {};
   entries.forEach((e, i) => { pop[e.num] = e.pop && e.pop > 0 ? e.pop : i + 1; });
   const field = (race.horses || []).length;
-  if (field && Object.keys(pop).length < field * 0.8) return null;
-  return pop;
+  if (field && Object.keys(pop).length < field * 0.8) {
+    return { pop: null, status, reason: `coverage low (${Object.keys(pop).length}/${field}頭)` };
+  }
+  return { pop, status, reason };
 }
 
 // 人気順ランキング + 穴エンジンで予想を組み直す。

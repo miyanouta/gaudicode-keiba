@@ -446,7 +446,7 @@ function renderRaces(){
     }
     if(predChanged(r)) chips += '<span class="hit-chip" style="background:#d92b2b;color:#fff;font-weight:700">変更</span>';
     b.innerHTML = r.no + 'R' + (manHit?'💴':'') + chips + (r.startTime? '<span class="rt">'+r.startTime+'</span>' : '');
-    b.onclick = ()=>{ state.raceIdx=i; renderRaces(); renderContent(); };
+    b.onclick = ()=>{ state.raceIdx=i; state.noticeClosedFor = null; renderRaces(); renderContent(); };
     el.appendChild(b);
   });
   saveSel();
@@ -477,6 +477,21 @@ window.setRaceVer = function(key, ver){
   if(!state.raceVer) state.raceVer = {};
   state.raceVer[key] = ver;
   renderContent();
+};
+// 変更通知モーダル (2026-11-25): 固定バナーだと他の表示を隠すので、レースを
+// 開いた時に一面に出す。「本日は表示しない」にチェックを入れて閉じたら、
+// その日はもう出さない (localStorage に日付で保存)。未チェックなら開く
+// たびに出る。どちらでも閉じれば一旦消える。
+function changeNoticeMuted(){
+  try { return localStorage.getItem('gaudiChangeMute') === todayStrJST(); } catch(e){ return false; }
+}
+window.closeChangeNotice = function(goVer){
+  const cb = document.getElementById('changeNoticeMute');
+  if(cb && cb.checked){ try { localStorage.setItem('gaudiChangeMute', todayStrJST()); } catch(e){} }
+  const el = document.getElementById('changeNotice');
+  if(el) el.remove();
+  state.noticeClosedFor = state.noticeKey;
+  if(goVer) setRaceVer(state.noticeKey, goVer);
 };
 
 const WAKU_COLORS = {1:['#f5f5f5','#111'],2:['#26262b','#fff'],3:['#d92b2b','#fff'],4:['#2255cc','#fff'],5:['#f2c418','#111'],6:['#1f9d4d','#fff'],7:['#f07d18','#fff'],8:['#f28bbd','#111']};
@@ -569,9 +584,7 @@ function renderContent(){
       '<button onclick="setRaceVer(\'' + verKey + '\',\'latest\')" style="' + btnBase + (!showMorning ? btnOn : btnOff) + '">最新版</button>' +
       '<span style="font-size:12px;color:var(--sub)">' + (showMorning ? '朝の公開時の予想・変更なし' : '人気を反映した最新の予想') + '</span></div>';
     if(changed){
-      html += '<div style="background:#ffe9e9;border:3px solid #d92b2b;color:#7a0d0d;border-radius:10px;padding:10px 12px;font-size:14.5px;font-weight:700;margin:8px 0;line-height:1.7">⚠ このレースの予想は、朝の公開後に変更されています。<br>' +
-        '<span style="font-size:13.5px">変更の理由：' + esc(changeReasonText(p0)) + (p0.changedAt ? '／最終変更 ' + fmtChangedAt(p0.changedAt) : '') + '</span><br>' +
-        '<span style="font-size:13px;font-weight:400">' + (showMorning ? 'いま表示しているのは朝固定版（公開時の予想）です。最新版に切り替えると変更後の予想が見られます。' : 'いま表示しているのは最新版（変更後）です。朝固定版に切り替えると公開時の予想が見られます。') + '</span></div>';
+      html += '<div style="font-size:12.5px;color:#b30000;font-weight:700;margin:2px 0 6px">⚠ 朝版から変更あり（理由：' + esc(changeReasonText(p0)) + (p0.changedAt ? '／最終変更 ' + fmtChangedAt(p0.changedAt) : '') + '）</div>';
     }
   }
   if(p){
@@ -621,6 +634,24 @@ function renderContent(){
     html += '</div>';
   }
   c.innerHTML = html;
+  // 変更通知モーダル: 変更されたレースを開いたら一面に出す (固定表示はしない)
+  const oldNotice = document.getElementById('changeNotice');
+  if(oldNotice) oldNotice.remove();
+  if(changed && !changeNoticeMuted() && state.noticeClosedFor !== verKey){
+    state.noticeKey = verKey;
+    const wrap = document.createElement('div');
+    wrap.innerHTML = '<div id="changeNotice" style="position:fixed;inset:0;background:rgba(0,0,0,0.55);z-index:999;display:flex;align-items:center;justify-content:center;padding:16px">' +
+      '<div style="background:#fff;border:3px solid #d92b2b;border-radius:14px;max-width:520px;width:100%;padding:20px 18px;max-height:92vh;overflow:auto">' +
+      '<div style="font-size:19px;font-weight:800;color:#b30000;margin-bottom:8px">⚠ このレースの予想は変更されています</div>' +
+      '<div style="font-size:14.5px;line-height:1.8;color:#333">朝の公開後に予想が変わりました。<br><b>変更の理由：' + esc(changeReasonText(p0)) + '</b>' + (p0.changedAt ? '<br>最終変更：' + fmtChangedAt(p0.changedAt) : '') + '<br>朝に購入した方は、公開時の「朝固定版」をご確認ください。</div>' +
+      '<label style="display:flex;gap:8px;align-items:center;margin:14px 0;font-size:14px;color:#333;cursor:pointer"><input type="checkbox" id="changeNoticeMute" style="width:18px;height:18px">本日は表示しない</label>' +
+      '<div style="display:flex;gap:8px;flex-wrap:wrap">' +
+      '<button onclick="closeChangeNotice(\'am\')" style="background:#2255cc;color:#fff;border:none;border-radius:8px;padding:9px 14px;font-size:14px;font-weight:700;cursor:pointer">朝固定版を見る</button>' +
+      '<button onclick="closeChangeNotice(\'latest\')" style="background:#e8860b;color:#fff;border:none;border-radius:8px;padding:9px 14px;font-size:14px;font-weight:700;cursor:pointer">最新版を見る</button>' +
+      '<button onclick="closeChangeNotice(null)" style="background:#eee;color:#333;border:1px solid #bbb;border-radius:8px;padding:9px 14px;font-size:14px;cursor:pointer">閉じる</button>' +
+      '</div></div></div>';
+    document.body.appendChild(wrap.firstChild);
+  }
 }
 
 function switchPlan(btn, key){

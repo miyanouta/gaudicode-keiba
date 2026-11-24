@@ -150,6 +150,7 @@
   <div class="meta" id="metaLine">データを読み込んでいます…</div>
 </header>
 <div class="ticker" id="ticker" style="display:none"><div class="ticker-inner" id="tickerInner"></div></div>
+<div style="background:#fff7e0;border-bottom:1px solid #e3c766;color:#5c4a00;font-size:12.5px;padding:7px 12px;line-height:1.6"><b>予想は2つの版があります：</b>「<b>朝固定版</b>」は朝の公開時の予想で<b>変更されません</b>。「<b>最新版</b>」は人気・オッズを反映して発走まで更新される版です。朝・昼にまとめて買う方は朝固定版をご覧ください。レースごとに切り替えできます。最新版で朝版から予想が変わったレースには、理由と一緒に<b>「変更」表示</b>が付きます。</div>
 
 <div class="layout">
   <aside class="venues">
@@ -443,6 +444,7 @@ function renderRaces(){
       else if(h.shoubu) chips += '<span class="hit-chip chip-sho">勝</span>';
       if(h.tanTeppan||h.tanBalance||h.tanShoubu) chips += '<span class="hit-chip chip-tan">単</span>';
     }
+    if(predChanged(r)) chips += '<span class="hit-chip" style="background:#d92b2b;color:#fff;font-weight:700">変更</span>';
     b.innerHTML = r.no + 'R' + (manHit?'💴':'') + chips + (r.startTime? '<span class="rt">'+r.startTime+'</span>' : '');
     b.onclick = ()=>{ state.raceIdx=i; renderRaces(); renderContent(); };
     el.appendChild(b);
@@ -451,6 +453,31 @@ function renderRaces(){
 }
 
 function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+// 朝固定版と最新版の切り替え (2026-11-25): 朝版は prediction.morning に保存
+// された公開時の予想。変更したレースには理由つきの強い変更表示を出す。
+function predChanged(r){
+  const p = r && r.prediction;
+  if(!p || !p.morning) return false;
+  return JSON.stringify([p.plans, p.plansTan]) !== JSON.stringify([p.morning.plans, p.morning.plansTan]);
+}
+const CHANGE_REASON_LABEL = { popana: '人気・オッズを反映したため' };
+function changeReasonText(p){
+  const rs = (p && p.changeReasons) || [];
+  const labels = rs.map(x=>CHANGE_REASON_LABEL[x]).filter(Boolean);
+  return labels.length ? labels.join('／') : '人気・オッズを反映したため';
+}
+function fmtChangedAt(iso){
+  if(!iso) return '';
+  const d = new Date(iso);
+  if(isNaN(d)) return '';
+  return (d.getMonth()+1) + '/' + d.getDate() + ' ' + String(d.getHours()).padStart(2,'0') + ':' + String(d.getMinutes()).padStart(2,'0');
+}
+window.setRaceVer = function(key, ver){
+  if(!state.raceVer) state.raceVer = {};
+  state.raceVer[key] = ver;
+  renderContent();
+};
 
 const WAKU_COLORS = {1:['#f5f5f5','#111'],2:['#26262b','#fff'],3:['#d92b2b','#fff'],4:['#2255cc','#fff'],5:['#f2c418','#111'],6:['#1f9d4d','#fff'],7:['#f07d18','#fff'],8:['#f28bbd','#111']};
 function horseChip(h){
@@ -504,14 +531,22 @@ function renderContent(){
     html += '</div>';
   }
 
+  // 版の決定: 既定は朝固定版 (結果があるレースは最終版=最新版が既定)
+  const verKey = v.name + '-' + r.no;
+  const raceVer = (state.raceVer && state.raceVer[verKey]) || (r.result ? 'latest' : 'am');
+  const p0 = r.prediction;
+  const changed = predChanged(r);
+  const showMorning = raceVer !== 'latest';
+
   // 出走表
   html += '<div class="card"><h4>出走表</h4><table><thead><tr>' +
     '<th>印</th><th>枠</th><th>馬</th><th>馬名</th><th>性齢</th><th>斤量</th><th>騎手</th><th>厩舎</th><th>馬体重</th><th>近走着順</th><th>スコア</th>' +
     '</tr></thead><tbody>';
   r.horses.forEach(x=>{
-    const hon = x.mark==='◎' ? ' hon':'';
+    const mk = (showMorning && r.morningMarks && r.morningMarks[x.num] != null) ? r.morningMarks[x.num] : (x.mark || '');
+    const hon = mk==='◎' ? ' hon':'';
     const form = (x.pastRuns||[]).filter(pr=>pr.valid).slice(0,5).map(pr=>pr.pos).join('・');
-    html += '<tr><td class="mark'+hon+'">'+esc(x.mark||'')+'</td><td>'+(x.waku||'')+'</td><td>'+horseChip(x)+'</td>' +
+    html += '<tr><td class="mark'+hon+'">'+esc(mk)+'</td><td>'+(x.waku||'')+'</td><td>'+horseChip(x)+'</td>' +
       '<td class="name">'+esc(x.name)+'</td><td>'+esc(x.sexAge||'')+'</td>' +
       '<td>'+(x.weight!=null? Number(x.weight).toFixed(1) : '')+'</td><td>'+esc(x.jockey||'')+'</td>' +
       '<td>'+esc(x.trainer||'')+'</td>' +
@@ -521,15 +556,31 @@ function renderContent(){
   });
   html += '</tbody></table><div style="margin-top:6px;font-size:12.5px;color:var(--sub)">近走着順は左が前走。スコアは近5走の着順・着差、馬場/距離適性、斤量、枠順を合成したGAUDICODE競馬AIの評価値です（高いほど有力）。馬番の色は枠色です。</div></div>';
 
-  // 予想
-  const p = r.prediction;
+  // 予想 (朝固定版 / 最新版)
+  const p = !p0 ? p0 : (showMorning && p0.morning)
+    ? Object.assign({}, p0, { honmei: p0.morning.honmei, ana: p0.morning.ana, plans: p0.morning.plans, plansTan: p0.morning.plansTan, sanrenpuku: p0.morning.sanrenpuku, sanrentan: p0.morning.sanrentan, comment: p0.morning.comment, revised: false })
+    : p0;
+  if(p0){
+    const btnBase = 'border-radius:8px;padding:6px 14px;font-size:13.5px;cursor:pointer;font-weight:700;';
+    const btnOn = 'background:#2255cc;color:#fff;border:2px solid #2255cc;';
+    const btnOff = 'background:transparent;color:var(--text);border:2px solid var(--sub);';
+    html += '<div style="display:flex;gap:8px;align-items:center;margin:12px 0 4px;flex-wrap:wrap">' +
+      '<button onclick="setRaceVer(\'' + verKey + '\',\'am\')" style="' + btnBase + (showMorning ? btnOn : btnOff) + '">朝固定版</button>' +
+      '<button onclick="setRaceVer(\'' + verKey + '\',\'latest\')" style="' + btnBase + (!showMorning ? btnOn : btnOff) + '">最新版</button>' +
+      '<span style="font-size:12px;color:var(--sub)">' + (showMorning ? '朝の公開時の予想・変更なし' : '人気を反映した最新の予想') + '</span></div>';
+    if(changed){
+      html += '<div style="background:#ffe9e9;border:3px solid #d92b2b;color:#7a0d0d;border-radius:10px;padding:10px 12px;font-size:14.5px;font-weight:700;margin:8px 0;line-height:1.7">⚠ このレースの予想は、朝の公開後に変更されています。<br>' +
+        '<span style="font-size:13.5px">変更の理由：' + esc(changeReasonText(p0)) + (p0.changedAt ? '／最終変更 ' + fmtChangedAt(p0.changedAt) : '') + '</span><br>' +
+        '<span style="font-size:13px;font-weight:400">' + (showMorning ? 'いま表示しているのは朝固定版（公開時の予想）です。最新版に切り替えると変更後の予想が見られます。' : 'いま表示しているのは最新版（変更後）です。朝固定版に切り替えると公開時の予想が見られます。') + '</span></div>';
+    }
+  }
   if(p){
     const winPukuKey = r.result ? (r.result.sanrenpuku ? r.result.sanrenpuku.combo.split('-').map(Number).sort((a,b)=>a-b).join('-') : (r.result.top3 ? [...r.result.top3].sort((a,b)=>a-b).join('-') : null)) : null;
     const winTanKey = r.result ? (r.result.sanrentan ? r.result.sanrentan.combo.split('-').map(Number).join('-') : (r.result.top3 ? r.result.top3.join('-') : null)) : null;
     const hitPuku = cc => !!winPukuKey && cc.split('-').map(Number).sort((a,b)=>a-b).join('-') === winPukuKey;
     const hitTan = cc => !!winTanKey && cc.replace(/→/g,'-').split('-').map(Number).join('-') === winTanKey;
     const wrapHit = (inner, hit) => hit ? '<span class="combo-hit">' + inner + ' 🎯</span>' : inner;
-    html += '<div class="card"><h4>GAUDICODE予想</h4>' + (p.revised ? '<div class="revised-badge">買い方変更（新しい買い方で再計算）</div>' : '') + '<div class="pred-grid">';
+    html += '<div class="card"><h4>GAUDICODE予想' + (showMorning ? '（朝固定版）' : '（最新版）') + '</h4>' + (p.revised ? '<div class="revised-badge">買い方変更（新しい買い方で再計算）</div>' : '') + '<div class="pred-grid">';
     if(p.honmei) html += '<div class="pred-box"><div class="k">本命</div><div class="v">◎ '+p.honmei.num+'番 '+esc(p.honmei.name)+'</div></div>';
     if(p.ana) html += '<div class="pred-box"><div class="k">穴候補</div><div class="v">'+p.ana.num+'番 '+esc(p.ana.name)+'</div><div style="font-size:12.5px;color:var(--sub)">'+esc(p.ana.reason)+'</div></div>';
     if(p.sanrenpuku) html += '<div class="pred-box"><div class="k">三連複（スコア純正）</div><div class="v">'+p.sanrenpuku.map(cc=>{ const o = r.odds && r.odds[cc.split('-').map(Number).sort((a,b)=>a-b).join('-')]; return wrapHit(esc(cc) + (o ? '<span class="odds">' + o.toFixed(1) + '倍</span>' : ''), hitPuku(cc)); }).join(' ／ ')+'</div></div>';

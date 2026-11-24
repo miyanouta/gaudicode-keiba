@@ -133,6 +133,9 @@ export async function fetchPopularity(fetchText, base, race) {
 export function rebuildWithPopularity(race, pop) {
   const horses = race.horses || [];
   if (horses.length < 5 || !race.prediction) return false;
+  // 変更表示 (ユーザー指示 2026-11-25): 朝の印を付け替える前に morningMarks
+  // へ保存する (朝固定版の表示用)。最初の再構成時だけ保存される。
+  if (!race.morningMarks) race.morningMarks = Object.fromEntries(horses.map((h) => [h.num, h.mark || '']));
   const scoreRanked = [...horses].sort((a, b) => b.score - a.score || a.num - b.num);
   const scoreRank = new Map(scoreRanked.map((h, i) => [h.num, i + 1]));
   const ranked = [...horses].sort((a, b) =>
@@ -174,12 +177,20 @@ export function rebuildWithPopularity(race, pop) {
   ranked.forEach((h, i) => { if (i < MARKS.length) h.mark = MARKS[i]; });
 
   const anaReason = `人気${pop[ana.num] ?? '-'}位ながらエンジンスコア${scoreRank.get(ana.num)}位の一発候補`;
+  // 変更表示 (ユーザー指示 2026-11-25): 朝の公開版を morning に残し、変更時刻と
+  // 理由 ('popana' = 人気・オッズ反映) を記録する。再構成のたびに prediction が
+  // 作り直されるので、朝版と変更情報は前の prediction から引き継ぐ。
+  const prev = race.prediction;
+  const morningSnap = prev.morning || { honmei: prev.honmei ?? null, ana: prev.ana ?? null, plans: prev.plans ?? null, plansTan: prev.plansTan ?? null, sanrenpuku: prev.sanrenpuku ?? null, sanrentan: prev.sanrentan ?? null, comment: prev.comment ?? null };
+  const newPlans = { teppan, balance, shoubu };
+  const newPlansTan = { teppan: tanTeppan, balance: tanBalance, shoubu: tanShoubu };
+  const isChanged = JSON.stringify([newPlans, newPlansTan]) !== JSON.stringify([morningSnap.plans, morningSnap.plansTan]);
   race.prediction = {
     honmei: { num: hon.num, name: hon.name },
     sanrenpuku: purePuku,
     sanrentan: pureTan,
-    plans: { teppan, balance, shoubu },
-    plansTan: { teppan: tanTeppan, balance: tanBalance, shoubu: tanShoubu },
+    plans: newPlans,
+    plansTan: newPlansTan,
     ana: { num: ana.num, name: ana.name, reason: anaReason },
     comment: [
       `【人気ベース再構成】◎${hon.num}番 ${hon.name}（1番人気）。`,
@@ -188,6 +199,10 @@ export function rebuildWithPopularity(race, pop) {
     ].join('\n'),
     basis: 'popana',
     popAt: new Date().toISOString(),
+    morning: morningSnap,
+    ...(isChanged
+      ? { changedAt: new Date().toISOString(), changeReasons: [...new Set([...(prev.changeReasons || []), 'popana'])] }
+      : (prev.changedAt ? { changedAt: prev.changedAt, changeReasons: prev.changeReasons } : {})),
   };
   return true;
 }

@@ -443,7 +443,6 @@ function renderRaces(){
       else if(h.shoubu) chips += '<span class="hit-chip chip-sho">勝</span>';
       if(h.tanTeppan||h.tanBalance||h.tanShoubu) chips += '<span class="hit-chip chip-tan">単</span>';
     }
-    if(predChanged(r)) chips += '<span class="hit-chip" style="background:#d92b2b;color:#fff;font-weight:700">変更</span>';
     b.innerHTML = r.no + 'R' + (manHit?'💴':'') + chips + (r.startTime? '<span class="rt">'+r.startTime+'</span>' : '');
     b.onclick = ()=>{ state.raceIdx=i; state.noticeClosedFor = null; renderRaces(); renderContent(); };
     el.appendChild(b);
